@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Ramen Finder Tokyo 🍜 — Find your perfect ramen</title>
+<meta name="description" content="AI-powered ramen shop recommender for tourists in Tokyo. Find the best bowl near you based on your taste and vibe."/>
+<meta property="og:title" content="Ramen Finder Tokyo 🍜"/>
+<meta property="og:description" content="Find your perfect ramen in Tokyo — AI personalized recommendations in EN / 中文 / 한국어 / 日本語"/>
+<meta property="og:type" content="website"/>
+<style>
+  :root {
+    --bg: #ffffff;
+    --bg2: #f5f4f0;
+    --bg3: #eeedea;
+    --text: #1a1a18;
+    --text2: #6b6a65;
+    --text3: #9c9a92;
+    --border: rgba(0,0,0,0.12);
+    --border2: rgba(0,0,0,0.22);
+    --green: #1D9E75;
+    --green-dark: #0F6E56;
+    --green-light: #E1F5EE;
+    --green-mid: #9FE1CB;
+    --blue: #185FA5;
+    --blue-light: #E6F1FB;
+    --amber: #BA7517;
+    --radius: 12px;
+    --radius-sm: 8px;
+    --font: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    --mono: "SF Mono", "Fira Code", monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1a1a18;
+      --bg2: #252522;
+      --bg3: #2e2e2a;
+      --text: #e8e6de;
+      --text2: #9c9a92;
+      --text3: #6b6a65;
+      --border: rgba(255,255,255,0.1);
+      --border2: rgba(255,255,255,0.2);
+      --green-light: #04342C;
+      --green-mid: #085041;
+      --blue-light: #042C53;
+    }
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{font-family:var(--font);background:var(--bg);color:var(--text);min-height:100vh}
+  body{max-width:640px;margin:0 auto;padding:1.5rem 1rem 4rem}
+
+  /* Header */
+  .site-header{text-align:center;padding:2rem 0 1.5rem}
+  .site-logo{font-size:36px;margin-bottom:.5rem}
+  .site-name{font-size:22px;font-weight:600;color:var(--text);letter-spacing:-.01em}
+  .site-tagline{font-size:14px;color:var(--text2);margin-top:.25rem}
+
+  /* Lang bar */
+  .lang-bar{display:flex;gap:6px;justify-content:center;margin-bottom:2rem}
+  .lb{font-size:12px;padding:5px 14px;border-radius:20px;border:1px solid var(--border2);background:transparent;color:var(--text2);cursor:pointer;transition:all .15s;font-family:var(--font)}
+  .lb.on{background:var(--green);color:#fff;border-color:var(--green)}
+
+  /* Steps */
+  .step{display:none}.step.active{display:block}
+  .prog{display:flex;align-items:center;margin:0 0 1.75rem}
+  .pdot{width:28px;height:28px;border-radius:50%;border:2px solid var(--border2);background:var(--bg);display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:600;color:var(--text3);transition:all .3s;flex-shrink:0}
+  .pdot.done{background:var(--green);border-color:var(--green);color:#fff}
+  .pdot.cur{border-color:var(--green);color:var(--green)}
+  .pline{flex:1;height:2px;background:var(--border);transition:background .3s}
+  .pline.done{background:var(--green)}
+  .ql{font-size:11px;color:var(--text3);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.35rem}
+  .qt{font-size:22px;font-weight:600;color:var(--text);margin-bottom:.35rem;letter-spacing:-.01em}
+  .qs{font-size:15px;color:var(--text2);line-height:1.55;margin-bottom:1.5rem}
+
+  /* Option grids */
+  .og{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:10px;margin-bottom:1.5rem}
+  .oc{background:var(--bg);border:1px solid var(--border);border-radius:var(--radius);padding:.9rem .75rem;cursor:pointer;text-align:center;transition:all .18s;position:relative}
+  .oc:hover{border-color:var(--green);background:var(--green-light)}
+  .oc.sel{border:2px solid var(--green);background:var(--green-light)}
+  .oc.sel::after{content:'✓';position:absolute;top:7px;right:9px;font-size:11px;color:var(--green);font-weight:600}
+  .oi{font-size:26px;margin-bottom:5px;display:block}
+  .ol{font-size:13px;font-weight:600;color:var(--text);display:block;margin-bottom:2px}
+  .oc.sel .ol{color:var(--green-dark)}
+  .os{font-size:11px;color:var(--text2);line-height:1.35;display:block}
+  .oc.sel .os{color:var(--green)}
+
+  /* Buttons */
+  .nav{display:flex;gap:8px;align-items:center}
+  .bn{background:var(--green);color:#fff;border:none;border-radius:var(--radius-sm);padding:11px 24px;font-size:15px;font-weight:600;cursor:pointer;transition:background .15s;font-family:var(--font)}
+  .bn:hover{background:var(--green-dark)}
+  .bn:disabled{background:var(--bg3);color:var(--text3);cursor:default;border:1px solid var(--border)}
+  .bb{background:transparent;border:1px solid var(--border2);border-radius:var(--radius-sm);padding:11px 18px;font-size:15px;color:var(--text2);cursor:pointer;font-family:var(--font)}
+  .bb:hover{background:var(--bg2)}
+
+  /* Location & API cards */
+  .info-card{background:var(--bg2);border-radius:var(--radius);padding:1.1rem;margin-bottom:.85rem;border:1px solid var(--border)}
+  .info-card .label{font-size:13px;color:var(--text2);margin-bottom:6px}
+  .info-card .coords{font-size:12px;color:var(--text3);font-family:var(--mono);margin-top:3px}
+  .loc-row{display:flex;gap:8px;flex-wrap:wrap;margin-top:.75rem}
+  .bl{background:var(--blue);color:#fff;border:none;border-radius:var(--radius-sm);padding:9px 16px;font-size:13px;cursor:pointer;font-family:var(--font);font-weight:500}
+  .bl:hover{background:#0C447C}
+  .bsk{background:transparent;border:1px solid var(--border2);border-radius:var(--radius-sm);padding:9px 14px;font-size:13px;color:var(--text2);cursor:pointer;font-family:var(--font)}
+  .bsk:hover{background:var(--bg)}
+  .api-row{display:flex;gap:8px;margin-top:8px}
+  .api-in{flex:1;border:1px solid var(--border2);border-radius:var(--radius-sm);padding:8px 12px;font-size:13px;background:var(--bg);color:var(--text);font-family:var(--font)}
+  .api-in:focus{outline:none;border-color:var(--green)}
+  .api-btn{background:var(--blue);color:#fff;border:none;border-radius:var(--radius-sm);padding:8px 14px;font-size:13px;cursor:pointer;font-family:var(--font);white-space:nowrap}
+  .api-btn:hover{background:#0C447C}
+  .api-note{font-size:11px;color:var(--text3);margin-top:5px;line-height:1.5}
+
+  /* Result cards */
+  .rh2{font-size:22px;font-weight:600;color:var(--text);margin-bottom:.3rem;letter-spacing:-.01em}
+  .rs{font-size:14px;color:var(--text2);margin-bottom:1.1rem}
+  .rc{background:var(--bg);border:1px solid var(--border);border-radius:var(--radius);padding:1.15rem;margin-bottom:12px;transition:border-color .15s}
+  .rc:hover{border-color:var(--border2)}
+  .rc.top{border:2px solid var(--green)}
+  .top-b{display:inline-flex;align-items:center;gap:4px;font-size:11px;font-weight:600;background:var(--green-light);color:var(--green-dark);padding:3px 10px;border-radius:20px;margin-bottom:8px}
+  .num-b{font-size:11px;color:var(--text3);margin-bottom:6px;font-weight:500}
+  .rc-hd{display:flex;align-items:flex-start;justify-content:space-between;gap:8px;margin-bottom:3px}
+  .rc-nm{font-size:17px;font-weight:600;color:var(--text)}
+  .rc-dist{font-size:12px;font-weight:600;color:var(--blue);background:var(--blue-light);padding:2px 9px;border-radius:20px;white-space:nowrap;flex-shrink:0}
+  .rc-tp{font-size:13px;color:var(--text2);margin-bottom:6px}
+  .rc-meta{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+  .stars{font-size:13px;color:var(--amber)}
+  .rc-rv{font-size:13px;color:var(--text2)}
+  .rc-tags{display:flex;gap:5px;flex-wrap:wrap;margin-bottom:7px}
+  .tag{font-size:11px;padding:2px 9px;border-radius:20px;background:var(--bg2);color:var(--text2);border:1px solid var(--border)}
+  .rc-hr{font-size:12px;color:var(--text3);margin-bottom:9px}
+  .ai-box{background:var(--green-light);border-left:3px solid var(--green);padding:.85rem 1rem;margin-top:6px}
+  .ai-lbl{font-size:10px;font-weight:600;color:var(--green-dark);letter-spacing:.08em;text-transform:uppercase;margin-bottom:4px;display:flex;align-items:center;gap:5px}
+  .ai-dot{width:6px;height:6px;border-radius:50%;background:var(--green);animation:pu 1.2s ease-in-out infinite;flex-shrink:0}
+  @keyframes pu{0%,100%{opacity:1}50%{opacity:.3}}
+  .ai-txt{font-size:13px;color:var(--green-dark);line-height:1.65}
+  .spin{display:inline-block;width:13px;height:13px;border:2px solid var(--green-mid);border-top-color:var(--green);border-radius:50%;animation:sp .7s linear infinite;vertical-align:middle}
+  @keyframes sp{to{transform:rotate(360deg)}}
+  .map-row{display:flex;align-items:center;margin-top:10px;padding-top:10px;border-top:1px solid var(--border)}
+  .map-a{font-size:13px;color:var(--blue);text-decoration:none;font-weight:500}
+  .map-a:hover{text-decoration:underline}
+
+  /* Fact strip */
+  .fact{display:flex;gap:12px;align-items:flex-start;background:var(--bg2);border-radius:var(--radius);padding:1.1rem;margin-top:1.25rem;border:1px solid var(--border)}
+  .fact-ico{font-size:20px;flex-shrink:0;margin-top:1px}
+  .fact-lbl{font-size:10px;font-weight:600;color:var(--green);letter-spacing:.08em;text-transform:uppercase;margin-bottom:4px}
+  .fact-txt{font-size:13px;color:var(--text);line-height:1.6}
+  .br{margin-top:1.25rem}
+  .br button{background:transparent;border:1px solid var(--border2);border-radius:var(--radius-sm);padding:9px 18px;font-size:13px;color:var(--text2);cursor:pointer;font-family:var(--font)}
+  .br button:hover{background:var(--bg2)}
+
+  /* Footer */
+  .footer{text-align:center;margin-top:3rem;font-size:12px;color:var(--text3)}
+  .footer a{color:var(--text3)}
+
+  /* Hero step */
+  .hero{text-align:center;padding:1rem 0 1.5rem}
+  .hero-icon{font-size:44px;margin-bottom:.6rem}
+  .hero-title{font-size:26px;font-weight:700;color:var(--text);margin-bottom:.5rem;letter-spacing:-.02em}
+  .hero-sub{font-size:15px;color:var(--text2);line-height:1.6;max-width:440px;margin:0 auto}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-logo">🍜</div>
+  <div class="site-name">Ramen Finder Tokyo</div>
+  <div class="site-tagline">AI-powered ramen recommendations for travelers</div>
+</header>
+
+<div class="lang-bar">
+  <button class="lb on" onclick="setL('en')">EN</button>
+  <button class="lb" onclick="setL('zh')">中文</button>
+  <button class="lb" onclick="setL('ko')">한국어</button>
+  <button class="lb" onclick="setL('ja')">日本語</button>
+</div>
+
+<!-- Step 1: Location + API -->
+<div class="step active" id="s1">
+  <div class="hero">
+    <div class="hero-icon">📍</div>
+    <div class="hero-title" id="ht"></div>
+    <div class="hero-sub" id="hs"></div>
+  </div>
+  <div class="info-card">
+    <div class="label" id="lst"></div>
+    <div class="coords" id="lco"></div>
+    <div class="loc-row">
+      <button class="bl" onclick="getGPS()" id="bgps"></button>
+      <button class="bsk" onclick="useDef()" id="bsk"></button>
+    </div>
+  </div>
+  <div class="info-card">
+    <div class="label" id="albl"></div>
+    <div class="api-row">
+      <input class="api-in" id="akey" type="password" placeholder="AIza..."/>
+      <button class="api-btn" onclick="saveKey()" id="asave"></button>
+    </div>
+    <div class="api-note" id="anote"></div>
+  </div>
+  <div class="nav"><button class="bn" id="n1" disabled onclick="goS(2)"></button></div>
+</div>
+
+<!-- Step 2: Broth -->
+<div class="step" id="s2">
+  <div class="prog" id="p2"></div>
+  <div class="ql" id="q1l"></div>
+  <div class="qt" id="q1t"></div>
+  <div class="qs" id="q1s"></div>
+  <div class="og" id="fg"></div>
+  <div class="nav">
+    <button class="bb" onclick="goS(1)" id="b1"></button>
+    <button class="bn" id="n2" disabled onclick="goS(3)"></button>
+  </div>
+</div>
+
+<!-- Step 3: Noodles -->
+<div class="step" id="s3">
+  <div class="prog" id="p3"></div>
+  <div class="ql" id="q2l"></div>
+  <div class="qt" id="q2t"></div>
+  <div class="qs" id="q2s"></div>
+  <div class="og" id="ng"></div>
+  <div class="nav">
+    <button class="bb" onclick="goS(2)" id="b2"></button>
+    <button class="bn" id="n3" disabled onclick="goS(4)"></button>
+  </div>
+</div>
+
+<!-- Step 4: Vibe -->
+<div class="step" id="s4">
+  <div class="prog" id="p4"></div>
+  <div class="ql" id="q3l"></div>
+  <div class="qt" id="q3t"></div>
+  <div class="qs" id="q3s"></div>
+  <div class="og" id="vg"></div>
+  <div class="nav">
+    <button class="bb" onclick="goS(3)" id="b3"></button>
+    <button class="bn" id="n4" disabled onclick="findR()"></button>
+  </div>
+</div>
+
+<!-- Step 5: Results -->
+<div class="step" id="s5">
+  <div class="rh2" id="rttl"></div>
+  <div class="rs" id="rsub"></div>
+  <div id="rl"></div>
+  <div class="fact">
+    <div class="fact-ico">💡</div>
+    <div>
+      <div class="fact-lbl" id="flab"></div>
+      <div class="fact-txt" id="ftxt"></div>
+    </div>
+  </div>
+  <div class="br"><button onclick="restart()" id="brst"></button></div>
+</div>
+
+<footer class="footer">
+  <p>Made with ❤️ for ramen lovers worldwide &nbsp;·&nbsp; <a href="https://github.com">View on GitHub</a></p>
+</footer>
+
+<script>
+const ST={lang:'en',lat:null,lng:null,flavor:null,noodle:null,vibe:null,mapsKey:null};
+
+const FLAVORS={
+  en:[
+    {k:'shoyu',i:'🫙',l:'Shoyu',s:'Soy sauce, clear & savory — Tokyo classic'},
+    {k:'miso',i:'🍶',l:'Miso',s:'Rich & earthy — Hokkaido style'},
+    {k:'tonkotsu',i:'🥛',l:'Tonkotsu',s:'Creamy pork bone — Fukuoka style'},
+    {k:'shio',i:'🌊',l:'Shio',s:'Delicate salt broth — clean & light'},
+    {k:'toripaitan',i:'🐓',l:'Tori Paitan',s:'Creamy chicken white broth — rich & smooth'},
+    {k:'gyokai',i:'🐟',l:'Gyokai / Gyokai Tonkotsu',s:'Seafood & pork bone — deep umami blend'},
+  ],
+  zh:[
+    {k:'shoyu',i:'🫙',l:'酱油',s:'清淡鲜咸 — 东京经典'},
+    {k:'miso',i:'🍶',l:'味噌',s:'浓郁醇厚 — 北海道风格'},
+    {k:'tonkotsu',i:'🥛',l:'猪骨',s:'浓郁奶白 — 福冈风格'},
+    {k:'shio',i:'🌊',l:'盐味',s:'清淡精致 — 干净爽口'},
+    {k:'toripaitan',i:'🐓',l:'鸡白汤',s:'浓郁鸡汤白色汤底 — 醇厚顺滑'},
+    {k:'gyokai',i:'🐟',l:'鱼介 / 鱼介猪骨',s:'海鲜与猪骨融合 — 深度鲜味'},
+  ],
+  ko:[
+    {k:'shoyu',i:'🫙',l:'쇼유 (간장)',s:'맑고 감칠맛 — 도쿄 클래식'},
+    {k:'miso',i:'🍶',l:'미소 (된장)',s:'진하고 구수함 — 홋카이도'},
+    {k:'tonkotsu',i:'🥛',l:'돈코츠 (돼지뼈)',s:'크리미한 진한 육수 — 후쿠오카'},
+    {k:'shio',i:'🌊',l:'시오 (소금)',s:'섬세하고 깔끔함 — 가벼운 맛'},
+    {k:'toripaitan',i:'🐓',l:'토리 파이탄 (닭백탕)',s:'크리미한 닭백탕 — 진하고 부드러운 맛'},
+    {k:'gyokai',i:'🐟',l:'교카이 / 교카이 돈코츠',s:'해산물 & 돼지뼈 — 깊은 우마미'},
+  ],
+  ja:[
+    {k:'shoyu',i:'🫙',l:'醤油',s:'あっさり旨み — 東京の定番'},
+    {k:'miso',i:'🍶',l:'味噌',s:'コクと風味 — 北海道スタイル'},
+    {k:'tonkotsu',i:'🥛',l:'豚骨',s:'濃厚クリーミー — 博多スタイル'},
+    {k:'shio',i:'🌊',l:'塩',s:'繊細でクリア — 上品な味わい'},
+    {k:'toripaitan',i:'🐓',l:'鶏白湯',s:'クリーミーな鶏白湯 — まろやかでコク深い'},
+    {k:'gyokai',i:'🐟',l:'魚介系・豚骨魚介',s:'魚介と豚骨の融合 — 深いうまみ'},
+  ]
+};
+
+const L={
+  en:{
+    ht:'Find your perfect ramen',hs:"Answer 3 quick questions — we'll find the best bowl near you with a personal AI note for each shop.",
+    lst:'Share your location to find nearby shops.',ldet:'Location detected!',ldef:'Using central Tokyo.',lfail:'Could not access location — using Tokyo default.',
+    albl:'Google Maps API key (optional — enables real-time nearby search)',asave:'Save',
+    anote:'Without a key we use our curated Tokyo list. Get a free key at console.cloud.google.com (Places API).',
+    bgps:'Use my location',bsk:'Central Tokyo (default)',
+    q1l:'Step 1 of 3 — Broth',q1t:'What broth style do you love?',q1s:'The broth is the soul of ramen. Pick the one that excites you most.',
+    q2l:'Step 2 of 3 — Noodles',q2t:'How do you like your noodles?',q2s:'Texture changes the whole experience.',
+    q3l:'Step 3 of 3 — Vibe',q3t:"What's your vibe today?",q3s:'Pick the atmosphere that matches your mood.',
+    flab:'Ramen fun fact',brst:'← Start over',find:'Find my ramen!',next:'Next →',back:'← Back',
+    rtitle:f=>f+' ramen — your picks',rsub:n=>'Sorted by match & distance. '+n+' shops found.',
+    topick:'Top pick',pick:n=>'#'+n+' match',ailbl:'Why this is perfect for you',aload:'Personalizing...',maplink:'Open in Google Maps →',hours:'Hours',
+    noodles:[{k:'thin',i:'〰️',l:'Thin & straight',s:'Great with light broths'},{k:'wavy',i:'🌀',l:'Wavy & chewy',s:'Holds thick broth well'},{k:'flat',i:'📄',l:'Flat & wide',s:'Rustic, absorbs flavor deeply'},{k:'any',i:'✨',l:'Surprise me!',s:"Chef's choice"}],
+    vibes:[{k:'local',i:'🏮',l:'Local & authentic',s:'Hidden gem, real deal'},{k:'trendy',i:'📸',l:'Trendy',s:'Stylish, Instagrammable'},{k:'casual',i:'🪑',l:'Casual & easy',s:'English menu, no stress'},{k:'solo',i:'🍜',l:'Solo counter',s:'Private booth, pure focus'},{k:'halal',i:'🌙',l:'Halal-friendly',s:'Certified halal options'}],
+    facts:{shoyu:"Shoyu ramen was born in 1910 in Asakusa — a Chinese chef added soy sauce to noodle soup, creating a Tokyo tradition. The chicken or dashi base makes it much lighter than other styles.",miso:"Miso ramen was invented in Sapporo in the 1950s almost by accident. A customer asked a chef to stir dumpling filling into broth — the rich result became Hokkaido's signature dish.",tonkotsu:"Tonkotsu broth is boiled at a rolling boil for 12–18 hours, emulsifying collagen from pork bones into a creamy milky-white liquid. The longer it boils, the richer it gets.",shio:"Shio is the oldest ramen style, closest to the original Chinese noodle soups. Because only salt is used for seasoning, broth quality is everything — there's nowhere to hide.",toripaitan:"Tori Paitan (chicken white broth) is made by boiling chicken at high heat for hours until the broth turns creamy white — similar to tonkotsu but lighter. Popular in Tokyo, it pairs perfectly with yuzu or truffle.",gyokai:"Gyokai (seafood) broth layers dried fish, clams, and kombu over a pork or chicken base. The result is a complex double-soup with deep ocean umami. Gyokai Tonkotsu combines both worlds — rich pork creaminess with a bold seafood punch."},
+    plabels:['Broth','Noodles','Vibe'],
+    aiprompt:(s,f,n,v)=>`You are a friendly ramen guide for tourists in Tokyo. Visitor chose: broth=${f}, noodles=${n}, vibe=${v}. Shop: ${s.name} (${s.type}, ${s.area}). Write exactly 2 short casual English sentences: 1) why this shop matches their choices, 2) one concrete ordering tip. Max 55 words.`
+  },
+  zh:{
+    ht:'找到你的完美拉面',hs:'回答3个简单问题 — 我们将找到附近最适合你的拉面店，并为每家店提供AI个性化建议。',
+    lst:'分享位置以查找附近的店铺。',ldet:'位置已获取！',ldef:'使用东京市中心位置。',lfail:'无法获取位置，使用东京默认位置。',
+    albl:'Google Maps API密钥（可选）',asave:'保存',anote:'没有密钥时使用精选东京拉面店列表。',
+    bgps:'使用我的位置',bsk:'东京市中心（默认）',
+    q1l:'第1步 共3步 — 汤底',q1t:'你喜欢什么汤底？',q1s:'汤底是拉面的灵魂，选择最让你心动的。',
+    q2l:'第2步 共3步 — 面条',q2t:'你喜欢什么面条？',q2s:'口感会改变整个体验。',
+    q3l:'第3步 共3步 — 氛围',q3t:'你今天想要什么氛围？',q3s:'选择符合你心情的环境。',
+    flab:'拉面小知识',brst:'← 重新开始',find:'找到我的拉面！',next:'下一步 →',back:'← 返回',
+    rtitle:f=>f+'拉面 — 为你推荐',rsub:n=>'按匹配度和距离排序，找到'+n+'家店铺。',
+    topick:'最佳选择',pick:n=>'#'+n+' 推荐',ailbl:'为什么这家店最适合你',aload:'个性化中...',maplink:'在Google Maps中打开 →',hours:'营业时间',
+    noodles:[{k:'thin',i:'〰️',l:'细直面',s:'适合清淡汤底'},{k:'wavy',i:'🌀',l:'波纹弹牙面',s:'抓住浓郁汤底'},{k:'flat',i:'📄',l:'宽扁面',s:'质朴，深度吸收汤汁'},{k:'any',i:'✨',l:'随机惊喜！',s:'由主厨决定'}],
+    vibes:[{k:'local',i:'🏮',l:'本地正宗',s:'隐藏宝藏，货真价实'},{k:'trendy',i:'📸',l:'时尚潮流',s:'精致，适合拍照'},{k:'casual',i:'🪑',l:'轻松随意',s:'有英文菜单，无压力'},{k:'solo',i:'🍜',l:'独享座位',s:'独立隔间，专注享受'},{k:'halal',i:'🌙',l:'清真认证',s:'清真认证选项'}],
+    facts:{shoyu:'酱油拉面诞生于1910年的浅草，以鸡汤或出汁为底，比其他风格更为清淡。',miso:'味噌拉面于1950年代在札幌几乎是偶然发明的，成为北海道的招牌料理。',tonkotsu:'猪骨汤底需要以大火滚煮12-18小时，使猪骨中的胶原蛋白乳化形成奶白色浓汤。',shio:'盐味拉面是最古老的拉面风格，只用盐调味，汤底的品质就是一切。',toripaitan:'鸡白汤是将鸡肉长时间大火煮沸直到汤底变成奶白色，比猪骨更清淡，常与柚子或松露搭配。',gyokai:'鱼介系汤底将干鱼、蛤蜊和昆布层层叠加，形成复杂的海洋鲜味。鱼介猪骨融合了两者的精华。'},
+    plabels:['汤底','面条','氛围'],
+    aiprompt:(s,f,n,v)=>`你是一位东京的友好拉面向导。访客选择：汤底=${f}，面条=${n}，氛围=${v}。推荐：${s.name}（${s.type}，${s.area}）。用友好的中文写2句话：1）为什么这家店符合选择，2）一个具体的点餐建议。最多55字。`
+  },
+  ko:{
+    ht:'나만의 완벽한 라멘 찾기',hs:'3가지 질문에 답하면 — 근처 최고의 라멘 가게를 AI 개인화 추천으로 찾아드립니다.',
+    lst:'위치를 공유하면 근처 가게를 찾아드립니다.',ldet:'위치 감지 완료!',ldef:'도쿄 중심부 기본값 사용.',lfail:'위치 접근 불가 — 도쿄 기본값을 사용합니다.',
+    albl:'Google Maps API 키 (선택사항)',asave:'저장',anote:'키가 없으면 엄선된 도쿄 목록을 사용합니다.',
+    bgps:'현재 위치 사용',bsk:'도쿄 중심부 (기본값)',
+    q1l:'1단계 / 3 — 육수',q1t:'어떤 육수 스타일을 좋아하시나요?',q1s:'육수는 라멘의 영혼입니다. 가장 끌리는 것을 선택하세요.',
+    q2l:'2단계 / 3 — 면',q2t:'면은 어떻게 좋아하시나요?',q2s:'식감이 전체 경험을 바꿉니다.',
+    q3l:'3단계 / 3 — 분위기',q3t:'오늘 어떤 분위기를 원하시나요?',q3s:'기분에 맞는 환경을 선택하세요.',
+    flab:'라멘 상식',brst:'← 다시 시작',find:'라멘 찾기!',next:'다음 →',back:'← 뒤로',
+    rtitle:f=>f+' 라멘 — 추천 결과',rsub:n=>'매치도 및 거리순. '+n+'개 가게 발견.',
+    topick:'최고 추천',pick:n=>'#'+n+' 추천',ailbl:'이 가게가 딱 맞는 이유',aload:'개인화 중...',maplink:'Google Maps에서 열기 →',hours:'영업시간',
+    noodles:[{k:'thin',i:'〰️',l:'가늘고 직선',s:'가벼운 육수와 잘 어울림'},{k:'wavy',i:'🌀',l:'구불구불 쫄깃',s:'진한 육수를 잘 잡아줌'},{k:'flat',i:'📄',l:'넓고 납작',s:'투박하고 깊은 맛 흡수'},{k:'any',i:'✨',l:'깜짝 선택!',s:'셰프가 결정'}],
+    vibes:[{k:'local',i:'🏮',l:'현지 정통',s:'숨겨진 보석, 진짜 맛'},{k:'trendy',i:'📸',l:'트렌디',s:'스타일리시, 인스타그램용'},{k:'casual',i:'🪑',l:'캐주얼',s:'영어 메뉴, 부담 없음'},{k:'solo',i:'🍜',l:'혼자 카운터',s:'개인 부스, 집중 식사'},{k:'halal',i:'🌙',l:'할랄 친화적',s:'할랄 인증 옵션'}],
+    facts:{shoyu:'쇼유 라멘은 1910년 아사쿠사에서 탄생했습니다. 중국 요리사가 간장을 추가해 도쿄의 전통이 만들어졌습니다.',miso:'미소 라멘은 1950년대 삿포로에서 우연히 발명되어 홋카이도의 대표 요리가 되었습니다.',tonkotsu:'돈코츠 육수는 12~18시간 끓여 돼지뼈 콜라겐을 유화시킨 크리미한 백색 육수입니다.',shio:'시오는 가장 오래된 라멘 스타일로, 소금만으로 간을 하기 때문에 육수 품질이 전부입니다.',toripaitan:'토리 파이탄은 닭을 강하게 오래 끓여 유백색으로 만든 육수로, 돈코츠보다 가볍고 부드럽습니다.',gyokai:'교카이는 말린 생선·조개·다시마를 겹겹이 쌓아 깊은 해산물 우마미를 만들어냅니다.'},
+    plabels:['육수','면','분위기'],
+    aiprompt:(s,f,n,v)=>`당신은 도쿄의 친절한 라멘 가이드입니다. 선택: 육수=${f}, 면=${n}, 분위기=${v}. 추천 가게: ${s.name}(${s.type}, ${s.area}). 한국어로 2문장: 1) 이 가게가 선택에 왜 맞는지, 2) 구체적인 주문 팁. 최대 60자.`
+  },
+  ja:{
+    ht:'あなたにぴったりのラーメンを',hs:'3つの質問に答えるだけ — 近くの最高のラーメン店をAI個別コメント付きでご案内します。',
+    lst:'位置情報を共有して近くのお店を探しましょう。',ldet:'位置情報を取得しました！',ldef:'東京中心部をデフォルトとして使用します。',lfail:'位置情報を取得できませんでした。東京デフォルトを使用します。',
+    albl:'Google Maps APIキー（任意 — リアルタイム周辺検索）',asave:'保存',anote:'キーがない場合は厳選した東京のラーメン店リストを使用します。',
+    bgps:'現在地を使用',bsk:'東京中心部（デフォルト）',
+    q1l:'ステップ 1/3 — スープ',q1t:'どんなスープが好きですか？',q1s:'スープはラーメンの魂です。最も惹かれるものを選んでください。',
+    q2l:'ステップ 2/3 — 麺',q2t:'麺はどんなのが好きですか？',q2s:'食感で体験が大きく変わります。',
+    q3l:'ステップ 3/3 — 雰囲気',q3t:'今日の気分は？',q3s:'あなたのムードに合った雰囲気を選んでください。',
+    flab:'ラーメン豆知識',brst:'← やり直す',find:'ラーメンを探す！',next:'次へ →',back:'← 戻る',
+    rtitle:f=>f+'ラーメン — あなたへのおすすめ',rsub:n=>'マッチ度と距離順。'+n+'店舗見つかりました。',
+    topick:'ベストピック',pick:n=>'第'+n+'候補',ailbl:'なぜあなたにぴったりか',aload:'パーソナライズ中...',maplink:'Google Mapsで開く →',hours:'営業時間',
+    noodles:[{k:'thin',i:'〰️',l:'細ストレート',s:'あっさりスープに最適'},{k:'wavy',i:'🌀',l:'縮れ麺',s:'濃いスープをよく絡む'},{k:'flat',i:'📄',l:'平打ち麺',s:'素朴で旨みをよく吸収'},{k:'any',i:'✨',l:'おまかせ！',s:'シェフのおすすめ'}],
+    vibes:[{k:'local',i:'🏮',l:'ローカル & 本格派',s:'隠れた名店、本物の味'},{k:'trendy',i:'📸',l:'トレンディ',s:'スタイリッシュ、映え'},{k:'casual',i:'🪑',l:'カジュアル',s:'英語メニューあり、気軽に'},{k:'solo',i:'🍜',l:'一人カウンター',s:'個室ブース、ラーメン三昧'},{k:'halal',i:'🌙',l:'ハラール対応',s:'ハラール認証オプションあり'}],
+    facts:{shoyu:'醤油ラーメンは1910年に浅草で生まれました。鶏ガラや出汁をベースに使用し、他のスタイルよりあっさりしています。',miso:'味噌ラーメンは1950年代に札幌でほぼ偶然に生まれ、北海道の名物になりました。',tonkotsu:'豚骨スープは12〜18時間ぐつぐつ煮続けて豚骨のコラーゲンを乳化させたクリーミーな白濁スープです。',shio:'塩ラーメンは最も古いスタイルで、塩だけで味を整えるためスープそのものの品質がすべてです。',toripaitan:'鶏白湯は鶏を強火で長時間煮込み、スープが乳白色になるまで仕上げたもの。柚子やトリュフとの相性が抜群です。',gyokai:'魚介系は煮干し・あさり・昆布などを重ね合わせた複雑なうまみが特徴。豚骨魚介はその魚介と豚骨の濃厚さを組み合わせた奥深いスープです。'},
+    plabels:['スープ','麺','雰囲気'],
+    aiprompt:(s,f,n,v)=>`あなたは東京の親切なラーメンガイドです。訪問者の選択：スープ=${f}、麺=${n}、雰囲気=${v}。おすすめするお店：${s.name}（${s.type}、${s.area}）。フレンドリーな日本語で2文：1）このお店が選択にどう合っているか、2）具体的な注文アドバイス。最大60文字。`
+  }
+};
+
+const SHOPS=[
+  {id:'ichiran_s',name:'ICHIRAN Shinjuku',type:'Tonkotsu',area:'Shinjuku',lat:35.6906,lng:139.7028,rating:4.3,reviews:7561,tags:['Open 24hrs','Solo booths','English OK'],flavors:['tonkotsu'],vibes:['solo','casual'],hours:'Open 24 hours',mapUrl:'https://maps.google.com/?q=Ichiran+Ramen+Shinjuku'},
+  {id:'hayashida',name:'Ramen Hayashida',type:'Shio / Shoyu',area:'Shinjuku',lat:35.6907,lng:139.7038,rating:4.3,reviews:3320,tags:['English kiosk','Clear broth','Daily limited'],flavors:['shio','shoyu'],vibes:['local','casual'],hours:'11am–11pm daily',mapUrl:'https://maps.google.com/?q=Ramen+Hayashida+Shinjuku'},
+  {id:'dame',name:'Dame Na Rinjin',type:'Shoyu / Wagyu',area:'Shinjuku',lat:35.6952,lng:139.7005,rating:4.3,reviews:2646,tags:['English kiosk','Free toppings','Hip-hop vibe'],flavors:['shoyu'],vibes:['trendy','casual'],hours:'11am–11pm daily',mapUrl:'https://maps.google.com/?q=Dame+Na+Rinjin+Shinjuku'},
+  {id:'afuri',name:'Afuri Shibuya',type:'Yuzu Shio / Tori Paitan',area:'Shibuya',lat:35.6571,lng:139.6960,rating:4.8,reviews:2391,tags:['Yuzu citrus','Vegan OK','Bar seating'],flavors:['shio','toripaitan'],vibes:['trendy','casual'],hours:'11am–11pm (Fri–Sat until 5am)',mapUrl:'https://maps.google.com/?q=Afuri+Ramen+Shibuya'},
+  {id:'fuunji',name:'Fuunji',type:'Tsukemen / Gyokai',area:'Shinjuku',lat:35.6938,lng:139.6980,rating:4.5,reviews:5200,tags:['Gyokai specialty','Tsukemen','Queue expected'],flavors:['gyokai'],vibes:['local'],hours:'11am–3pm, 5pm–9pm (closed Sun)',mapUrl:'https://maps.google.com/?q=Fuunji+Ramen+Shinjuku'},
+  {id:'nakamura',name:'Nakamuraya Souhonten',type:'Chicken Paitan Shoyu',area:'Shinjuku',lat:35.6900,lng:139.7010,rating:4.4,reviews:1870,tags:['Tori Paitan specialist','Smooth broth','Popular lunch'],flavors:['toripaitan','shoyu'],vibes:['local','casual'],hours:'11am–10pm daily',mapUrl:'https://maps.google.com/?q=Nakamuraya+Ramen+Shinjuku'},
+  {id:'kagari',name:'Ginza Kagari',type:'Chicken Paitan Shoyu',area:'Ginza',lat:35.6712,lng:139.7613,rating:4.2,reviews:4367,tags:['Creamy chicken','Truffle option','18 seats only'],flavors:['toripaitan','shoyu'],vibes:['local','trendy'],hours:'11am–10pm',mapUrl:'https://maps.google.com/?q=Ginza+Kagari+Ramen'},
+  {id:'makotoya',name:'Ramen MAKOTOYA',type:'Shoyu / Beef bone',area:'Shibuya',lat:35.6610,lng:139.6967,rating:4.6,reviews:873,tags:['Open 24hrs','English staff','Beef broth'],flavors:['shoyu'],vibes:['trendy','casual'],hours:'Open 24 hours',mapUrl:'https://maps.google.com/?q=Ramen+Makotoya+Shibuya'},
+  {id:'goku',name:'Wagyu Ramen Goku',type:'Wagyu / Gyokai Tonkotsu',area:'Shibuya',lat:35.6602,lng:139.7044,rating:4.8,reviews:1232,tags:['English kiosk','Rich broth','Intimate'],flavors:['shoyu','tonkotsu','gyokai'],vibes:['local','trendy'],hours:'11am–10pm',mapUrl:'https://maps.google.com/?q=Wagyu+Ramen+Goku+Shibuya'},
+  {id:'gyumon',name:'Gyumon Halal Ramen',type:'Wagyu Halal',area:'Shibuya',lat:35.6597,lng:139.7042,rating:4.9,reviews:21853,tags:['Halal certified','Prayer room','Very popular'],flavors:['shoyu','miso'],vibes:['halal','casual'],hours:'12pm–11:30pm daily',mapUrl:'https://maps.google.com/?q=Gyumon+Halal+Ramen+Shibuya'},
+  {id:'tsujita',name:'Tsujita Ginza',type:'Gyokai Tonkotsu Tsukemen',area:'Ginza',lat:35.6714,lng:139.7674,rating:4.7,reviews:4142,tags:['Tsukemen specialist','Rich broth','Worth the queue'],flavors:['tonkotsu','gyokai'],vibes:['local','casual'],hours:'11am–10pm',mapUrl:'https://maps.google.com/?q=Tsujita+Ginza+Ramen'},
+  {id:'ichiran_sh',name:'ICHIRAN Shibuya',type:'Tonkotsu',area:'Shibuya',lat:35.6611,lng:139.7010,rating:4.4,reviews:5010,tags:['Open 24hrs','Solo booths','English OK'],flavors:['tonkotsu'],vibes:['solo','casual'],hours:'Open 24 hours',mapUrl:'https://maps.google.com/?q=Ichiran+Ramen+Shibuya'},
+];
+
+function c(){return L[ST.lang]}
+function tx(k,...a){const v=c()[k];return typeof v==='function'?v(...a):v}
+
+function setL(l){
+  ST.lang=l;
+  document.querySelectorAll('.lb').forEach(b=>b.classList.toggle('on',b.textContent.trim()==={en:'EN',zh:'中文',ko:'한국어',ja:'日本語'}[l]));
+  render();buildGrids();
+}
+
+function render(){
+  const cv=c();
+  const m={ht:'ht',hs:'hs',lst:'lst',albl:'albl',asave:'asave',anote:'anote',bgps:'bgps',bsk:'bsk',q1l:'q1l',q1t:'q1t',q1s:'q1s',q2l:'q2l',q2t:'q2t',q2s:'q2s',q3l:'q3l',q3t:'q3t',q3s:'q3s',flab:'flab',brst:'brst'};
+  Object.entries(m).forEach(([k,id])=>{const el=document.getElementById(id);if(el)el.textContent=cv[k]});
+  ['b1','b2','b3'].forEach(id=>{const el=document.getElementById(id);if(el)el.textContent=cv.back});
+  ['n1','n2','n3'].forEach(id=>{const el=document.getElementById(id);if(el&&!el.disabled)el.textContent=cv.next});
+  const n4=document.getElementById('n4');if(n4&&!n4.disabled)n4.textContent=cv.find;
+}
+
+function buildProg(cid,cur){
+  const el=document.getElementById(cid);if(!el)return;
+  const labs=c().plabels;let h='';
+  labs.forEach((lab,i)=>{
+    const done=i<cur,active=i===cur;
+    h+=`<div class="pdot ${done?'done':active?'cur':''}">${done?'✓':i+1}</div>`;
+    if(i<labs.length-1)h+=`<div class="pline ${done?'done':''}"></div>`;
+  });
+  el.innerHTML=h;
+}
+
+function buildGrids(){
+  const cv=c();
+  const make=(items,key,nid,gid)=>{
+    const g=document.getElementById(gid);if(!g)return;
+    g.innerHTML=items.map(it=>`<div class="oc${ST[key]===it.k?' sel':''}" onclick="pick(this,'${key}','${it.k}','${nid}')"><span class="oi">${it.i}</span><span class="ol">${it.l}</span><span class="os">${it.s}</span></div>`).join('');
+  };
+  make(FLAVORS[ST.lang],'flavor','n2','fg');
+  make(cv.noodles,'noodle','n3','ng');
+  make(cv.vibes,'vibe','n4','vg');
+}
+
+function pick(el,key,val,nid){
+  el.closest('.og').querySelectorAll('.oc').forEach(c=>c.classList.remove('sel'));
+  el.classList.add('sel');ST[key]=val;
+  const nb=document.getElementById(nid);
+  if(nb){nb.disabled=false;nb.textContent=nid==='n4'?tx('find'):tx('next');}
+}
+
+function goS(n){
+  document.querySelectorAll('.step').forEach(s=>s.classList.remove('active'));
+  document.getElementById('s'+n).classList.add('active');
+  window.scrollTo({top:0,behavior:'smooth'});
+  if(n===2)buildProg('p2',0);
+  if(n===3)buildProg('p3',1);
+  if(n===4)buildProg('p4',2);
+}
+
+function getGPS(){
+  document.getElementById('lst').textContent='Detecting...';
+  if(!navigator.geolocation){useDef();return}
+  navigator.geolocation.getCurrentPosition(pos=>{
+    ST.lat=pos.coords.latitude;ST.lng=pos.coords.longitude;
+    document.getElementById('lst').textContent=tx('ldet');
+    document.getElementById('lco').textContent=ST.lat.toFixed(4)+'°N, '+ST.lng.toFixed(4)+'°E';
+    const nb=document.getElementById('n1');nb.disabled=false;nb.textContent=tx('next');
+  },()=>useDef());
+}
+
+function useDef(){
+  ST.lat=35.6762;ST.lng=139.6503;
+  document.getElementById('lst').textContent=tx('ldef');
+  document.getElementById('lco').textContent='35.6762°N, 139.6503°E';
+  const nb=document.getElementById('n1');nb.disabled=false;nb.textContent=tx('next');
+}
+
+function saveKey(){
+  const k=document.getElementById('akey').value.trim();
+  if(k){ST.mapsKey=k;document.getElementById('anote').textContent='✓ API key saved! Real-time search is now active.';}
+}
+
+function dr(a,b,d,e){const R=6371,x=(d-a)*Math.PI/180,y=(e-b)*Math.PI/180,z=Math.sin(x/2)**2+Math.cos(a*Math.PI/180)*Math.cos(d*Math.PI/180)*Math.sin(y/2)**2;return R*2*Math.atan2(Math.sqrt(z),Math.sqrt(1-z))}
+
+async function findR(){
+  if(ST.mapsKey){await findNearby();}else{findCurated();}
+}
+
+async function findNearby(){
+  const fl=FLAVORS[ST.lang].find(f=>f.k===ST.flavor)||{l:ST.flavor};
+  document.getElementById('rttl').textContent=tx('rtitle',fl.l);
+  document.getElementById('rsub').textContent='Searching nearby shops...';
+  document.getElementById('rl').innerHTML=`<div style="text-align:center;padding:2.5rem 0"><div class="spin" style="width:22px;height:22px;border-width:3px;margin:0 auto 12px"></div><div style="font-size:14px;color:var(--text2)">Finding shops near you...</div></div>`;
+  goS(5);
+  try{
+    const q=ST.flavor+' ramen Tokyo';
+    const url=`https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${ST.lat},${ST.lng}&radius=2000&keyword=${encodeURIComponent(q)}&type=restaurant&key=${ST.mapsKey}`;
+    const res=await fetch(url);const data=await res.json();
+    if(data.status==='OK'&&data.results.length){
+      const shops=data.results.slice(0,3).map(p=>({
+        id:p.place_id,name:p.name,type:ST.flavor+' ramen',area:'Nearby',
+        lat:p.geometry.location.lat,lng:p.geometry.location.lng,
+        rating:p.rating||4.0,reviews:p.user_ratings_total||0,
+        tags:p.opening_hours?.open_now?['Open now']:['Check hours'],
+        flavors:[ST.flavor],vibes:['casual'],
+        hours:p.opening_hours?.open_now?'Currently open':'Check Google Maps',
+        mapUrl:`https://maps.google.com/?place_id=${p.place_id}`
+      }));
+      renderR(shops);
+    }else{findCurated();}
+  }catch(e){findCurated();}
+}
+
+function findCurated(){
+  const fl=FLAVORS[ST.lang].find(f=>f.k===ST.flavor)||{l:ST.flavor};
+  let shops=[...SHOPS];
+  if(ST.vibe==='halal'){shops=shops.filter(s=>s.vibes.includes('halal'));}
+  else{
+    const fs=shops.filter(s=>s.flavors.includes(ST.flavor));
+    if(fs.length)shops=fs;
+    if(ST.vibe)shops=[...shops].sort((a,b)=>(b.vibes.includes(ST.vibe)?1:0)-(a.vibes.includes(ST.vibe)?1:0));
+  }
+  shops=shops.map(s=>({...s,_d:dr(ST.lat,ST.lng,s.lat,s.lng)})).sort((a,b)=>b.rating-a.rating+((a._d-b._d)*.05)).slice(0,3);
+  document.getElementById('rttl').textContent=tx('rtitle',fl.l);
+  document.getElementById('rsub').textContent=tx('rsub',shops.length);
+  goS(5);renderR(shops);
+}
+
+function renderR(shops){
+  const cv=c();
+  const fl=FLAVORS[ST.lang].find(f=>f.k===ST.flavor)||{l:ST.flavor};
+  const nl=cv.noodles.find(n=>n.k===ST.noodle)||{l:ST.noodle||''};
+  const vl=cv.vibes.find(v=>v.k===ST.vibe)||{l:ST.vibe||''};
+  document.getElementById('ftxt').textContent=cv.facts[ST.flavor]||cv.facts.shoyu;
+  document.getElementById('flab').textContent=tx('flab');
+  document.getElementById('brst').textContent=tx('brst');
+  const list=document.getElementById('rl');list.innerHTML='';
+  shops.forEach((s,i)=>{
+    const d=s._d!==undefined?(s._d<1?Math.round(s._d*1000)+'m':s._d.toFixed(1)+'km'):'';
+    const stars='★'.repeat(Math.round(s.rating))+'☆'.repeat(5-Math.round(s.rating));
+    const isTop=i===0;const aid='ai-'+s.id;
+    list.innerHTML+=`<div class="rc${isTop?' top':''}">
+      ${isTop?`<div class="top-b">⭐ ${tx('topick')}</div>`:`<div class="num-b">${tx('pick',i+1)}</div>`}
+      <div class="rc-hd"><span class="rc-nm">${s.name}</span>${d?`<span class="rc-dist">${d}</span>`:''}</div>
+      <div class="rc-tp">${s.type} — ${s.area}</div>
+      <div class="rc-meta"><span class="stars">${stars}</span><span class="rc-rv">${s.rating.toFixed(1)} (${s.reviews.toLocaleString()})</span></div>
+      <div class="rc-tags">${s.tags.map(t=>`<span class="tag">${t}</span>`).join('')}</div>
+      <div class="rc-hr">${tx('hours')}: ${s.hours}</div>
+      <div class="ai-box">
+        <div class="ai-lbl"><div class="ai-dot"></div>${tx('ailbl')}</div>
+        <div class="ai-txt" id="${aid}"><span class="spin"></span> <span style="font-size:13px;color:var(--green)">${tx('aload')}</span></div>
+      </div>
+      <div class="map-row"><a class="map-a" href="${s.mapUrl}" target="_blank" rel="noopener">${tx('maplink')}</a></div>
+    </div>`;
+    callAI(s,fl.l,nl.l,vl.l,aid);
+  });
+}
+
+async function callAI(shop,f,n,v,tid){
+  const el=document.getElementById(tid);if(!el)return;
+  const prompt=c().aiprompt(shop,f,n,v);
+  try{
+    const res=await fetch('https://api.anthropic.com/v1/messages',{
+      method:'POST',headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({model:'claude-sonnet-4-20250514',max_tokens:1000,messages:[{role:'user',content:prompt}]})
+    });
+    const data=await res.json();
+    el.textContent=data.content?.map(b=>b.text||'').join('')||'—';
+  }catch(e){el.textContent='—';}
+}
+
+function restart(){
+  ST.flavor=null;ST.noodle=null;ST.vibe=null;
+  document.querySelectorAll('.oc').forEach(c=>c.classList.remove('sel'));
+  ['n2','n3','n4'].forEach(id=>{const b=document.getElementById(id);if(b)b.disabled=true;});
+  goS(1);buildGrids();
+}
+
+render();buildGrids();
+</script>
+</body>
+</html>
