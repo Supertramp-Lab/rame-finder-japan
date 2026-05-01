@@ -1,0 +1,510 @@
+{
+  "area": {
+    "id": "shinjuku",
+    "name": { "en": "Shinjuku", "zh": "新宿", "ko": "신주쿠", "ja": "新宿" },
+    "lat": 35.6938,
+    "lng": 139.7036
+  },
+  "shops": [
+    {
+      "id": "hayashida",
+      "name": "Ramen Hayashida",
+      "name_ja": "らーめん林田",
+      "type": "Shio / Shoyu",
+      "area_label": { "en": "Shinjuku South Exit", "zh": "新宿南口", "ko": "신주쿠 남쪽 출구", "ja": "新宿南口" },
+      "lat": 35.6887, "lng": 139.7032,
+      "rating": 4.5, "reviews": 3800,
+      "tags": [
+        { "l": { "en": "Michelin listed", "zh": "米其林推荐", "ko": "미슐랭 추천", "ja": "ミシュラン掲載" }, "cls": "gold" },
+        { "l": { "en": "English kiosk", "zh": "英文点餐机", "ko": "영어 키오스크", "ja": "英語キオスク" }, "cls": "english" },
+        { "l": { "en": "Daily limited", "zh": "每日限量", "ko": "일일 한정", "ja": "日替わり限定" }, "cls": "" }
+      ],
+      "flavors": ["shio", "shoyu"],
+      "vibes": ["local", "casual"],
+      "hours": { "en": "11am–3pm, 6pm–10pm (Tue–Sun)", "ja": "11:00〜15:00、18:00〜22:00（火〜日）" },
+      "comment": {
+        "en": "Michelin-listed and laser-focused on one perfect bowl. Arrive before opening — the daily limited edition sells out within the first hour.",
+        "zh": "米其林推荐，只专注于一碗完美的拉面。开门前到达，每日限量很快售罄。",
+        "ko": "미슐랭 추천. 하루 한정 그릇이 빠르게 소진됩니다. 개점 전에 도착하세요.",
+        "ja": "ミシュラン掲載の一杯に全集中したお店。日替わり限定は1時間で完売するので開店前に到着を。"
+      },
+      "mapUrl": "https://maps.google.com/?q=Ramen+Hayashida+Shinjuku",
+      "price_range": "¥1,000–1,500"
+    },
+    {
+      "id": "dame",
+      "name": "Dame Na Rinjin",
+      "name_ja": "ダメな隣人",
+      "type": "Shoyu / Wagyu",
+      "area_label": { "en": "Kabukicho, Shinjuku", "zh": "歌舞伎町", "ko": "가부키초", "ja": "新宿歌舞伎町" },
+      "lat": 35.6952, "lng": 139.7005,
+      "rating": 4.3, "reviews": 2646,
+      "tags": [
+        { "l": { "en": "English kiosk", "zh": "英文点餐机", "ko": "영어 키오스크", "ja": "英語キオスク" }, "cls": "english" },
+        { "l": { "en": "Free toppings", "zh": "免费配料", "ko": "무료 토핑", "ja": "無料トッピング" }, "cls": "" },
+        { "l": { "en": "Hip-hop vibe", "zh": "嘻哈风格", "ko": "힙합 분위기", "ja": "ヒップホップ" }, "cls": "" }
+      ],
+      "flavors": ["shoyu"],
+      "vibes": ["trendy", "casual"],
+      "hours": { "en": "11am–11pm daily", "ja": "11:00〜23:00（毎日）" },
+      "comment": {
+        "en": "Cool hip-hop interior with English kiosk ordering. Free seaweed and boiled eggs at the counter — grab both. Hidden in Kabukicho but very foreigner-friendly.",
+        "zh": "嘻哈风格内饰，英文点餐机。柜台有免费海苔和溏心蛋，两样都要拿。",
+        "ko": "힙합 인테리어에 영어 키오스크. 카운터의 무료 계란과 김을 꼭 챙기세요.",
+        "ja": "ヒップホップな空間に英語キオスク。カウンターの無料ゆで卵と海苔を忘れずに。"
+      },
+      "mapUrl": "https://maps.google.com/?q=Dame+Na+Rinjin+Shinjuku",
+      "price_range": "¥900–1,400"
+    },
+    {
+      "id": "nakamuraya",
+      "name": "Nakamuraya Souhonten",
+      "name_ja": "中村屋総本店",
+      "type": "Chicken Paitan Shoyu",
+      "area_label": { "en": "Shinjuku Station Area", "zh": "新宿站附近", "ko": "신주쿠역 근처", "ja": "新宿駅周辺" },
+      "lat": 35.6900, "lng": 139.7010,
+      "rating": 4.4, "reviews": 1870,
+      "tags": [
+        { "l": { "en": "Tori Paitan specialist", "zh": "鸡白汤专门", "ko": "토리 파이탄 전문", "ja": "鶏白湯専門" }, "cls": "" },
+        { "l": { "en": "English menu", "zh": "英文菜单", "ko": "영어 메뉴", "ja": "英語メニュー" }, "cls": "english" },
+        { "l": { "en": "Popular lunch", "zh": "热门午餐", "ko": "인기 점심", "ja": "人気のランチ" }, "cls": "" }
+      ],
+      "flavors": ["toripaitan", "shoyu"],
+      "vibes": ["local", "casual"],
+      "hours": { "en": "11am–10pm daily", "ja": "11:00〜22:00（毎日）" },
+      "comment": {
+        "en": "One of Shinjuku's best chicken paitan spots. The broth is silky-white and incredibly smooth. Try the ajitsuke tamago — it's marinated for 48 hours.",
+        "zh": "新宿最好的鸡白汤之一，汤底丝滑雪白。腌制48小时的溏心蛋必点。",
+        "ko": "신주쿠 최고의 닭백탕 라멘. 48시간 절인 반숙 계란을 꼭 추가하세요.",
+        "ja": "新宿屈指の鶏白湯専門店。スープは絹のように滑らか。48時間漬けの味付け玉子がおすすめ。"
+      },
+      "mapUrl": "https://maps.google.com/?q=Nakamuraya+Ramen+Shinjuku",
+      "price_range": "¥1,000–1,600"
+    },
+    {
+      "id": "junren",
+      "name": "Junren",
+      "name_ja": "純連",
+      "type": "Sapporo Miso",
+      "area_label": { "en": "Shinjuku West", "zh": "新宿西口", "ko": "신주쿠 서쪽", "ja": "新宿西口" },
+      "lat": 35.6910, "lng": 139.6995,
+      "rating": 4.4, "reviews": 2100,
+      "tags": [
+        { "l": { "en": "Hokkaido style", "zh": "北海道风格", "ko": "홋카이도 스타일", "ja": "北海道スタイル" }, "cls": "" },
+        { "l": { "en": "Butter & corn", "zh": "黄油玉米", "ko": "버터 & 옥수수", "ja": "バター＆コーン" }, "cls": "" },
+        { "l": { "en": "Rich broth", "zh": "浓郁汤底", "ko": "진한 육수", "ja": "濃厚スープ" }, "cls": "" }
+      ],
+      "flavors": ["miso"],
+      "vibes": ["local", "casual"],
+      "hours": { "en": "11am–9pm (Mon–Sat)", "ja": "11:00〜21:00（月〜土）" },
+      "comment": {
+        "en": "Authentic Sapporo-style miso from Hokkaido's legendary Junren. The corn and butter topping transforms the bowl. Rich, warming, unforgettable.",
+        "zh": "来自北海道传奇店纯连的正宗札幌味噌。玉米黄油配料必点，浓郁暖心。",
+        "ko": "홋카이도 전설의 순렌 정통 삿포로 미소. 옥수수와 버터 토핑은 필수입니다.",
+        "ja": "北海道の名店・純連の正宗札幌味噌。コーンとバターのトッピングは必須。"
+      },
+      "mapUrl": "https://maps.google.com/?q=Junren+Ramen+Shinjuku",
+      "price_range": "¥950–1,400"
+    },
+    {
+      "id": "sanpei",
+      "name": "Aji no Sanpei",
+      "name_ja": "味の三平",
+      "type": "Miso",
+      "area_label": { "en": "Shinjuku East Exit", "zh": "新宿东口", "ko": "신주쿠 동쪽 출구", "ja": "新宿東口" },
+      "lat": 35.6930, "lng": 139.7020,
+      "rating": 4.3, "reviews": 1560,
+      "tags": [
+        { "l": { "en": "Since 1954", "zh": "1954年创业", "ko": "1954년 창업", "ja": "1954年創業" }, "cls": "gold" },
+        { "l": { "en": "Tokyo landmark", "zh": "东京地标", "ko": "도쿄 명물", "ja": "東京の老舗" }, "cls": "" },
+        { "l": { "en": "Classic miso", "zh": "经典味噌", "ko": "클래식 미소", "ja": "元祖味噌" }, "cls": "" }
+      ],
+      "flavors": ["miso", "shio"],
+      "vibes": ["local"],
+      "hours": { "en": "11:30am–9pm (closed Mon)", "ja": "11:30〜21:00（月曜定休）" },
+      "comment": {
+        "en": "A Tokyo institution since 1954 — this is where miso ramen in the city began. The recipe has barely changed in 70 years. Order the original miso and taste history.",
+        "zh": "1954年开业的东京地标，东京味噌拉面的起源地。70年几乎未变的配方，历史的味道。",
+        "ko": "1954년 개업한 도쿄 명물. 오리지널 미소를 주문해 70년의 역사를 맛보세요.",
+        "ja": "1954年創業の東京の老舗。東京の味噌ラーメンの発祥店。70年変わらぬ味。"
+      },
+      "mapUrl": "https://maps.google.com/?q=Aji+no+Sanpei+Shinjuku",
+      "price_range": "¥800–1,200"
+    },
+    {
+      "id": "ichiran",
+      "name": "ICHIRAN Shinjuku",
+      "name_ja": "一蘭 新宿店",
+      "type": "Hakata Tonkotsu",
+      "area_label": { "en": "Shinjuku", "zh": "新宿", "ko": "신주쿠", "ja": "新宿" },
+      "lat": 35.6906, "lng": 139.7028,
+      "rating": 4.3, "reviews": 7561,
+      "tags": [
+        { "l": { "en": "Open 24hrs", "zh": "24小时营业", "ko": "24시간 영업", "ja": "24時間営業" }, "cls": "open24" },
+        { "l": { "en": "Solo booths", "zh": "独立隔间", "ko": "1인 부스", "ja": "一人用ブース" }, "cls": "" },
+        { "l": { "en": "English OK", "zh": "英文OK", "ko": "영어 가능", "ja": "英語対応" }, "cls": "english" }
+      ],
+      "flavors": ["tonkotsu"],
+      "vibes": ["solo", "casual"],
+      "hours": { "en": "Open 24 hours", "ja": "24時間営業" },
+      "comment": {
+        "en": "The iconic solo-booth experience. Fill in your order sheet to customize broth richness, spice level, and noodle firmness. Open round the clock — perfect after a late night out.",
+        "zh": "标志性独立隔间体验。填写点餐单定制浓度、辣度、面条硬度。24小时营业。",
+        "ko": "1인 부스 경험. 주문서로 농도·맵기·면 경도 커스텀 가능. 24시간 영업.",
+        "ja": "一蘭の個人ブース体験。注文票で濃度・辛さ・麺のかたさをカスタマイズ。24時間営業。"
+      },
+      "mapUrl": "https://maps.google.com/?q=Ichiran+Ramen+Shinjuku",
+      "price_range": "¥980–1,500"
+    },
+    {
+      "id": "ippudo",
+      "name": "Ippudo Shinjuku",
+      "name_ja": "一風堂 新宿店",
+      "type": "Hakata Tonkotsu",
+      "area_label": { "en": "Shinjuku", "zh": "新宿", "ko": "신주쿠", "ja": "新宿" },
+      "lat": 35.6915, "lng": 139.7000,
+      "rating": 4.2, "reviews": 3200,
+      "tags": [
+        { "l": { "en": "English menu", "zh": "英文菜单", "ko": "영어 메뉴", "ja": "英語メニュー" }, "cls": "english" },
+        { "l": { "en": "Pork buns", "zh": "猪肉包", "ko": "포크 번", "ja": "ヒラタバンズ" }, "cls": "" },
+        { "l": { "en": "World famous", "zh": "世界知名", "ko": "세계적으로 유명", "ja": "世界的名店" }, "cls": "" }
+      ],
+      "flavors": ["tonkotsu"],
+      "vibes": ["casual", "trendy"],
+      "hours": { "en": "11am–11pm daily", "ja": "11:00〜23:00（毎日）" },
+      "comment": {
+        "en": "World-famous Hakata tonkotsu in a comfortable setting. Order Shiromaru Classic for a pure experience, or Akamaru for extra richness. The pork buns are a must-order side.",
+        "zh": "世界著名博多豚骨，环境舒适。点白丸经典或赤丸加料。猪肉包子必点。",
+        "ko": "세계적으로 유명한 하카타 돈코츠. 시로마루 또는 아카마루 선택. 히라타 번 필수.",
+        "ja": "世界的に有名な博多とんこつ。白丸か赤丸を選んで、ヒラタバンズも一緒に。"
+      },
+      "mapUrl": "https://maps.google.com/?q=Ippudo+Shinjuku",
+      "price_range": "¥990–1,600"
+    },
+    {
+      "id": "fuunji",
+      "name": "Fuunji",
+      "name_ja": "風雲児",
+      "type": "Gyokai Tsukemen",
+      "area_label": { "en": "Shinjuku West Exit", "zh": "新宿西口", "ko": "신주쿠 서쪽 출구", "ja": "新宿西口" },
+      "lat": 35.6938, "lng": 139.6980,
+      "rating": 4.5, "reviews": 5200,
+      "tags": [
+        { "l": { "en": "Gyokai specialist", "zh": "鱼介专门", "ko": "교카이 전문", "ja": "魚介系専門" }, "cls": "" },
+        { "l": { "en": "Tsukemen", "zh": "沾面", "ko": "츠케멘", "ja": "つけ麺" }, "cls": "" },
+        { "l": { "en": "Queue expected", "zh": "预计排队", "ko": "줄 예상", "ja": "行列必至" }, "cls": "" }
+      ],
+      "flavors": ["gyokai"],
+      "vibes": ["local"],
+      "hours": { "en": "11am–3pm, 5pm–9pm (closed Sun)", "ja": "11:00〜15:00、17:00〜21:00（日曜定休）" },
+      "comment": {
+        "en": "One of Tokyo's most celebrated tsukemen spots — the thick gyokai dipping broth is almost sauce-like. Arrive 30 mins before opening. Cash only. Worth every minute of the wait.",
+        "zh": "东京最著名的沾面之一，浓厚鱼介沾汁几乎是酱状。开门前30分钟到达。仅收现金。",
+        "ko": "도쿄 최고의 츠케멘. 두꺼운 교카이 소스. 개점 30분 전 도착 권장. 현금만.",
+        "ja": "東京屈指のつけ麺店。魚介の濃厚つけダレは別格。開店30分前並び必須。現金のみ。"
+      },
+      "mapUrl": "https://maps.google.com/?q=Fuunji+Ramen+Shinjuku",
+      "price_range": "¥950–1,400"
+    },
+    {
+      "id": "menya_musashi",
+      "name": "Menya Musashi",
+      "name_ja": "麺屋武蔵",
+      "type": "Gyokai / Shoyu Tsukemen",
+      "area_label": { "en": "Shinjuku West", "zh": "新宿西口", "ko": "신주쿠 서쪽", "ja": "新宿西口" },
+      "lat": 35.6920, "lng": 139.6975,
+      "rating": 4.3, "reviews": 4100,
+      "tags": [
+        { "l": { "en": "Since 1996", "zh": "1996年创业", "ko": "1996년 창업", "ja": "1996年創業" }, "cls": "gold" },
+        { "l": { "en": "English kiosk", "zh": "英文点餐机", "ko": "영어 키오스크", "ja": "英語キオスク" }, "cls": "english" },
+        { "l": { "en": "Double soup", "zh": "双重汤底", "ko": "더블 수프", "ja": "ダブルスープ" }, "cls": "" }
+      ],
+      "flavors": ["gyokai", "shoyu"],
+      "vibes": ["casual", "local"],
+      "hours": { "en": "11am–10pm daily", "ja": "11:00〜22:00（毎日）" },
+      "comment": {
+        "en": "A Shinjuku legend since 1996. Their double-soup blends seafood and animal broth in perfect balance. Both the tsukemen and the regular bowl are excellent.",
+        "zh": "1996年开业的新宿传奇，海鲜与动物汤底完美融合。沾面和普通拉面都很出色。",
+        "ko": "1996년 신주쿠 전설. 해산물과 동물 육수의 더블 수프. 츠케멘과 일반 둘 다 추천.",
+        "ja": "1996年創業の新宿の雄。魚介と動物系のダブルスープが絶妙。つけ麺も一杯も最高。"
+      },
+      "mapUrl": "https://maps.google.com/?q=Menya+Musashi+Shinjuku",
+      "price_range": "¥950–1,500"
+    },
+    {
+      "id": "kagari_s",
+      "name": "Ginza Kagari Shinjuku",
+      "name_ja": "銀座 篝 新宿店",
+      "type": "Chicken Paitan Shoyu",
+      "area_label": { "en": "Shinjuku", "zh": "新宿", "ko": "신주쿠", "ja": "新宿" },
+      "lat": 35.6918, "lng": 139.7005,
+      "rating": 4.3, "reviews": 2100,
+      "tags": [
+        { "l": { "en": "Truffle option", "zh": "松露选项", "ko": "트러플 옵션", "ja": "トリュフあり" }, "cls": "gold" },
+        { "l": { "en": "Creamy chicken", "zh": "奶白鸡汤", "ko": "크리미 치킨", "ja": "濃厚鶏白湯" }, "cls": "" },
+        { "l": { "en": "Stylish interior", "zh": "时尚内饰", "ko": "스타일리시 인테리어", "ja": "スタイリッシュ" }, "cls": "" }
+      ],
+      "flavors": ["toripaitan", "shoyu"],
+      "vibes": ["trendy", "local"],
+      "hours": { "en": "11am–10pm", "ja": "11:00〜22:00" },
+      "comment": {
+        "en": "The Shinjuku outpost of Ginza's cult favorite. The creamy chicken paitan has an almost bisque-like depth. Splurge on the truffle version — it's extraordinary.",
+        "zh": "银座人气店的新宿分店。奶白鸡汤如浓汤般深邃。松露版值得一试。",
+        "ko": "긴자 명물의 신주쿠점. 크리미한 닭 파이탄. 트러플 버전을 강력 추천합니다.",
+        "ja": "銀座発の人気店の新宿店。鶏白湯は濃厚でビスクのような深み。トリュフ版は必食。"
+      },
+      "mapUrl": "https://maps.google.com/?q=Ginza+Kagari+Shinjuku",
+      "price_range": "¥1,200–2,000"
+    },
+    {
+      "id": "nagi",
+      "name": "Ramen Nagi Golden Gai",
+      "name_ja": "ラーメン凪 新宿ゴールデン街店",
+      "type": "Niboshi Shio / Gyokai",
+      "area_label": { "en": "Golden Gai, Shinjuku", "zh": "黄金街，新宿", "ko": "골든 가이, 신주쿠", "ja": "新宿ゴールデン街" },
+      "lat": 35.6942, "lng": 139.7012,
+      "rating": 4.4, "reviews": 3900,
+      "tags": [
+        { "l": { "en": "Golden Gai legend", "zh": "黄金街传奇", "ko": "골든가이 전설", "ja": "ゴールデン街の名店" }, "cls": "gold" },
+        { "l": { "en": "9 seats only", "zh": "仅9个座位", "ko": "9석 한정", "ja": "9席のみ" }, "cls": "" },
+        { "l": { "en": "Late night 6pm–", "zh": "晚上6点后", "ko": "저녁 6시 이후", "ja": "夜6時〜朝8時" }, "cls": "open24" }
+      ],
+      "flavors": ["shio", "gyokai"],
+      "vibes": ["local", "trendy"],
+      "hours": { "en": "6pm–8am (night only!)", "ja": "18:00〜翌8:00（夜のみ）" },
+      "comment": {
+        "en": "Tucked inside Golden Gai's labyrinthine alleyways — only 9 seats. The niboshi (dried sardine) shio broth is intensely flavored. Night owls only: opens at 6pm.",
+        "zh": "藏在黄金街迷宫中，仅9个座位。沙丁鱼干盐味汤底独特浓郁，仅晚上6点后营业。",
+        "ko": "골든가이 골목 안 9석 한정. 니보시 시오 라멘은 도쿄에서 유일무이. 저녁 6시 오픈.",
+        "ja": "黄金街の路地裏、わずか9席。煮干し塩ラーメンは唯一無二の深み。夜6時オープン。"
+      },
+      "mapUrl": "https://maps.google.com/?q=Ramen+Nagi+Golden+Gai+Shinjuku",
+      "price_range": "¥850–1,200"
+    },
+    {
+      "id": "wagyu_halal",
+      "name": "Wagyu Halal Ramen Kabuki",
+      "name_ja": "和牛ハラールラーメン歌舞伎",
+      "type": "Halal Wagyu Shoyu / Miso",
+      "area_label": { "en": "Kabukicho, Shinjuku", "zh": "歌舞伎町，新宿", "ko": "가부키초, 신주쿠", "ja": "新宿歌舞伎町" },
+      "lat": 35.6985, "lng": 139.7020,
+      "rating": 4.7, "reviews": 665,
+      "tags": [
+        { "l": { "en": "Halal certified", "zh": "清真认证", "ko": "할랄 인증", "ja": "ハラール認証" }, "cls": "halal" },
+        { "l": { "en": "Wagyu beef", "zh": "和牛", "ko": "와규 비프", "ja": "和牛使用" }, "cls": "" },
+        { "l": { "en": "English staff", "zh": "英文服务员", "ko": "영어 스태프", "ja": "英語スタッフ" }, "cls": "english" }
+      ],
+      "flavors": ["shoyu", "miso"],
+      "vibes": ["halal", "casual"],
+      "hours": { "en": "11am–1am daily", "ja": "11:00〜翌1:00（毎日）" },
+      "comment": {
+        "en": "One of Shinjuku's best halal experiences. Wagyu beef is torched tableside — ask for the show. English-speaking staff, open until 1am, ideal after sightseeing.",
+        "zh": "新宿最佳清真拉面之一。和牛在桌边喷枪炙烤，英文服务员，营业至凌晨1点。",
+        "ko": "신주쿠 최고의 할랄 라멘. 와규를 테이블에서 토치로 구워줍니다. 새벽 1시까지 영업.",
+        "ja": "新宿の最高のハラールラーメン。和牛を目の前でバーナーで炙る。英語スタッフあり。深夜1時まで。"
+      },
+      "mapUrl": "https://maps.google.com/?q=Wagyu+Halal+Ramen+Shinjuku+Kabuki",
+      "price_range": "¥1,200–2,000"
+    },
+    {
+      "id": "kikanbo",
+      "name": "Kikanbo",
+      "name_ja": "鬼金棒",
+      "type": "Spicy Miso / Karashibi",
+      "area_label": { "en": "Shinjuku", "zh": "新宿", "ko": "신주쿠", "ja": "新宿" },
+      "lat": 35.6921, "lng": 139.7001,
+      "rating": 4.4, "reviews": 3800,
+      "tags": [
+        { "l": { "en": "Spicy specialist", "zh": "辣味专门", "ko": "매운맛 전문", "ja": "辛さ専門" }, "cls": "" },
+        { "l": { "en": "Numbing pepper", "zh": "麻辣花椒", "ko": "마비시키는 후추", "ja": "痺れ山椒" }, "cls": "" },
+        { "l": { "en": "Spice level choice", "zh": "辣度可选", "ko": "매운맛 선택", "ja": "辛さ選択" }, "cls": "" }
+      ],
+      "flavors": ["miso"],
+      "vibes": ["trendy", "local"],
+      "hours": { "en": "11am–9pm daily", "ja": "11:00〜21:00（毎日）" },
+      "comment": {
+        "en": "Tokyo's famous 'karashibi' ramen — a unique blend of spicy (kara) and numbing Sichuan pepper (shibi). Choose your spice level from 0 to max. Not for the faint-hearted.",
+        "zh": "东京著名的辣麻拉面——辣与四川麻椒的独特融合。辣度从0到最高可选。",
+        "ko": "도쿄의 유명한 '카라시비' 라멘 — 매운맛과 마비시키는 산초의 독특한 조합. 매운맛 선택 가능.",
+        "ja": "東京の辛痺れラーメン「鬼金棒」。辛さと山椒の痺れを自分でカスタマイズ。"
+      },
+      "mapUrl": "https://maps.google.com/?q=Kikanbo+Ramen+Shinjuku",
+      "price_range": "¥950–1,400"
+    },
+    {
+      "id": "yoshimuraya",
+      "name": "Yoshimuraya",
+      "name_ja": "吉村家",
+      "type": "Ie-kei Tonkotsu Shoyu",
+      "area_label": { "en": "Shinjuku", "zh": "新宿", "ko": "신주쿠", "ja": "新宿" },
+      "lat": 35.6895, "lng": 139.7018,
+      "rating": 4.2, "reviews": 2900,
+      "tags": [
+        { "l": { "en": "Ie-kei style", "zh": "家系拉面", "ko": "이에케이 스타일", "ja": "家系ラーメン" }, "cls": "" },
+        { "l": { "en": "Rich tonkotsu-shoyu", "zh": "浓厚豚骨酱油", "ko": "진한 돈코츠 쇼유", "ja": "濃厚豚骨醤油" }, "cls": "" },
+        { "l": { "en": "Customize toppings", "zh": "自选配料", "ko": "토핑 커스텀", "ja": "トッピング選択可" }, "cls": "" }
+      ],
+      "flavors": ["tonkotsu", "shoyu"],
+      "vibes": ["local", "casual"],
+      "hours": { "en": "11am–11pm daily", "ja": "11:00〜23:00（毎日）" },
+      "comment": {
+        "en": "Classic Yokohama ie-kei style in Shinjuku — thick tonkotsu-shoyu blended into a deeply savory bowl. Customize noodle firmness, broth richness, and oil level at the table.",
+        "zh": "新宿的经典横滨家系风格——浓厚的豚骨酱油，可自选面条硬度、汤底浓度和油量。",
+        "ko": "신주쿠의 클래식 요코하마 이에케이 스타일. 면 경도·육수 농도·오일 양을 테이블에서 커스텀.",
+        "ja": "横浜家系の新宿版。濃厚豚骨醤油で麺のかたさ・スープの濃さ・油の量を自分でカスタマイズ。"
+      },
+      "mapUrl": "https://maps.google.com/?q=Yoshimuraya+Ramen+Shinjuku",
+      "price_range": "¥900–1,300"
+    },
+    {
+      "id": "soranoiro",
+      "name": "Soranoiro",
+      "name_ja": "ソラノイロ",
+      "type": "Vegan / Shoyu / Miso",
+      "area_label": { "en": "Shinjuku Station", "zh": "新宿站", "ko": "신주쿠역", "ja": "新宿駅" },
+      "lat": 35.6896, "lng": 139.7004,
+      "rating": 4.3, "reviews": 1800,
+      "tags": [
+        { "l": { "en": "Vegan options", "zh": "素食选项", "ko": "비건 옵션", "ja": "ヴィーガン対応" }, "cls": "halal" },
+        { "l": { "en": "Vegetarian-friendly", "zh": "素食者友好", "ko": "채식주의자 친화적", "ja": "ベジタリアン可" }, "cls": "" },
+        { "l": { "en": "English menu", "zh": "英文菜单", "ko": "영어 메뉴", "ja": "英語メニュー" }, "cls": "english" }
+      ],
+      "flavors": ["shoyu", "miso"],
+      "vibes": ["casual", "trendy"],
+      "hours": { "en": "11am–10pm daily", "ja": "11:00〜22:00（毎日）" },
+      "comment": {
+        "en": "One of Tokyo's best vegan ramen shops — but the meat-based bowls are equally exceptional. A rare spot where dietary restrictions meet great flavor. English menu available.",
+        "zh": "东京最好的素食拉面之一，但荤食碗也同样出色。英文菜单，饮食限制友好。",
+        "ko": "도쿄 최고의 비건 라멘. 육식 메뉴도 뛰어납니다. 영어 메뉴 있음.",
+        "ja": "東京屈指のヴィーガン対応ラーメン店。肉系のメニューも絶品。英語メニューあり。"
+      },
+      "mapUrl": "https://maps.google.com/?q=Soranoiro+Ramen+Shinjuku",
+      "price_range": "¥900–1,400"
+    },
+    {
+      "id": "keisuke",
+      "name": "Ramen Keisuke Tonkotsu King",
+      "name_ja": "ラーメン慶州 豚骨王",
+      "type": "Tonkotsu",
+      "area_label": { "en": "Shinjuku East", "zh": "新宿东口", "ko": "신주쿠 동쪽", "ja": "新宿東口" },
+      "lat": 35.6928, "lng": 139.7038,
+      "rating": 4.2, "reviews": 2200,
+      "tags": [
+        { "l": { "en": "Tonkotsu specialist", "zh": "豚骨专门", "ko": "돈코츠 전문", "ja": "豚骨専門" }, "cls": "" },
+        { "l": { "en": "Free toppings bar", "zh": "免费配料台", "ko": "무료 토핑 바", "ja": "無料トッピングバー" }, "cls": "" },
+        { "l": { "en": "English menu", "zh": "英文菜单", "ko": "영어 메뉴", "ja": "英語メニュー" }, "cls": "english" }
+      ],
+      "flavors": ["tonkotsu"],
+      "vibes": ["casual", "trendy"],
+      "hours": { "en": "11am–11pm daily", "ja": "11:00〜23:00（毎日）" },
+      "comment": {
+        "en": "Rich tonkotsu with an unlimited topping bar — load up on sesame, garlic, pickled ginger, and spring onions for free. A great value bowl for hungry travelers.",
+        "zh": "浓厚豚骨配无限量配料台，可免费添加芝麻、大蒜、腌姜、葱。性价比极高。",
+        "ko": "진한 돈코츠에 무제한 토핑 바. 참깨·마늘·절인 생강·파 무료. 가성비 최고.",
+        "ja": "濃厚豚骨に無料トッピングバー付き。ごま・にんにく・紅しょうが・ねぎ食べ放題。コスパ最強。"
+      },
+      "mapUrl": "https://maps.google.com/?q=Ramen+Keisuke+Shinjuku",
+      "price_range": "¥850–1,200"
+    },
+    {
+      "id": "mugi_to_olive",
+      "name": "Mugi to Olive",
+      "name_ja": "麦と橄欖",
+      "type": "Shio / Chicken Paitan",
+      "area_label": { "en": "Shinjuku West Exit", "zh": "新宿西口", "ko": "신주쿠 서쪽 출구", "ja": "新宿西口" },
+      "lat": 35.6922, "lng": 139.6988,
+      "rating": 4.5, "reviews": 2700,
+      "tags": [
+        { "l": { "en": "Michelin listed", "zh": "米其林推荐", "ko": "미슐랭 추천", "ja": "ミシュラン掲載" }, "cls": "gold" },
+        { "l": { "en": "CLAM broth", "zh": "蛤蜊汤底", "ko": "조개 육수", "ja": "ハマグリだし" }, "cls": "" },
+        { "l": { "en": "Refined & elegant", "zh": "精致优雅", "ko": "세련되고 우아한", "ja": "上品な一杯" }, "cls": "" }
+      ],
+      "flavors": ["shio", "toripaitan"],
+      "vibes": ["local", "trendy"],
+      "hours": { "en": "11am–3pm, 6pm–9pm (closed Wed)", "ja": "11:00〜15:00、18:00〜21:00（水曜定休）" },
+      "comment": {
+        "en": "Michelin-listed and quietly exceptional. The clam-based shio broth is unlike anything in Tokyo — delicate, oceanic, and complex. One of Shinjuku's hidden gems.",
+        "zh": "米其林推荐，低调而出色。蛤蜊盐味汤底独特精致，新宿的隐藏宝石。",
+        "ko": "미슐랭 추천, 조용하지만 탁월한. 조개 기반의 시오 육수는 도쿄에서 유일무이한 맛.",
+        "ja": "ミシュラン掲載の隠れた名店。ハマグリベースの塩スープは繊細で奥深い。新宿の宝石。"
+      },
+      "mapUrl": "https://maps.google.com/?q=Mugi+to+Olive+Shinjuku",
+      "price_range": "¥1,100–1,600"
+    },
+    {
+      "id": "noodle_stand_tokyo",
+      "name": "Noodle Stand Tokyo",
+      "name_ja": "ヌードルスタンド東京",
+      "type": "Gyokai / Shoyu",
+      "area_label": { "en": "Shinjuku", "zh": "新宿", "ko": "신주쿠", "ja": "新宿" },
+      "lat": 35.6935, "lng": 139.7022,
+      "rating": 4.3, "reviews": 1600,
+      "tags": [
+        { "l": { "en": "Craft ramen", "zh": "精酿拉面", "ko": "크래프트 라멘", "ja": "クラフトラーメン" }, "cls": "" },
+        { "l": { "en": "Standing bar style", "zh": "立食风格", "ko": "스탠딩 바 스타일", "ja": "スタンディング" }, "cls": "" },
+        { "l": { "en": "Quick & casual", "zh": "快捷随意", "ko": "빠르고 캐주얼", "ja": "気軽に立ち食い" }, "cls": "" }
+      ],
+      "flavors": ["gyokai", "shoyu"],
+      "vibes": ["casual", "local"],
+      "hours": { "en": "11am–11pm daily", "ja": "11:00〜23:00（毎日）" },
+      "comment": {
+        "en": "Standing-bar style ramen — quick, casual, and delicious. Great for solo travelers who want a proper bowl without committing to a full sit-down experience.",
+        "zh": "立食拉面风格——快速、随意、美味。适合想快速吃一碗好拉面的独行旅行者。",
+        "ko": "스탠딩 바 스타일 라멘. 빠르고 캐주얼. 혼자 여행하는 분께 최적.",
+        "ja": "立ち食いスタイルのラーメン。気軽に本格ラーメンが楽しめる。一人旅にぴったり。"
+      },
+      "mapUrl": "https://maps.google.com/?q=Noodle+Stand+Tokyo+Shinjuku",
+      "price_range": "¥750–1,100"
+    },
+    {
+      "id": "mensho_tokyo",
+      "name": "Mensho Tokyo",
+      "name_ja": "麺匠の心つくし",
+      "type": "Tori Paitan / Gyokai",
+      "area_label": { "en": "Shinjuku", "zh": "新宿", "ko": "신주쿠", "ja": "新宿" },
+      "lat": 35.6911, "lng": 139.6998,
+      "rating": 4.4, "reviews": 3100,
+      "tags": [
+        { "l": { "en": "Award-winning", "zh": "获奖拉面", "ko": "수상 경력", "ja": "受賞歴あり" }, "cls": "gold" },
+        { "l": { "en": "Seasonal menu", "zh": "季节性菜单", "ko": "계절 메뉴", "ja": "季節限定あり" }, "cls": "" },
+        { "l": { "en": "Creative style", "zh": "创意拉面", "ko": "창의적 스타일", "ja": "クリエイティブ" }, "cls": "" }
+      ],
+      "flavors": ["toripaitan", "gyokai"],
+      "vibes": ["trendy", "local"],
+      "hours": { "en": "11am–10pm daily", "ja": "11:00〜22:00（毎日）" },
+      "comment": {
+        "en": "Award-winning creative ramen with a seasonal menu that changes regularly. The lamb-based broth is their signature — unexpected and extraordinary. Always something new to discover.",
+        "zh": "获奖的创意拉面，菜单随季节变化。羊肉汤底是招牌——出乎意料的绝妙。",
+        "ko": "수상 경력의 창의적 라멘. 계절마다 메뉴가 바뀝니다. 양고기 육수가 시그니처.",
+        "ja": "受賞歴ある創作ラーメン。季節限定メニューが定期的に変わる。ラムスープが看板メニュー。"
+      },
+      "mapUrl": "https://maps.google.com/?q=Mensho+Tokyo+Shinjuku",
+      "price_range": "¥1,100–1,800"
+    },
+    {
+      "id": "tsuta_s",
+      "name": "Tsuta Shinjuku",
+      "name_ja": "蔦 新宿店",
+      "type": "Shoyu / Truffle",
+      "area_label": { "en": "Shinjuku", "zh": "新宿", "ko": "신주쿠", "ja": "新宿" },
+      "lat": 35.6925, "lng": 139.7015,
+      "rating": 4.5, "reviews": 4200,
+      "tags": [
+        { "l": { "en": "Michelin star", "zh": "米其林星级", "ko": "미슐랭 스타", "ja": "ミシュラン一つ星" }, "cls": "gold" },
+        { "l": { "en": "Truffle oil", "zh": "松露油", "ko": "트러플 오일", "ja": "トリュフオイル" }, "cls": "" },
+        { "l": { "en": "World's first", "zh": "世界首家", "ko": "세계 최초", "ja": "世界初の星付き" }, "cls": "" }
+      ],
+      "flavors": ["shoyu"],
+      "vibes": ["trendy", "local"],
+      "hours": { "en": "11am–9pm daily", "ja": "11:00〜21:00（毎日）" },
+      "comment": {
+        "en": "The world's first Michelin-starred ramen restaurant. The truffle-shoyu broth is refined, aromatic, and extraordinary. A once-in-a-lifetime ramen experience worth every yen.",
+        "zh": "世界上第一家米其林星级拉面餐厅。松露酱油汤底精致芬芳，值得每一分钱。",
+        "ko": "세계 최초 미슐랭 스타 라멘 레스토랑. 트러플 쇼유 육수는 정제되고 향기로운 일생일대의 경험.",
+        "ja": "世界初のミシュラン一つ星ラーメン店。トリュフ醤油スープは繊細かつ芳醇。一生に一度の一杯。"
+      },
+      "mapUrl": "https://maps.google.com/?q=Tsuta+Ramen+Shinjuku",
+      "price_range": "¥1,500–2,200"
+    }
+  ]
+}
