@@ -1,26 +1,15 @@
 """
-Google Sheets → data/shinjuku.json 変換スクリプト
+Google Sheets → data/*.json 変換スクリプト
 GitHub Actions から自動実行される
-
-スプレッドシートの列構成（1行目がヘッダー）:
-id | name | name_ja | type | area_label_en | area_label_ja | area_label_zh | area_label_ko
-lat | lng | rating | reviews | price_range | hours_en | hours_ja
-flavors | vibes
-tag1_label_en | tag1_label_ja | tag1_label_zh | tag1_label_ko | tag1_cls
-tag2_label_en | tag2_label_ja | tag2_label_zh | tag2_label_ko | tag2_cls
-tag3_label_en | tag3_label_ja | tag3_label_zh | tag3_label_ko | tag3_cls
-comment_en | comment_ja | comment_zh | comment_ko
-mapUrl
 """
 
 import os
 import json
 import requests
 
-SHEET_ID  = os.environ["SHEET_ID"]
-API_KEY   = os.environ["GOOGLE_API_KEY"]
+SHEET_ID = os.environ["GOOGLE_SHEET_ID"]
+API_KEY  = os.environ["GOOGLE_API_KEY"]
 
-# シート名ごとに出力ファイルをマッピング
 SHEET_TABS = {
     "shinjuku": "data/shinjuku.json",
     "shibuya":  "data/shibuya.json",
@@ -35,7 +24,6 @@ AREA_META = {
 
 
 def fetch_sheet(sheet_tab_name):
-    """Google Sheets APIでシートデータを取得する"""
     url = (
         f"https://sheets.googleapis.com/v4/spreadsheets/{SHEET_ID}"
         f"/values/{sheet_tab_name}?key={API_KEY}"
@@ -49,20 +37,16 @@ def fetch_sheet(sheet_tab_name):
 
 
 def parse_rows(rows):
-    """ヘッダー行をキーにして辞書のリストを返す"""
     header = rows[0]
     return [
         {header[i]: (row[i] if i < len(row) else "") for i in range(len(header))}
         for row in rows[1:]
-        if any(cell.strip() for cell in row)   # 空行スキップ
+        if any(cell.strip() for cell in row)
     ]
 
 
 def build_shop(r):
-    """1行の辞書をshop JSONオブジェクトに変換する"""
-
     def tag(n):
-        """n番目のタグを作る（1, 2, 3）"""
         label_en = r.get(f"tag{n}_label_en", "").strip()
         if not label_en:
             return None
@@ -78,7 +62,6 @@ def build_shop(r):
 
     tags = [t for t in [tag(1), tag(2), tag(3)] if t]
 
-    # flavors と vibes はカンマ区切りの文字列 → リスト
     def split_csv(val):
         return [v.strip() for v in val.split(",") if v.strip()]
 
@@ -93,28 +76,27 @@ def build_shop(r):
             "zh": r.get("area_label_zh", "").strip(),
             "ko": r.get("area_label_ko", "").strip(),
         },
-        "lat":      float(r.get("lat", 0) or 0),
-        "lng":      float(r.get("lng", 0) or 0),
-        "rating":   float(r.get("rating", 0) or 0),
-        "reviews":  int(r.get("reviews", 0) or 0),
+        "lat":     float(r.get("lat", 0) or 0),
+        "lng":     float(r.get("lng", 0) or 0),
+        "rating":  float(r.get("rating", 0) or 0),
+        "reviews": int(r.get("reviews", 0) or 0),
         "price_range": r.get("price_range", "").strip(),
         "hours": {
             "en": r.get("hours_en", "").strip(),
             "ja": r.get("hours_ja", "").strip(),
         },
-        "flavors":  split_csv(r.get("flavors", "")),
-        "vibes":    split_csv(r.get("vibes", "")),
-        "tags":     tags,
+        "flavors": split_csv(r.get("flavors", "")),
+        "vibes":   split_csv(r.get("vibes", "")),
+        "tags":    tags,
         "comment": {
             "en": r.get("comment_en", "").strip(),
             "ja": r.get("comment_ja", "").strip(),
             "zh": r.get("comment_zh", "").strip(),
             "ko": r.get("comment_ko", "").strip(),
         },
-        "mapUrl":   r.get("mapUrl", "").strip(),
+        "mapUrl": r.get("mapUrl", "").strip(),
     }
 
-    # 必須フィールドのバリデーション
     if not shop["id"]:
         raise ValueError(f"idが空の行があります: {r}")
     if not shop["name"]:
@@ -146,16 +128,29 @@ def convert_tab(tab_name, output_path):
 
 def main():
     print("=== Sheets → JSON 変換開始 ===")
+    success = 0
+    skipped = 0
+
     for tab_name, output_path in SHEET_TABS.items():
         try:
             convert_tab(tab_name, output_path)
+            success += 1
         except requests.HTTPError as e:
-            if e.response.status_code == 400:
-                # シートタブが存在しない場合はスキップ（まだ作っていないエリア）
-                print(f"  ℹ️  {tab_name} シートが見つかりません（スキップ）")
+            # ★修正: 400・403・404 すべてシート未存在としてスキップ
+            if e.response.status_code in (400, 403, 404):
+                print(f"  ℹ️  '{tab_name}' シートが見つかりません（スキップ）")
+                skipped += 1
             else:
+                print(f"  ❌ '{tab_name}' 予期しないHTTPエラー: {e}")
                 raise
-    print("\n=== 完了 ===")
+        except ValueError as e:
+            print(f"  ℹ️  '{tab_name}' データなし（スキップ）: {e}")
+            skipped += 1
+        except Exception as e:
+            print(f"  ❌ '{tab_name}' エラー: {e}")
+            raise
+
+    print(f"\n=== 完了: {success}件成功, {skipped}件スキップ ===")
 
 
 if __name__ == "__main__":
