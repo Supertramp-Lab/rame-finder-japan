@@ -27,7 +27,7 @@ jobs:
       - name: Run conversion script
         env:
           # GitHubのSecretsに登録したスプレッドシートIDとAPIキー
-          SHEET_ID: ${{ secrets.GOOGLE_SHEET_ID }}
+          GOOGLE_SHEET_ID: ${{ secrets.GOOGLE_SHEET_ID }}
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
         run: python scripts/sheets_to_json.py
 
