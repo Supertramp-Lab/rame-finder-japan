@@ -1,0 +1,48 @@
+# Ramen Finder Tokyo
+
+> AI-powered ramen shop recommender for tourists visiting Tokyo, Japan.
+> Recommends the best ramen restaurants based on broth style, noodle preference, and atmosphere.
+> Available in English, Japanese (日本語), Chinese (中文), and Korean (한국어).
+
+## What is Ramen Finder Tokyo?
+
+Ramen Finder Tokyo is a free web service that helps tourists in Tokyo find the perfect ramen restaurant based on their personal taste preferences. Users answer 3 simple questions about their preferred broth, noodle style, and atmosphere, and the service recommends the top matching shops nearby.
+
+## Covered Areas
+
+- Shinjuku (新宿) — 20+ curated shops
+
+Coming soon:
+- Shibuya (渋谷)
+- Ginza (銀座)
+- Ikebukuro (池袋)
+
+## Broth Styles Covered
+
+- Shoyu (醤油) — Soy sauce broth, Tokyo classic
+- Miso (味噌) — Rich fermented soybean broth, Hokkaido style
+- Tonkotsu (豚骨) — Creamy pork bone broth, Fukuoka style
+- Shio (塩) — Delicate salt broth, clean and light
+- Tori Paitan (鶏白湯) — Creamy chicken white broth
+- Gyokai / Gyokai Tonkotsu (魚介系・豚骨魚介) — Seafood and pork bone blend
+
+## Featured Shops in Shinjuku
+
+- Ramen Hayashida (らーめん林田) — Michelin-listed shio/shoyu
+- Tsuta Shinjuku (蔦) — World's first Michelin-starred ramen
+- Mugi to Olive (麦と橄欖) — Michelin-listed clam shio
+- Fuunji (風雲児) — Celebrated gyokai tsukemen
+- ICHIRAN Shinjuku (一蘭) — Iconic solo-booth tonkotsu, open 24hrs
+- Kikanbo (鬼金棒) — Spicy karashibi miso specialist
+- Wagyu Halal Ramen Kabuki — Halal-certified wagyu ramen
+- Ramen Nagi Golden Gai (ラーメン凪) — Legendary niboshi shio, 9 seats only
+
+## Special Dietary Options
+
+- Halal-certified ramen available (Wagyu Halal Ramen Kabuki, Gyumon)
+- Vegan options available (Soranoiro, Afuri)
+- Vegetarian-friendly options noted
+
+## URL
+
+https://ramen-finder-jp.vercel.app
