@@ -1300,6 +1300,2130 @@
         "ko": "세계 최초 미슐랭 스타 라멘 레스토랑. 트러플 쇼유 육수는 정제되고 향기로운 일생일대의 경험."
       },
       "mapUrl": "https://maps.google.com/?q=Tsuta+Ramen+Shinjuku"
+    },
+    {
+      "id": "gonokami",
+      "name": "Gonokami Seisakusho",
+      "name_ja": "つけ麺 五ノ神製作所",
+      "type": "Shrimp Tsukemen",
+      "area_label": {
+        "en": "Shinjuku South Exit",
+        "ja": "新宿南口",
+        "zh": "新宿南口",
+        "ko": "신주쿠 남쪽 출구"
+      },
+      "lat": 0.0,
+      "lng": 0.0,
+      "rating": 0.0,
+      "reviews": 0,
+      "price_range": "¥1,000–1,500",
+      "hours": {
+        "en": "TBD",
+        "ja": "TBD"
+      },
+      "flavors": [
+        "shrimp",
+        "tsukemen"
+      ],
+      "vibes": [
+        "trendy",
+        "local"
+      ],
+      "tags": [
+        {
+          "l": {
+            "en": "Shrimp specialist",
+            "ja": "海老専門",
+            "zh": "虾味专门",
+            "ko": "새우 전문"
+          },
+          "cls": "gold"
+        },
+        {
+          "l": {
+            "en": "Queue expected",
+            "ja": "行列必至",
+            "zh": "预计排队",
+            "ko": "줄 예상"
+          },
+          "cls": ""
+        },
+        {
+          "l": {
+            "en": "Worth the wait",
+            "ja": "並ぶ価値あり",
+            "zh": "值得排队",
+            "ko": "기다릴 가치 있음"
+          },
+          "cls": ""
+        }
+      ],
+      "comment": {
+        "en": "A famous shrimp tsukemen shop with a rich dipping broth. Great for travelers who want something unique beyond classic ramen.",
+        "ja": "濃厚な海老つけ汁で有名なつけ麺店。定番以外を楽しみたい旅行者におすすめ。",
+        "zh": "以浓厚虾味沾汁闻名的沾面店、适合想尝试经典拉面以外口味的旅客。",
+        "ko": "진한 새우 츠케멘으로 유명한 곳. 클래식 라멘 외에 특별한 맛을 찾는 여행자에게 추천."
+      },
+      "mapUrl": "https://maps.google.com/?q=つけ麺+五ノ神製作所+新宿"
+    },
+    {
+      "id": "kaijin",
+      "name": "Menya Kaijin",
+      "name_ja": "麺屋 海神",
+      "type": "Seafood Shio",
+      "area_label": {
+        "en": "Shinjuku East Exit",
+        "ja": "新宿東口",
+        "zh": "新宿东口",
+        "ko": "신주쿠 동쪽 출구"
+      },
+      "lat": 0.0,
+      "lng": 0.0,
+      "rating": 0.0,
+      "reviews": 0,
+      "price_range": "¥900–1,400",
+      "hours": {
+        "en": "TBD",
+        "ja": "TBD"
+      },
+      "flavors": [
+        "shio",
+        "fish"
+      ],
+      "vibes": [
+        "casual",
+        "local"
+      ],
+      "tags": [
+        {
+          "l": {
+            "en": "Light broth",
+            "ja": "あっさり",
+            "zh": "清淡汤底",
+            "ko": "가벼운 육수"
+          },
+          "cls": "green"
+        },
+        {
+          "l": {
+            "en": "Seafood umami",
+            "ja": "魚介の旨味",
+            "zh": "鱼介鲜味",
+            "ko": "해산물 감칠맛"
+          },
+          "cls": ""
+        },
+        {
+          "l": {
+            "en": "Beginner OK",
+            "ja": "初心者OK",
+            "zh": "适合初学者",
+            "ko": "초보자 가능"
+          },
+          "cls": ""
+        }
+      ],
+      "comment": {
+        "en": "A clear seafood shio ramen that feels light but flavorful. A safe first ramen for people who do not want heavy pork broth.",
+        "ja": "透明感のある魚介塩ラーメン。重い豚骨が苦手な人の初ラーメンにも安心。",
+        "zh": "清爽但鲜味十足的鱼介盐味拉面、适合不想吃浓厚豚骨的人。",
+        "ko": "맑고 가벼운 해산물 시오 라멘. 진한 돈코츠가 부담스러운 사람에게 좋음."
+      },
+      "mapUrl": "https://maps.google.com/?q=麺屋+海神+新宿"
+    },
+    {
+      "id": "menya_sho",
+      "name": "Menya Sho",
+      "name_ja": "麺屋 翔 本店",
+      "type": "Chicken Shio",
+      "area_label": {
+        "en": "Shinjuku West",
+        "ja": "新宿西口",
+        "zh": "新宿西口",
+        "ko": "신주쿠 서쪽"
+      },
+      "lat": 0.0,
+      "lng": 0.0,
+      "rating": 0.0,
+      "reviews": 0,
+      "price_range": "¥1,000–1,500",
+      "hours": {
+        "en": "TBD",
+        "ja": "TBD"
+      },
+      "flavors": [
+        "shio",
+        "chicken"
+      ],
+      "vibes": [
+        "local",
+        "trendy"
+      ],
+      "tags": [
+        {
+          "l": {
+            "en": "Refined taste",
+            "ja": "上品な味",
+            "zh": "精致口味",
+            "ko": "세련된 맛"
+          },
+          "cls": "gold"
+        },
+        {
+          "l": {
+            "en": "Chicken broth",
+            "ja": "鶏スープ",
+            "zh": "鸡汤",
+            "ko": "닭 육수"
+          },
+          "cls": ""
+        },
+        {
+          "l": {
+            "en": "Popular shop",
+            "ja": "人気店",
+            "zh": "人气店",
+            "ko": "인기점"
+          },
+          "cls": ""
+        }
+      ],
+      "comment": {
+        "en": "A polished chicken-based bowl known for elegant shio ramen. Good for travelers looking for a refined Tokyo ramen experience.",
+        "ja": "鶏ベースの上品な塩ラーメンで知られる人気店。洗練された東京ラーメンを体験したい人向け。",
+        "zh": "以精致鸡汤盐味拉面闻名、适合想体验高级感东京拉面的旅客。",
+        "ko": "세련된 닭 육수 시오 라멘으로 유명. 깔끔한 도쿄 라멘을 원하는 여행자에게 추천."
+      },
+      "mapUrl": "https://maps.google.com/?q=麺屋+翔+本店+新宿"
+    },
+    {
+      "id": "manrai",
+      "name": "Ramen Manrai",
+      "name_ja": "らぁめん 満来",
+      "type": "Classic Shoyu",
+      "area_label": {
+        "en": "Shinjuku West",
+        "ja": "新宿西口",
+        "zh": "新宿西口",
+        "ko": "신주쿠 서쪽"
+      },
+      "lat": 0.0,
+      "lng": 0.0,
+      "rating": 0.0,
+      "reviews": 0,
+      "price_range": "¥1,000–2,000",
+      "hours": {
+        "en": "TBD",
+        "ja": "TBD"
+      },
+      "flavors": [
+        "shoyu"
+      ],
+      "vibes": [
+        "local",
+        "classic"
+      ],
+      "tags": [
+        {
+          "l": {
+            "en": "Old-school",
+            "ja": "老舗",
+            "zh": "老派名店",
+            "ko": "오래된 명점"
+          },
+          "cls": "gold"
+        },
+        {
+          "l": {
+            "en": "Big chashu",
+            "ja": "大きなチャーシュー",
+            "zh": "大块叉烧",
+            "ko": "큰 차슈"
+          },
+          "cls": ""
+        },
+        {
+          "l": {
+            "en": "Local classic",
+            "ja": "地元定番",
+            "zh": "本地经典",
+            "ko": "로컬 클래식"
+          },
+          "cls": ""
+        }
+      ],
+      "comment": {
+        "en": "A long-loved Shinjuku classic famous for generous chashu and simple shoyu ramen. Best for people who want an old-school local bowl.",
+        "ja": "大きなチャーシューと王道醤油で長く愛される新宿の老舗。昔ながらの一杯を楽しみたい人向け。",
+        "zh": "以大块叉烧和经典酱油拉面闻名的新宿老店、适合想吃传统风味的人。",
+        "ko": "큰 차슈와 클래식 쇼유로 유명한 신주쿠 노포. 옛날 스타일 라멘을 원하는 사람에게 추천."
+      },
+      "mapUrl": "https://maps.google.com/?q=らぁめん+満来+新宿"
+    },
+    {
+      "id": "horiuchi",
+      "name": "Ramen Horiuchi",
+      "name_ja": "らぁめん ほりうち 新宿本店",
+      "type": "Classic Shoyu",
+      "area_label": {
+        "en": "Shinjuku West",
+        "ja": "新宿西口",
+        "zh": "新宿西口",
+        "ko": "신주쿠 서쪽"
+      },
+      "lat": 0.0,
+      "lng": 0.0,
+      "rating": 0.0,
+      "reviews": 0,
+      "price_range": "¥1,000–2,000",
+      "hours": {
+        "en": "TBD",
+        "ja": "TBD"
+      },
+      "flavors": [
+        "shoyu"
+      ],
+      "vibes": [
+        "local",
+        "classic"
+      ],
+      "tags": [
+        {
+          "l": {
+            "en": "Old-school",
+            "ja": "老舗",
+            "zh": "老派名店",
+            "ko": "오래된 명점"
+          },
+          "cls": "gold"
+        },
+        {
+          "l": {
+            "en": "Big portion",
+            "ja": "ボリューム多め",
+            "zh": "分量大",
+            "ko": "양 많음"
+          },
+          "cls": ""
+        },
+        {
+          "l": {
+            "en": "Comfort food",
+            "ja": "安心の味",
+            "zh": "安心口味",
+            "ko": "편안한 맛"
+          },
+          "cls": ""
+        }
+      ],
+      "comment": {
+        "en": "A classic shoyu ramen shop with a generous portion and friendly old-Tokyo feeling. Good when you want a filling local meal.",
+        "ja": "ボリューム感のある昔ながらの醤油ラーメン。しっかり食べたい時におすすめ。",
+        "zh": "经典酱油拉面、分量充足、适合想吃饱并体验本地风味的人。",
+        "ko": "푸짐한 클래식 쇼유 라멘. 든든한 로컬 식사를 원할 때 좋음."
+      },
+      "mapUrl": "https://maps.google.com/?q=らぁめん+ほりうち+新宿本店"
+    },
+    {
+      "id": "tatsunoya",
+      "name": "Ramen Tatsunoya",
+      "name_ja": "ラーメン 龍の家",
+      "type": "Rich Tonkotsu",
+      "area_label": {
+        "en": "Shinjuku West",
+        "ja": "新宿西口",
+        "zh": "新宿西口",
+        "ko": "신주쿠 서쪽"
+      },
+      "lat": 0.0,
+      "lng": 0.0,
+      "rating": 0.0,
+      "reviews": 0,
+      "price_range": "¥900–1,400",
+      "hours": {
+        "en": "TBD",
+        "ja": "TBD"
+      },
+      "flavors": [
+        "tonkotsu"
+      ],
+      "vibes": [
+        "casual",
+        "local"
+      ],
+      "tags": [
+        {
+          "l": {
+            "en": "Tonkotsu specialist",
+            "ja": "豚骨専門",
+            "zh": "豚骨专门",
+            "ko": "돈코츠 전문"
+          },
+          "cls": "gold"
+        },
+        {
+          "l": {
+            "en": "Beginner OK",
+            "ja": "初心者OK",
+            "zh": "适合初学者",
+            "ko": "초보자 가능"
+          },
+          "cls": ""
+        },
+        {
+          "l": {
+            "en": "Rich but smooth",
+            "ja": "濃厚だけど滑らか",
+            "zh": "浓厚顺滑",
+            "ko": "진하지만 부드러움"
+          },
+          "cls": ""
+        }
+      ],
+      "comment": {
+        "en": "A smooth Kurume-style tonkotsu ramen that is rich but easy to enjoy. A strong choice for first-time tonkotsu lovers.",
+        "ja": "濃厚ながら飲みやすい久留米系豚骨。初めて豚骨を試す人にもおすすめ。",
+        "zh": "浓厚但顺滑的久留米系豚骨、适合第一次尝试豚骨的旅客。",
+        "ko": "진하지만 부드러운 구루메식 돈코츠. 첫 돈코츠 경험에 추천."
+      },
+      "mapUrl": "https://maps.google.com/?q=ラーメン+龍の家+新宿"
+    },
+    {
+      "id": "ichigen",
+      "name": "Ebisoba Ichigen",
+      "name_ja": "えびそば 一幻 新宿店",
+      "type": "Shrimp Ramen",
+      "area_label": {
+        "en": "Shinjuku West",
+        "ja": "新宿西口",
+        "zh": "新宿西口",
+        "ko": "신주쿠 서쪽"
+      },
+      "lat": 0.0,
+      "lng": 0.0,
+      "rating": 0.0,
+      "reviews": 0,
+      "price_range": "¥1,000–1,500",
+      "hours": {
+        "en": "TBD",
+        "ja": "TBD"
+      },
+      "flavors": [
+        "shrimp",
+        "miso",
+        "shio"
+      ],
+      "vibes": [
+        "casual",
+        "trendy"
+      ],
+      "tags": [
+        {
+          "l": {
+            "en": "Shrimp broth",
+            "ja": "海老スープ",
+            "zh": "虾汤",
+            "ko": "새우 육수"
+          },
+          "cls": "gold"
+        },
+        {
+          "l": {
+            "en": "Hokkaido style",
+            "ja": "北海道発",
+            "zh": "北海道风格",
+            "ko": "홋카이도 스타일"
+          },
+          "cls": ""
+        },
+        {
+          "l": {
+            "en": "Unique taste",
+            "ja": "ユニーク",
+            "zh": "独特",
+            "ko": "독특함"
+          },
+          "cls": ""
+        }
+      ],
+      "comment": {
+        "en": "A famous Hokkaido-born shrimp ramen shop. The soup is packed with sweet shrimp aroma and works well for travelers seeking a memorable bowl.",
+        "ja": "北海道発の海老ラーメン有名店。甘海老の香りが強く, 記憶に残る一杯。",
+        "zh": "北海道出身的知名虾味拉面、汤底充满甜虾香气、非常有记忆点。",
+        "ko": "홋카이도 출신 새우 라멘 명점. 달콤한 새우 향이 강해 기억에 남는 한 그릇."
+      },
+      "mapUrl": "https://maps.google.com/?q=えびそば+一幻+新宿"
+    },
+    {
+      "id": "tetsu_keio",
+      "name": "Tsukemen TETSU Keio Mall",
+      "name_ja": "つけめんTETSU 京王モール新宿店",
+      "type": "Tsukemen",
+      "area_label": {
+        "en": "Shinjuku Station",
+        "ja": "新宿駅",
+        "zh": "新宿站",
+        "ko": "신주쿠역"
+      },
+      "lat": 0.0,
+      "lng": 0.0,
+      "rating": 0.0,
+      "reviews": 0,
+      "price_range": "¥900–1,400",
+      "hours": {
+        "en": "TBD",
+        "ja": "TBD"
+      },
+      "flavors": [
+        "tsukemen",
+        "gyokai"
+      ],
+      "vibes": [
+        "casual"
+      ],
+      "tags": [
+        {
+          "l": {
+            "en": "Station access",
+            "ja": "駅近",
+            "zh": "车站附近",
+            "ko": "역 근처"
+          },
+          "cls": "green"
+        },
+        {
+          "l": {
+            "en": "Beginner OK",
+            "ja": "初心者OK",
+            "zh": "适合初学者",
+            "ko": "초보자 가능"
+          },
+          "cls": ""
+        },
+        {
+          "l": {
+            "en": "Easy tsukemen",
+            "ja": "入りやすいつけ麺",
+            "zh": "容易尝试的沾面",
+            "ko": "쉬운 츠케멘"
+          },
+          "cls": ""
+        }
+      ],
+      "comment": {
+        "en": "An easy and convenient tsukemen option inside the station area. Great when travelers want a reliable bowl without walking far.",
+        "ja": "駅近で使いやすいつけ麺。遠くまで歩かずに安定した一杯を食べたい時に便利。",
+        "zh": "车站附近方便的沾面选择、适合不想走太远的旅客。",
+        "ko": "역 근처에서 편하게 먹기 좋은 츠케멘. 멀리 걷고 싶지 않을 때 좋음."
+      },
+      "mapUrl": "https://maps.google.com/?q=つけめんTETSU+京王モール+新宿"
+    },
+    {
+      "id": "hototogisu",
+      "name": "Konjiki Hototogisu",
+      "name_ja": "SOBA HOUSE 金色不如帰 新宿御苑本店",
+      "type": "Shellfish Shoyu",
+      "area_label": {
+        "en": "Shinjuku Gyoen",
+        "ja": "新宿御苑",
+        "zh": "新宿御苑",
+        "ko": "신주쿠교엔"
+      },
+      "lat": 0.0,
+      "lng": 0.0,
+      "rating": 0.0,
+      "reviews": 0,
+      "price_range": "¥1,200–2,000",
+      "hours": {
+        "en": "TBD",
+        "ja": "TBD"
+      },
+      "flavors": [
+        "shoyu",
+        "shellfish"
+      ],
+      "vibes": [
+        "refined",
+        "local"
+      ],
+      "tags": [
+        {
+          "l": {
+            "en": "Michelin known",
+            "ja": "ミシュラン系",
+            "zh": "米其林知名",
+            "ko": "미슐랭 명성"
+          },
+          "cls": "gold"
+        },
+        {
+          "l": {
+            "en": "Shellfish umami",
+            "ja": "貝の旨味",
+            "zh": "贝类鲜味",
+            "ko": "조개 감칠맛"
+          },
+          "cls": ""
+        },
+        {
+          "l": {
+            "en": "Refined bowl",
+            "ja": "上品な一杯",
+            "zh": "精致拉面",
+            "ko": "세련된 한 그릇"
+          },
+          "cls": ""
+        }
+      ],
+      "comment": {
+        "en": "A refined ramen experience with layered shellfish umami. Best for travelers who want something more delicate and premium than standard ramen.",
+        "ja": "貝の旨味が重なる上品な一杯。普通のラーメンより繊細で特別な体験をしたい人向け。",
+        "zh": "贝类鲜味层次丰富、适合想吃精致高级拉面的旅客。",
+        "ko": "조개의 감칠맛이 겹겹이 느껴지는 세련된 라멘. 프리미엄 경험을 원하는 여행자에게 추천."
+      },
+      "mapUrl": "https://maps.google.com/?q=金色不如帰+新宿御苑"
+    },
+    {
+      "id": "hachiro",
+      "name": "Misoya Hachiro Shoten",
+      "name_ja": "味噌屋八郎商店 新宿店",
+      "type": "Rich Miso",
+      "area_label": {
+        "en": "Shinjuku West",
+        "ja": "新宿西口",
+        "zh": "新宿西口",
+        "ko": "신주쿠 서쪽"
+      },
+      "lat": 0.0,
+      "lng": 0.0,
+      "rating": 0.0,
+      "reviews": 0,
+      "price_range": "¥900–1,400",
+      "hours": {
+        "en": "TBD",
+        "ja": "TBD"
+      },
+      "flavors": [
+        "miso"
+      ],
+      "vibes": [
+        "casual",
+        "local"
+      ],
+      "tags": [
+        {
+          "l": {
+            "en": "Rich miso",
+            "ja": "濃厚味噌",
+            "zh": "浓厚味噌",
+            "ko": "진한 미소"
+          },
+          "cls": ""
+        },
+        {
+          "l": {
+            "en": "Garlic punch",
+            "ja": "にんにく感",
+            "zh": "蒜香",
+            "ko": "마늘 향"
+          },
+          "cls": ""
+        },
+        {
+          "l": {
+            "en": "Hearty meal",
+            "ja": "ガッツリ",
+            "zh": "大份量",
+            "ko": "든든함"
+          },
+          "cls": ""
+        }
+      ],
+      "comment": {
+        "en": "A rich miso ramen with bold flavor and a hearty feel. Good for cold days or travelers who want something powerful.",
+        "ja": "濃厚でパンチのある味噌ラーメン。寒い日やしっかり食べたい時におすすめ。",
+        "zh": "浓郁有冲击力的味噌拉面、适合冷天或想吃重口味的人。",
+        "ko": "진하고 강한 미소 라멘. 추운 날이나 든든하게 먹고 싶을 때 추천."
+      },
+      "mapUrl": "https://maps.google.com/?q=味噌屋八郎商店+新宿"
+    },
+    {
+      "id": "take_tora",
+      "name": "Mensho Taketora",
+      "name_ja": "麺匠 竹虎 本店",
+      "type": "Rich Ramen / Tsukemen",
+      "area_label": {
+        "en": "Kabukicho",
+        "ja": "新宿歌舞伎町",
+        "zh": "歌舞伎町",
+        "ko": "가부키초"
+      },
+      "lat": 0.0,
+      "lng": 0.0,
+      "rating": 0.0,
+      "reviews": 0,
+      "price_range": "¥1,000–1,800",
+      "hours": {
+        "en": "TBD",
+        "ja": "TBD"
+      },
+      "flavors": [
+        "miso",
+        "tonkotsu",
+        "tsukemen"
+      ],
+      "vibes": [
+        "trendy",
+        "night"
+      ],
+      "tags": [
+        {
+          "l": {
+            "en": "Private room vibe",
+            "ja": "個室感あり",
+            "zh": "包间感",
+            "ko": "개인실 분위기"
+          },
+          "cls": ""
+        },
+        {
+          "l": {
+            "en": "Late-night friendly",
+            "ja": "夜向け",
+            "zh": "适合夜晚",
+            "ko": "밤에 좋음"
+          },
+          "cls": ""
+        },
+        {
+          "l": {
+            "en": "Group friendly",
+            "ja": "グループ向け",
+            "zh": "适合多人",
+            "ko": "그룹 추천"
+          },
+          "cls": ""
+        }
+      ],
+      "comment": {
+        "en": "A stylish Kabukicho ramen shop with a broad menu and night-friendly atmosphere. Good for groups after sightseeing or nightlife.",
+        "ja": "歌舞伎町らしい雰囲気と幅広いメニュー。観光後や夜遊び後のグループに便利。",
+        "zh": "位于歌舞伎町、菜单丰富、适合夜晚和多人同行。",
+        "ko": "가부키초 분위기의 다양한 메뉴. 관광이나 밤 일정 후 그룹에게 좋음."
+      },
+      "mapUrl": "https://maps.google.com/?q=麺匠+竹虎+本店+新宿"
+    },
+    {
+      "id": "bankara",
+      "name": "Bankara Shinjuku Kabukicho",
+      "name_ja": "東京豚骨拉麺ばんから 新宿歌舞伎町店",
+      "type": "Tonkotsu Shoyu",
+      "area_label": {
+        "en": "Kabukicho",
+        "ja": "新宿歌舞伎町",
+        "zh": "歌舞伎町",
+        "ko": "가부키초"
+      },
+      "lat": 0.0,
+      "lng": 0.0,
+      "rating": 0.0,
+      "reviews": 0,
+      "price_range": "¥900–1,500",
+      "hours": {
+        "en": "TBD",
+        "ja": "TBD"
+      },
+      "flavors": [
+        "tonkotsu",
+        "shoyu"
+      ],
+      "vibes": [
+        "casual",
+        "night"
+      ],
+      "tags": [
+        {
+          "l": {
+            "en": "Rich broth",
+            "ja": "濃厚",
+            "zh": "浓郁",
+            "ko": "진한 맛"
+          },
+          "cls": ""
+        },
+        {
+          "l": {
+            "en": "Late-night friendly",
+            "ja": "夜向け",
+            "zh": "适合夜晚",
+            "ko": "밤에 좋음"
+          },
+          "cls": ""
+        },
+        {
+          "l": {
+            "en": "Tourist OK",
+            "ja": "観光客OK",
+            "zh": "游客友好",
+            "ko": "관광객 가능"
+          },
+          "cls": ""
+        }
+      ],
+      "comment": {
+        "en": "A rich tonkotsu-shoyu bowl in Kabukicho. Easy to use late at night and suitable for travelers who want a bold casual ramen.",
+        "ja": "歌舞伎町で使いやすい濃厚豚骨醤油。夜にしっかり食べたい旅行者向け。",
+        "zh": "歌舞伎町方便的浓厚豚骨酱油拉面、适合晚上想吃重口味的旅客。",
+        "ko": "가부키초에서 먹기 좋은 진한 돈코츠 쇼유. 밤에 든든하게 먹고 싶은 여행자에게 추천."
+      },
+      "mapUrl": "https://maps.google.com/?q=ばんから+新宿+歌舞伎町"
+    },
+    {
+      "id": "kamukura_shinjuku",
+      "name": "Kamukura Shinjuku",
+      "name_ja": "どうとんぼり神座 新宿店",
+      "type": "Light Shoyu Vegetable",
+      "area_label": {
+        "en": "Kabukicho",
+        "ja": "新宿歌舞伎町",
+        "zh": "歌舞伎町",
+        "ko": "가부키초"
+      },
+      "lat": 0.0,
+      "lng": 0.0,
+      "rating": 0.0,
+      "reviews": 0,
+      "price_range": "¥900–1,400",
+      "hours": {
+        "en": "TBD",
+        "ja": "TBD"
+      },
+      "flavors": [
+        "shoyu",
+        "vegetable"
+      ],
+      "vibes": [
+        "casual"
+      ],
+      "tags": [
+        {
+          "l": {
+            "en": "Light taste",
+            "ja": "あっさり",
+            "zh": "清淡口味",
+            "ko": "가벼운 맛"
+          },
+          "cls": "green"
+        },
+        {
+          "l": {
+            "en": "Vegetable broth",
+            "ja": "野菜の甘み",
+            "zh": "蔬菜甜味",
+            "ko": "야채 단맛"
+          },
+          "cls": ""
+        },
+        {
+          "l": {
+            "en": "Beginner friendly",
+            "ja": "初心者向け",
+            "zh": "适合初学者",
+            "ko": "초보자 친화"
+          },
+          "cls": ""
+        }
+      ],
+      "comment": {
+        "en": "A light and slightly sweet vegetable-forward shoyu ramen. Very easy for first-time visitors who want a gentle bowl.",
+        "ja": "野菜の甘みがある優しい醤油ラーメン。初めての人でも食べやすい一杯。",
+        "zh": "带有蔬菜甜味的温和酱油拉面、非常适合初次来日本的旅客。",
+        "ko": "야채의 단맛이 느껴지는 부드러운 쇼유 라멘. 초보자에게 좋음."
+      },
+      "mapUrl": "https://maps.google.com/?q=どうとんぼり神座+新宿店"
+    },
+    {
+      "id": "kamukura_keio",
+      "name": "Kamukura Keio Mall",
+      "name_ja": "どうとんぼり神座 京王モール店",
+      "type": "Light Shoyu Vegetable",
+      "area_label": {
+        "en": "Shinjuku Station",
+        "ja": "新宿駅",
+        "zh": "新宿站",
+        "ko": "신주쿠역"
+      },
+      "lat": 0.0,
+      "lng": 0.0,
+      "rating": 0.0,
+      "reviews": 0,
+      "price_range": "¥900–1,400",
+      "hours": {
+        "en": "TBD",
+        "ja": "TBD"
+      },
+      "flavors": [
+        "shoyu",
+        "vegetable"
+      ],
+      "vibes": [
+        "casual"
+      ],
+      "tags": [
+        {
+          "l": {
+            "en": "Station access",
+            "ja": "駅近",
+            "zh": "车站附近",
+            "ko": "역 근처"
+          },
+          "cls": "green"
+        },
+        {
+          "l": {
+            "en": "Light taste",
+            "ja": "あっさり",
+            "zh": "清淡口味",
+            "ko": "가벼운 맛"
+          },
+          "cls": ""
+        },
+        {
+          "l": {
+            "en": "Beginner friendly",
+            "ja": "初心者向け",
+            "zh": "适合初学者",
+            "ko": "초보자 친화"
+          },
+          "cls": ""
+        }
+      ],
+      "comment": {
+        "en": "A convenient station-area option for gentle vegetable shoyu ramen. Good when users want something easy and not too heavy.",
+        "ja": "駅近で食べられる優しい野菜醤油ラーメン。重すぎない一杯が欲しい時に便利。",
+        "zh": "车站附近方便的清淡蔬菜酱油拉面、适合不想吃太重的人。",
+        "ko": "역 근처에서 편하게 먹는 부드러운 야채 쇼유 라멘. 무겁지 않은 한 끼에 좋음."
+      },
+      "mapUrl": "https://maps.google.com/?q=どうとんぼり神座+京王モール+新宿"
+    },
+    {
+      "id": "jiro_otakibashi",
+      "name": "Ramen Jiro Otakibashi",
+      "name_ja": "ラーメン二郎 新宿小滝橋通り店",
+      "type": "Jiro-style Tonkotsu",
+      "area_label": {
+        "en": "Shinjuku West",
+        "ja": "新宿西口",
+        "zh": "新宿西口",
+        "ko": "신주쿠 서쪽"
+      },
+      "lat": 0.0,
+      "lng": 0.0,
+      "rating": 0.0,
+      "reviews": 0,
+      "price_range": "¥800–1,200",
+      "hours": {
+        "en": "TBD",
+        "ja": "TBD"
+      },
+      "flavors": [
+        "tonkotsu",
+        "jiro"
+      ],
+      "vibes": [
+        "local",
+        "heavy"
+      ],
+      "tags": [
+        {
+          "l": {
+            "en": "Very heavy",
+            "ja": "超こってり",
+            "zh": "超重口",
+            "ko": "매우 헤비"
+          },
+          "cls": "red"
+        },
+        {
+          "l": {
+            "en": "Huge portion",
+            "ja": "量が多い",
+            "zh": "分量很大",
+            "ko": "양 많음"
+          },
+          "cls": ""
+        },
+        {
+          "l": {
+            "en": "Advanced only",
+            "ja": "上級者向け",
+            "zh": "只适合进阶者",
+            "ko": "상급자용"
+          },
+          "cls": ""
+        }
+      ],
+      "comment": {
+        "en": "A huge and heavy Jiro-style ramen experience. Not for beginners, but memorable for adventurous eaters.",
+        "ja": "量が多く濃厚な二郎系体験。初心者向けではないが、冒険したい人には記憶に残る一杯。",
+        "zh": "分量巨大、味道浓厚的二郎系体验、不适合新手但很有冲击力。",
+        "ko": "양이 많고 진한 지로계 라멘. 초보자보다는 도전적인 사람에게 추천."
+      },
+      "mapUrl": "https://maps.google.com/?q=ラーメン二郎+新宿小滝橋通り店"
+    },
+    {
+      "id": "jiro_kabukicho",
+      "name": "Ramen Jiro Kabukicho",
+      "name_ja": "ラーメン二郎 新宿歌舞伎町店",
+      "type": "Jiro-style Tonkotsu",
+      "area_label": {
+        "en": "Kabukicho",
+        "ja": "新宿歌舞伎町",
+        "zh": "歌舞伎町",
+        "ko": "가부키초"
+      },
+      "lat": 0.0,
+      "lng": 0.0,
+      "rating": 0.0,
+      "reviews": 0,
+      "price_range": "¥800–1,200",
+      "hours": {
+        "en": "TBD",
+        "ja": "TBD"
+      },
+      "flavors": [
+        "tonkotsu",
+        "jiro"
+      ],
+      "vibes": [
+        "local",
+        "heavy"
+      ],
+      "tags": [
+        {
+          "l": {
+            "en": "Very heavy",
+            "ja": "超こってり",
+            "zh": "超重口",
+            "ko": "매우 헤비"
+          },
+          "cls": "red"
+        },
+        {
+          "l": {
+            "en": "Huge portion",
+            "ja": "量が多い",
+            "zh": "分量很大",
+            "ko": "양 많음"
+          },
+          "cls": ""
+        },
+        {
+          "l": {
+            "en": "Cult experience",
+            "ja": "カルト的人気",
+            "zh": "人气名店",
+            "ko": "컬트 인기"
+          },
+          "cls": ""
+        }
+      ],
+      "comment": {
+        "en": "A heavy Jiro-style ramen in Kabukicho with a cult following. Recommend only to users who want an extreme local experience.",
+        "ja": "歌舞伎町で食べる二郎系の強烈な一杯。ローカルな極端体験を求める人だけにおすすめ。",
+        "zh": "歌舞伎町的二郎系重口拉面、只推荐给想挑战本地极端体验的人。",
+        "ko": "가부키초의 강한 지로계 라멘. 극단적인 로컬 경험을 원하는 사람에게만 추천."
+      },
+      "mapUrl": "https://maps.google.com/?q=ラーメン二郎+新宿歌舞伎町店"
+    },
+    {
+      "id": "tomato_taiyo",
+      "name": "Taiyo no Tomato Men",
+      "name_ja": "太陽のトマト麺 新宿ワシントンホテル支店",
+      "type": "Tomato Ramen",
+      "area_label": {
+        "en": "Shinjuku West",
+        "ja": "新宿西口",
+        "zh": "新宿西口",
+        "ko": "신주쿠 서쪽"
+      },
+      "lat": 0.0,
+      "lng": 0.0,
+      "rating": 0.0,
+      "reviews": 0,
+      "price_range": "¥900–1,400",
+      "hours": {
+        "en": "TBD",
+        "ja": "TBD"
+      },
+      "flavors": [
+        "tomato"
+      ],
+      "vibes": [
+        "casual",
+        "trendy"
+      ],
+      "tags": [
+        {
+          "l": {
+            "en": "Unique taste",
+            "ja": "ユニーク",
+            "zh": "独特口味",
+            "ko": "독특함"
+          },
+          "cls": ""
+        },
+        {
+          "l": {
+            "en": "Light & healthy",
+            "ja": "軽めでヘルシー",
+            "zh": "清爽健康",
+            "ko": "가볍고 건강함"
+          },
+          "cls": ""
+        },
+        {
+          "l": {
+            "en": "Beginner OK",
+            "ja": "初心者OK",
+            "zh": "适合初学者",
+            "ko": "초보자 가능"
+          },
+          "cls": ""
+        }
+      ],
+      "comment": {
+        "en": "A tomato-based ramen with an Italian-like twist. Good for users who want something lighter,colorful and different.",
+        "ja": "イタリアン風のトマトラーメン。軽めで変化球を楽しみたい人におすすめ。",
+        "zh": "意式番茄拉面、适合想吃清爽又特别口味的人。",
+        "ko": "이탈리안 느낌의 토마토 라멘. 가볍고 특별한 맛을 원하는 사람에게 좋음."
+      },
+      "mapUrl": "https://maps.google.com/?q=太陽のトマト麺+新宿ワシントンホテル"
+    },
+    {
+      "id": "abura_soba_souhonten",
+      "name": "Abura Soba Sohonten",
+      "name_ja": "油そば総本店 新宿東口アルタ裏店",
+      "type": "Abura Soba",
+      "area_label": {
+        "en": "Shinjuku East Exit",
+        "ja": "新宿東口",
+        "zh": "新宿东口",
+        "ko": "신주쿠 동쪽 출구"
+      },
+      "lat": 0.0,
+      "lng": 0.0,
+      "rating": 0.0,
+      "reviews": 0,
+      "price_range": "¥800–1,200",
+      "hours": {
+        "en": "TBD",
+        "ja": "TBD"
+      },
+      "flavors": [
+        "aburasoba"
+      ],
+      "vibes": [
+        "casual"
+      ],
+      "tags": [
+        {
+          "l": {
+            "en": "No soup",
+            "ja": "スープなし",
+            "zh": "无汤",
+            "ko": "국물 없음"
+          },
+          "cls": ""
+        },
+        {
+          "l": {
+            "en": "Rich sauce",
+            "ja": "濃厚タレ",
+            "zh": "浓郁酱汁",
+            "ko": "진한 소스"
+          },
+          "cls": ""
+        },
+        {
+          "l": {
+            "en": "Quick meal",
+            "ja": "早い食事",
+            "zh": "快速用餐",
+            "ko": "빠른 식사"
+          },
+          "cls": ""
+        }
+      ],
+      "comment": {
+        "en": "A no-soup noodle bowl with rich sauce. Good for travelers who want something quick and different from regular ramen.",
+        "ja": "スープなしでタレを絡める油そば。普通のラーメンと違うものを早く食べたい時に便利。",
+        "zh": "无汤拌面、酱汁浓郁、适合想快速尝试不同风味的人。",
+        "ko": "국물 없이 소스에 비벼 먹는 아부라소바. 빠르고 색다른 한 끼에 좋음."
+      },
+      "mapUrl": "https://maps.google.com/?q=油そば総本店+新宿東口アルタ裏"
+    },
+    {
+      "id": "kasugatei",
+      "name": "Kasugatei Nishi Shinjuku",
+      "name_ja": "油そば専門店 春日亭 西新宿店",
+      "type": "Abura Soba",
+      "area_label": {
+        "en": "Shinjuku West",
+        "ja": "新宿西口",
+        "zh": "新宿西口",
+        "ko": "신주쿠 서쪽"
+      },
+      "lat": 0.0,
+      "lng": 0.0,
+      "rating": 0.0,
+      "reviews": 0,
+      "price_range": "¥800–1,200",
+      "hours": {
+        "en": "TBD",
+        "ja": "TBD"
+      },
+      "flavors": [
+        "aburasoba"
+      ],
+      "vibes": [
+        "casual",
+        "heavy"
+      ],
+      "tags": [
+        {
+          "l": {
+            "en": "No soup",
+            "ja": "スープなし",
+            "zh": "无汤",
+            "ko": "국물 없음"
+          },
+          "cls": ""
+        },
+        {
+          "l": {
+            "en": "Rich taste",
+            "ja": "濃厚",
+            "zh": "浓郁",
+            "ko": "진한 맛"
+          },
+          "cls": ""
+        },
+        {
+          "l": {
+            "en": "Filling",
+            "ja": "満腹感あり",
+            "zh": "很有饱腹感",
+            "ko": "든든함"
+          },
+          "cls": ""
+        }
+      ],
+      "comment": {
+        "en": "A rich abura soba specialist. Best for users who want a filling noodle meal without soup.",
+        "ja": "濃厚な油そば専門店。スープなしで満腹感のある麺を食べたい人向け。",
+        "zh": "浓厚油拌面专门店、适合想吃饱但不想喝汤的人。",
+        "ko": "진한 아부라소바 전문점. 국물 없이 든든한 면을 원할 때 좋음."
+      },
+      "mapUrl": "https://maps.google.com/?q=春日亭+西新宿店"
+    },
+    {
+      "id": "nakamoto_shinjuku",
+      "name": "Moko Tanmen Nakamoto",
+      "name_ja": "蒙古タンメン中本 新宿店",
+      "type": "Spicy Miso Tanmen",
+      "area_label": {
+        "en": "Shinjuku West",
+        "ja": "新宿西口",
+        "zh": "新宿西口",
+        "ko": "신주쿠 서쪽"
+      },
+      "lat": 0.0,
+      "lng": 0.0,
+      "rating": 0.0,
+      "reviews": 0,
+      "price_range": "¥900–1,300",
+      "hours": {
+        "en": "TBD",
+        "ja": "TBD"
+      },
+      "flavors": [
+        "miso",
+        "spicy"
+      ],
+      "vibes": [
+        "local",
+        "spicy"
+      ],
+      "tags": [
+        {
+          "l": {
+            "en": "Spicy famous",
+            "ja": "激辛有名店",
+            "zh": "辣味名店",
+            "ko": "매운맛 명점"
+          },
+          "cls": "red"
+        },
+        {
+          "l": {
+            "en": "Not beginner",
+            "ja": "初心者注意",
+            "zh": "新手注意",
+            "ko": "초보자 주의"
+          },
+          "cls": ""
+        },
+        {
+          "l": {
+            "en": "Cult favorite",
+            "ja": "カルト的人気",
+            "zh": "人气名店",
+            "ko": "컬트 인기"
+          },
+          "cls": ""
+        }
+      ],
+      "comment": {
+        "en": "Tokyo's famous spicy miso ramen experience. Recommend only if the user actively wants heat and local intensity.",
+        "ja": "東京を代表する辛味噌ラーメン。辛さを求める人にだけおすすめ。",
+        "zh": "东京代表性的辣味噌拉面、只推荐给主动想吃辣的人。",
+        "ko": "도쿄 대표 매운 미소 라멘. 매운맛을 원하는 사람에게만 추천."
+      },
+      "mapUrl": "https://maps.google.com/?q=蒙古タンメン中本+新宿店"
+    },
+    {
+      "id": "hiroshi_ba",
+      "name": "Guangzhou Market West",
+      "name_ja": "広州市場 西新宿店",
+      "type": "Wonton Noodle",
+      "area_label": {
+        "en": "Shinjuku West",
+        "ja": "新宿西口",
+        "zh": "新宿西口",
+        "ko": "신주쿠 서쪽"
+      },
+      "lat": 0.0,
+      "lng": 0.0,
+      "rating": 0.0,
+      "reviews": 0,
+      "price_range": "¥900–1,400",
+      "hours": {
+        "en": "TBD",
+        "ja": "TBD"
+      },
+      "flavors": [
+        "shio",
+        "shoyu",
+        "wonton"
+      ],
+      "vibes": [
+        "casual"
+      ],
+      "tags": [
+        {
+          "l": {
+            "en": "Wonton noodles",
+            "ja": "ワンタン麺",
+            "zh": "云吞面",
+            "ko": "완탕면"
+          },
+          "cls": ""
+        },
+        {
+          "l": {
+            "en": "Light option",
+            "ja": "軽め",
+            "zh": "清淡选择",
+            "ko": "가벼운 선택"
+          },
+          "cls": ""
+        },
+        {
+          "l": {
+            "en": "Beginner friendly",
+            "ja": "初心者向け",
+            "zh": "适合初学者",
+            "ko": "초보자 친화"
+          },
+          "cls": ""
+        }
+      ],
+      "comment": {
+        "en": "A comforting wonton noodle shop with light broth options. Good for users who want something gentle and easy.",
+        "ja": "軽めのスープで食べやすいワンタン麺。優しい一杯を探す人におすすめ。",
+        "zh": "温和清淡的云吞面、适合想吃简单舒服一餐的人。",
+        "ko": "부드럽고 가벼운 완탕면. 편안한 한 끼를 원하는 사람에게 추천."
+      },
+      "mapUrl": "https://maps.google.com/?q=広州市場+西新宿店"
+    },
+    {
+      "id": "hiroshi_east",
+      "name": "Guangzhou Market East",
+      "name_ja": "広州市場 新宿東口店",
+      "type": "Wonton Noodle",
+      "area_label": {
+        "en": "Shinjuku East Exit",
+        "ja": "新宿東口",
+        "zh": "新宿东口",
+        "ko": "신주쿠 동쪽 출구"
+      },
+      "lat": 0.0,
+      "lng": 0.0,
+      "rating": 0.0,
+      "reviews": 0,
+      "price_range": "¥900–1,400",
+      "hours": {
+        "en": "TBD",
+        "ja": "TBD"
+      },
+      "flavors": [
+        "shio",
+        "shoyu",
+        "wonton"
+      ],
+      "vibes": [
+        "casual"
+      ],
+      "tags": [
+        {
+          "l": {
+            "en": "Wonton noodles",
+            "ja": "ワンタン麺",
+            "zh": "云吞面",
+            "ko": "완탕면"
+          },
+          "cls": ""
+        },
+        {
+          "l": {
+            "en": "Easy ordering",
+            "ja": "入りやすい",
+            "zh": "容易进入",
+            "ko": "들어가기 쉬움"
+          },
+          "cls": ""
+        },
+        {
+          "l": {
+            "en": "Beginner friendly",
+            "ja": "初心者向け",
+            "zh": "适合初学者",
+            "ko": "초보자 친화"
+          },
+          "cls": ""
+        }
+      ],
+      "comment": {
+        "en": "An easy wonton noodle option near the east side of Shinjuku. Good for a light and simple meal between sightseeing stops.",
+        "ja": "新宿東側で入りやすいワンタン麺。観光の合間に軽く食べたい時に便利。",
+        "zh": "新宿东侧容易进入的云吞面店",
+        "ko": "신주쿠 동쪽에서 편하게 먹는 완탕면. 관광 중 가볍게 먹기 좋음."
+      },
+      "mapUrl": "https://maps.google.com/?q=広州市場+新宿東口店"
+    },
+    {
+      "id": "hakata_tenjin",
+      "name": "Hakata Tenjin Shinjuku East",
+      "name_ja": "博多天神 新宿東口駅前店",
+      "type": "Hakata Tonkotsu",
+      "area_label": {
+        "en": "Shinjuku East Exit",
+        "ja": "新宿東口",
+        "zh": "新宿东口",
+        "ko": "신주쿠 동쪽 출구"
+      },
+      "lat": 0.0,
+      "lng": 0.0,
+      "rating": 0.0,
+      "reviews": 0,
+      "price_range": "¥700–1,000",
+      "hours": {
+        "en": "TBD",
+        "ja": "TBD"
+      },
+      "flavors": [
+        "tonkotsu"
+      ],
+      "vibes": [
+        "casual"
+      ],
+      "tags": [
+        {
+          "l": {
+            "en": "Cheap",
+            "ja": "安い",
+            "zh": "便宜",
+            "ko": "저렴함"
+          },
+          "cls": "green"
+        },
+        {
+          "l": {
+            "en": "Quick meal",
+            "ja": "早い",
+            "zh": "快速",
+            "ko": "빠름"
+          },
+          "cls": ""
+        },
+        {
+          "l": {
+            "en": "Kaedama culture",
+            "ja": "替玉文化",
+            "zh": "加面文化",
+            "ko": "면 추가 문화"
+          },
+          "cls": ""
+        }
+      ],
+      "comment": {
+        "en": "A cheap and fast Hakata tonkotsu option. Great for travelers who want to try kaedama noodle refills without overthinking.",
+        "ja": "安くて早い博多豚骨。替玉文化を気軽に試したい旅行者におすすめ。",
+        "zh": "便宜快速的博多豚骨、适合观光途中轻松用餐。适合想轻松体验加面文化的旅客。",
+        "ko": "싸고 빠른 하카타 돈코츠. 면 추가 문화를 가볍게 경험하기 좋음."
+      },
+      "mapUrl": "https://maps.google.com/?q=博多天神+新宿東口駅前店"
+    },
+    {
+      "id": "hakata_furyu",
+      "name": "Hakata Furyu Shinjuku East",
+      "name_ja": "博多風龍 新宿東口店",
+      "type": "Hakata Tonkotsu",
+      "area_label": {
+        "en": "Shinjuku East Exit",
+        "ja": "新宿東口",
+        "zh": "新宿东口",
+        "ko": "신주쿠 동쪽 출구"
+      },
+      "lat": 0.0,
+      "lng": 0.0,
+      "rating": 0.0,
+      "reviews": 0,
+      "price_range": "¥700–1,000",
+      "hours": {
+        "en": "TBD",
+        "ja": "TBD"
+      },
+      "flavors": [
+        "tonkotsu"
+      ],
+      "vibes": [
+        "casual"
+      ],
+      "tags": [
+        {
+          "l": {
+            "en": "Cheap",
+            "ja": "安い",
+            "zh": "便宜",
+            "ko": "저렴함"
+          },
+          "cls": "green"
+        },
+        {
+          "l": {
+            "en": "Extra noodles",
+            "ja": "替玉",
+            "zh": "加面",
+            "ko": "면 추가"
+          },
+          "cls": ""
+        },
+        {
+          "l": {
+            "en": "Quick meal",
+            "ja": "早い",
+            "zh": "快速",
+            "ko": "빠름"
+          },
+          "cls": ""
+        }
+      ],
+      "comment": {
+        "en": "A casual Hakata tonkotsu shop known for value and noodle refills. Good for a quick, budget-friendly ramen stop.",
+        "ja": "替玉でお得に楽しめる博多豚骨。早く安く食べたい時に便利。",
+        "zh": "性价比高的博多豚骨、可加面、适合快速便宜用餐。",
+        "ko": "면 추가로 가성비 좋은 하카타 돈코츠. 빠르고 저렴한 한 끼에 좋음."
+      },
+      "mapUrl": "https://maps.google.com/?q=博多風龍+新宿東口店"
+    },
+    {
+      "id": "naokyu",
+      "name": "Naokyu Shinjuku West",
+      "name_ja": "らーめん直久 新宿西口店",
+      "type": "Classic Shoyu",
+      "area_label": {
+        "en": "Shinjuku West",
+        "ja": "新宿西口",
+        "zh": "新宿西口",
+        "ko": "신주쿠 서쪽"
+      },
+      "lat": 0.0,
+      "lng": 0.0,
+      "rating": 0.0,
+      "reviews": 0,
+      "price_range": "¥800–1,200",
+      "hours": {
+        "en": "TBD",
+        "ja": "TBD"
+      },
+      "flavors": [
+        "shoyu"
+      ],
+      "vibes": [
+        "casual"
+      ],
+      "tags": [
+        {
+          "l": {
+            "en": "Classic taste",
+            "ja": "定番の味",
+            "zh": "经典口味",
+            "ko": "클래식 맛"
+          },
+          "cls": ""
+        },
+        {
+          "l": {
+            "en": "Station access",
+            "ja": "駅近",
+            "zh": "车站附近",
+            "ko": "역 근처"
+          },
+          "cls": ""
+        },
+        {
+          "l": {
+            "en": "Beginner friendly",
+            "ja": "初心者向け",
+            "zh": "适合初学者",
+            "ko": "초보자 친화"
+          },
+          "cls": ""
+        }
+      ],
+      "comment": {
+        "en": "A simple classic shoyu ramen option near the station. Good when users want a safe and familiar bowl.",
+        "ja": "駅近で食べられるシンプルな醤油ラーメン。無難に食べたい時に便利。",
+        "zh": "车站附近的经典酱油拉面、适合想吃安全熟悉口味的人。",
+        "ko": "역 근처의 심플한 쇼유 라멘. 무난한 한 그릇을 원할 때 좋음."
+      },
+      "mapUrl": "https://maps.google.com/?q=らーめん直久+新宿西口店"
+    },
+    {
+      "id": "hanabiya",
+      "name": "Hanabiya",
+      "name_ja": "らーめん はな火屋",
+      "type": "Shoyu / Miso",
+      "area_label": {
+        "en": "Shinjuku West",
+        "ja": "新宿西口",
+        "zh": "新宿西口",
+        "ko": "신주쿠 서쪽"
+      },
+      "lat": 0.0,
+      "lng": 0.0,
+      "rating": 0.0,
+      "reviews": 0,
+      "price_range": "¥800–1,200",
+      "hours": {
+        "en": "TBD",
+        "ja": "TBD"
+      },
+      "flavors": [
+        "shoyu",
+        "miso"
+      ],
+      "vibes": [
+        "local",
+        "casual"
+      ],
+      "tags": [
+        {
+          "l": {
+            "en": "Local feel",
+            "ja": "ローカル感",
+            "zh": "本地感",
+            "ko": "로컬 느낌"
+          },
+          "cls": ""
+        },
+        {
+          "l": {
+            "en": "Casual bowl",
+            "ja": "気軽な一杯",
+            "zh": "轻松一碗",
+            "ko": "캐주얼 한 그릇"
+          },
+          "cls": ""
+        },
+        {
+          "l": {
+            "en": "Hearty taste",
+            "ja": "しっかり味",
+            "zh": "味道扎实",
+            "ko": "든든한 맛"
+          },
+          "cls": ""
+        }
+      ],
+      "comment": {
+        "en": "A casual local ramen shop with shoyu and miso options. Good for users who want a less touristy everyday bowl.",
+        "ja": "醤油・味噌を気軽に楽しめるローカル店。観光地っぽすぎない日常の一杯を食べたい人向け。",
+        "zh": "可轻松吃到酱油和味噌拉面的本地店、适合想避开游客感的人。",
+        "ko": "쇼유와 미소를 편하게 먹는 로컬 가게. 관광지 느낌이 덜한 일상 라멘을 원할 때 좋음."
+      },
+      "mapUrl": "https://maps.google.com/?q=らーめん+はな火屋+新宿"
+    },
+    {
+      "id": "gachi",
+      "name": "Menya Gachi",
+      "name_ja": "麺屋 我論",
+      "type": "Shoyu / Shio",
+      "area_label": {
+        "en": "Shinjuku West",
+        "ja": "新宿西口",
+        "zh": "新宿西口",
+        "ko": "신주쿠 서쪽"
+      },
+      "lat": 0.0,
+      "lng": 0.0,
+      "rating": 0.0,
+      "reviews": 0,
+      "price_range": "¥900–1,400",
+      "hours": {
+        "en": "TBD",
+        "ja": "TBD"
+      },
+      "flavors": [
+        "shoyu",
+        "shio"
+      ],
+      "vibes": [
+        "local"
+      ],
+      "tags": [
+        {
+          "l": {
+            "en": "Local shop",
+            "ja": "ローカル店",
+            "zh": "本地店",
+            "ko": "로컬 가게"
+          },
+          "cls": ""
+        },
+        {
+          "l": {
+            "en": "Balanced taste",
+            "ja": "バランス良し",
+            "zh": "味道均衡",
+            "ko": "균형 잡힘"
+          },
+          "cls": ""
+        },
+        {
+          "l": {
+            "en": "Casual",
+            "ja": "気軽",
+            "zh": "轻松",
+            "ko": "캐주얼"
+          },
+          "cls": ""
+        }
+      ],
+      "comment": {
+        "en": "A local-style ramen option for users who want to explore beyond the biggest names. Good as a quieter recommendation near west Shinjuku.",
+        "ja": "有名店以外を試したい人向けのローカルな一杯。西新宿で落ち着いて食べたい時に便利。",
+        "zh": "适合想探索知名店以外选择的旅客、西新宿较安静的推荐。",
+        "ko": "유명점 외의 로컬 라멘을 원할 때 좋음. 니시신주쿠에서 조용히 먹기 좋음."
+      },
+      "mapUrl": "https://maps.google.com/?q=麺屋+我論+新宿"
+    },
+    {
+      "id": "kouryu",
+      "name": "Kouryu Shinjuku",
+      "name_ja": "光麺 新宿南口店",
+      "type": "Tonkotsu Shoyu",
+      "area_label": {
+        "en": "Shinjuku South Exit",
+        "ja": "新宿南口",
+        "zh": "新宿南口",
+        "ko": "신주쿠 남쪽 출구"
+      },
+      "lat": 0.0,
+      "lng": 0.0,
+      "rating": 0.0,
+      "reviews": 0,
+      "price_range": "¥900–1,400",
+      "hours": {
+        "en": "TBD",
+        "ja": "TBD"
+      },
+      "flavors": [
+        "tonkotsu",
+        "shoyu"
+      ],
+      "vibes": [
+        "casual"
+      ],
+      "tags": [
+        {
+          "l": {
+            "en": "Easy access",
+            "ja": "アクセス良し",
+            "zh": "交通方便",
+            "ko": "접근성 좋음"
+          },
+          "cls": ""
+        },
+        {
+          "l": {
+            "en": "Rich casual",
+            "ja": "濃厚カジュアル",
+            "zh": "浓郁休闲",
+            "ko": "진한 캐주얼"
+          },
+          "cls": ""
+        },
+        {
+          "l": {
+            "en": "Beginner OK",
+            "ja": "初心者OK",
+            "zh": "适合初学者",
+            "ko": "초보자 가능"
+          },
+          "cls": ""
+        }
+      ],
+      "comment": {
+        "en": "A convenient casual tonkotsu-shoyu option near the south side. Good when users want a rich but easy meal.",
+        "ja": "南口側で使いやすい濃厚豚骨醤油。気軽にしっかり食べたい時に便利。",
+        "zh": "南口附近方便的浓厚豚骨酱油、适合轻松吃一顿重口味。",
+        "ko": "남쪽 출구 근처의 편한 돈코츠 쇼유. 가볍게 진한 맛을 먹고 싶을 때 좋음."
+      },
+      "mapUrl": "https://maps.google.com/?q=光麺+新宿南口店"
+    },
+    {
+      "id": "hanamaruken",
+      "name": "Hanamaruken Shinjuku",
+      "name_ja": "花丸軒 新宿店",
+      "type": "Tonkotsu Shoyu",
+      "area_label": {
+        "en": "Shinjuku",
+        "ja": "新宿",
+        "zh": "新宿",
+        "ko": "신주쿠"
+      },
+      "lat": 0.0,
+      "lng": 0.0,
+      "rating": 0.0,
+      "reviews": 0,
+      "price_range": "¥900–1,400",
+      "hours": {
+        "en": "TBD",
+        "ja": "TBD"
+      },
+      "flavors": [
+        "tonkotsu",
+        "shoyu"
+      ],
+      "vibes": [
+        "casual"
+      ],
+      "tags": [
+        {
+          "l": {
+            "en": "Rich taste",
+            "ja": "濃厚",
+            "zh": "浓郁",
+            "ko": "진한 맛"
+          },
+          "cls": ""
+        },
+        {
+          "l": {
+            "en": "Casual",
+            "ja": "気軽",
+            "zh": "轻松",
+            "ko": "캐주얼"
+          },
+          "cls": ""
+        },
+        {
+          "l": {
+            "en": "Late meal",
+            "ja": "夜にも便利",
+            "zh": "晚上方便",
+            "ko": "밤에 편리"
+          },
+          "cls": ""
+        }
+      ],
+      "comment": {
+        "en": "A casual rich ramen option for users who want something simple and filling. Works well as a flexible backup recommendation.",
+        "ja": "シンプルで満腹感のある濃厚ラーメン。バックアップ候補として使いやすい一杯。",
+        "zh": "简单又饱腹的浓厚拉面、适合作为灵活备选推荐。",
+        "ko": "심플하고 든든한 진한 라멘. 유연한 백업 추천으로 좋음."
+      },
+      "mapUrl": "https://maps.google.com/?q=花丸軒+新宿+ラーメン"
+    },
+    {
+      "id": "taiyo_tomato_washington",
+      "name": "Taiyo no Tomato Men Washington",
+      "name_ja": "太陽のトマト麺 新宿ワシントンホテル支店",
+      "type": "Tomato Ramen",
+      "area_label": {
+        "en": "Shinjuku West",
+        "ja": "新宿西口",
+        "zh": "新宿西口",
+        "ko": "신주쿠 서쪽"
+      },
+      "lat": 0.0,
+      "lng": 0.0,
+      "rating": 0.0,
+      "reviews": 0,
+      "price_range": "¥900–1,400",
+      "hours": {
+        "en": "TBD",
+        "ja": "TBD"
+      },
+      "flavors": [
+        "tomato"
+      ],
+      "vibes": [
+        "casual",
+        "trendy"
+      ],
+      "tags": [
+        {
+          "l": {
+            "en": "Unique taste",
+            "ja": "ユニーク",
+            "zh": "独特口味",
+            "ko": "독특함"
+          },
+          "cls": ""
+        },
+        {
+          "l": {
+            "en": "Light & colorful",
+            "ja": "軽くて鮮やか",
+            "zh": "清爽鲜艳",
+            "ko": "가볍고 컬러풀"
+          },
+          "cls": ""
+        },
+        {
+          "l": {
+            "en": "Beginner OK",
+            "ja": "初心者OK",
+            "zh": "适合初学者",
+            "ko": "초보자 가능"
+          },
+          "cls": ""
+        }
+      ],
+      "comment": {
+        "en": "A tomato ramen option with a bright and lighter flavor. Good for users who want a non-traditional but easy bowl.",
+        "ja": "明るく軽めのトマトラーメン。定番以外で食べやすい一杯を探す人向け。",
+        "zh": "清爽明亮的番茄拉面、适合想尝试非传统但容易入口的人。",
+        "ko": "밝고 가벼운 토마토 라멘. 전통 라멘 외의 쉬운 선택지를 원할 때 좋음."
+      },
+      "mapUrl": "https://maps.google.com/?q=太陽のトマト麺+新宿ワシントンホテル"
+    },
+    {
+      "id": "oudouya",
+      "name": "Oudouya Shinjuku",
+      "name_ja": "横浜家系ラーメン 壱角家 新宿店",
+      "type": "Ie-kei Tonkotsu Shoyu",
+      "area_label": {
+        "en": "Shinjuku",
+        "ja": "新宿",
+        "zh": "新宿",
+        "ko": "신주쿠"
+      },
+      "lat": 0.0,
+      "lng": 0.0,
+      "rating": 0.0,
+      "reviews": 0,
+      "price_range": "¥800–1,200",
+      "hours": {
+        "en": "TBD",
+        "ja": "TBD"
+      },
+      "flavors": [
+        "tonkotsu",
+        "shoyu",
+        "iekei"
+      ],
+      "vibes": [
+        "casual"
+      ],
+      "tags": [
+        {
+          "l": {
+            "en": "Ie-kei style",
+            "ja": "家系",
+            "zh": "家系拉面",
+            "ko": "이에케이 스타일"
+          },
+          "cls": ""
+        },
+        {
+          "l": {
+            "en": "Customize",
+            "ja": "カスタム可",
+            "zh": "可自定义",
+            "ko": "커스텀 가능"
+          },
+          "cls": ""
+        },
+        {
+          "l": {
+            "en": "Rich & salty",
+            "ja": "濃厚塩味",
+            "zh": "浓厚偏咸",
+            "ko": "진하고 짭짤함"
+          },
+          "cls": ""
+        }
+      ],
+      "comment": {
+        "en": "A casual ie-kei ramen where users can customize noodle firmness, oil, and broth strength. Good for rich ramen lovers.",
+        "ja": "麺の硬さ・油・味の濃さを選べる家系ラーメン。濃厚好きにおすすめ。",
+        "zh": "可自选面硬度、油量和汤浓度的家系拉面、适合喜欢浓厚口味的人。",
+        "ko": "면 경도·기름·맛 농도를 고르는 이에케이 라멘. 진한 맛을 좋아하는 사람에게 추천."
+      },
+      "mapUrl": "https://maps.google.com/?q=壱角家+新宿+ラーメン"
+    },
+    {
+      "id": "gyoza_ohsho_shinjuku",
+      "name": "Gyoza no Ohsho Shinjuku West",
+      "name_ja": "餃子の王将 新宿西口店",
+      "type": "Simple Ramen / Chinese",
+      "area_label": {
+        "en": "Shinjuku West",
+        "ja": "新宿西口",
+        "zh": "新宿西口",
+        "ko": "신주쿠 서쪽"
+      },
+      "lat": 0.0,
+      "lng": 0.0,
+      "rating": 0.0,
+      "reviews": 0,
+      "price_range": "¥700–1,200",
+      "hours": {
+        "en": "TBD",
+        "ja": "TBD"
+      },
+      "flavors": [
+        "shoyu",
+        "chinese"
+      ],
+      "vibes": [
+        "casual"
+      ],
+      "tags": [
+        {
+          "l": {
+            "en": "Easy ordering",
+            "ja": "注文しやすい",
+            "zh": "容易点餐",
+            "ko": "주문 쉬움"
+          },
+          "cls": "green"
+        },
+        {
+          "l": {
+            "en": "Group friendly",
+            "ja": "グループ向け",
+            "zh": "适合多人",
+            "ko": "그룹 추천"
+          },
+          "cls": ""
+        },
+        {
+          "l": {
+            "en": "Budget meal",
+            "ja": "安い食事",
+            "zh": "便宜用餐",
+            "ko": "저렴한 식사"
+          },
+          "cls": ""
+        }
+      ],
+      "comment": {
+        "en": "A practical casual option when users want ramen plus gyoza or fried rice. Not a ramen purist pick, but very easy for travelers.",
+        "ja": "ラーメンだけでなく餃子や炒飯も食べたい時の実用的な選択。こだわり店ではないが使いやすい。",
+        "zh": "想同时吃拉面、饺子或炒饭时很实用、不是拉面专门但对旅客很方便。",
+        "ko": "라멘과 교자·볶음밥을 함께 먹기 좋은 실용적 선택. 여행자에게 편함."
+      },
+      "mapUrl": "https://maps.google.com/?q=餃子の王将+新宿西口店"
+    },
+    {
+      "id": "rairaiken",
+      "name": "Rairaiken Shinjuku",
+      "name_ja": "来々軒 新宿店",
+      "type": "Classic Shoyu",
+      "area_label": {
+        "en": "Shinjuku",
+        "ja": "新宿",
+        "zh": "新宿",
+        "ko": "신주쿠"
+      },
+      "lat": 0.0,
+      "lng": 0.0,
+      "rating": 0.0,
+      "reviews": 0,
+      "price_range": "¥800–1,200",
+      "hours": {
+        "en": "TBD",
+        "ja": "TBD"
+      },
+      "flavors": [
+        "shoyu"
+      ],
+      "vibes": [
+        "casual",
+        "classic"
+      ],
+      "tags": [
+        {
+          "l": {
+            "en": "Classic",
+            "ja": "定番",
+            "zh": "经典",
+            "ko": "클래식"
+          },
+          "cls": ""
+        },
+        {
+          "l": {
+            "en": "Simple taste",
+            "ja": "シンプル",
+            "zh": "简单口味",
+            "ko": "심플한 맛"
+          },
+          "cls": ""
+        },
+        {
+          "l": {
+            "en": "Easy meal",
+            "ja": "気軽",
+            "zh": "轻松",
+            "ko": "캐주얼"
+          },
+          "cls": ""
+        }
+      ],
+      "comment": {
+        "en": "A simple classic ramen option for users who do not want a complicated choice. Best as a safe fallback recommendation.",
+        "ja": "迷わず食べられるシンプルな醤油ラーメン。安全なバックアップ候補として便利。",
+        "zh": "简单经典酱油拉面, 适合作为安全备选推荐。",
+        "ko": "복잡하지 않은 클래식 쇼유 라멘. 안전한 백업 추천으로 좋음."
+      },
+      "mapUrl": "https://maps.google.com/?q=来々軒+新宿+ラーメン"
     }
   ]
 }
