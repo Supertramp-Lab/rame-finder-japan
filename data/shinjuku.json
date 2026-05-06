@@ -12,6 +12,7 @@
   },
   "shops": [
     {
+      "place_id": "ChIJ-ThV_9qMGGARj_VBy37Ywa0",
       "id": "hayashida",
       "name": "Ramen Hayashida",
       "name_ja": "らーめん林田",
@@ -22,14 +23,14 @@
         "zh": "新宿南口",
         "ko": "신주쿠 남쪽 출구"
       },
-      "lat": 35.6887,
-      "lng": 139.7032,
-      "rating": 4.5,
-      "reviews": 3800,
-      "price_range": "¥1,000–1,500",
+      "lat": 35.690729,
+      "lng": 139.7037509,
+      "rating": 4.3,
+      "reviews": 3337,
+      "price_range": "¥1,000〜¥2,000",
       "hours": {
-        "en": "11am–3pm, 6pm–10pm (Tue–Sun)",
-        "ja": "11:00〜15:00、18:00〜22:00（火〜日）"
+        "en": "Monday: 11:00 AM – 11:00 PM | Tuesday: 11:00 AM – 11:00 PM | Wednesday: 11:00 AM – 11:00 PM | Thursday: 11:00 AM – 11:00 PM | Friday: 11:00 AM – 11:00 PM | Saturday: 11:00 AM – 11:00 PM | Sunday: 11:00 AM – 11:00 PM",
+        "ja": "月曜日: 11時00分～23時00分 | 火曜日: 11時00分～23時00分 | 水曜日: 11時00分～23時00分 | 木曜日: 11時00分～23時00分 | 金曜日: 11時00分～23時00分 | 土曜日: 11時00分～23時00分 | 日曜日: 11時00分～23時00分"
       },
       "flavors": [
         "shio",
@@ -74,9 +75,10 @@
         "zh": "米其林推荐，只专注于一碗完美的拉面。开门前到达，每日限量很快售罄。",
         "ko": "미슐랭 추천. 하루 한정 그릇이 빠르게 소진됩니다. 개점 전에 도착하세요."
       },
-      "mapUrl": "https://maps.google.com/?q=Ramen+Hayashida+Shinjuku"
+      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ-ThV_9qMGGARj_VBy37Ywa0"
     },
     {
+      "place_id": "ChIJkwclk6GNGGARPYNl-XWaoSo",
       "id": "dame",
       "name": "Dame Na Rinjin",
       "name_ja": "ダメな隣人",
@@ -87,14 +89,14 @@
         "zh": "歌舞伎町",
         "ko": "가부키초"
       },
-      "lat": 35.6952,
-      "lng": 139.7005,
+      "lat": 35.6951599,
+      "lng": 139.7005156,
       "rating": 4.3,
-      "reviews": 2646,
-      "price_range": "¥900–1,400",
+      "reviews": 2659,
+      "price_range": "¥1,000〜¥2,000",
       "hours": {
-        "en": "11am–11pm daily",
-        "ja": "11:00〜23:00（毎日）"
+        "en": "Monday: 11:00 AM – 11:00 PM | Tuesday: 11:00 AM – 11:00 PM | Wednesday: 11:00 AM – 11:00 PM | Thursday: 11:00 AM – 11:00 PM | Friday: 11:00 AM – 11:00 PM | Saturday: 11:00 AM – 11:00 PM | Sunday: 11:00 AM – 11:00 PM",
+        "ja": "月曜日: 11時00分～23時00分 | 火曜日: 11時00分～23時00分 | 水曜日: 11時00分～23時00分 | 木曜日: 11時00分～23時00分 | 金曜日: 11時00分～23時00分 | 土曜日: 11時00分～23時00分 | 日曜日: 11時00分～23時00分"
       },
       "flavors": [
         "shoyu"
@@ -138,9 +140,10 @@
         "zh": "嘻哈风格内饰，英文点餐机。柜台有免费海苔和溏心蛋，两样都要拿。",
         "ko": "힙합 인테리어에 영어 키오스크. 카운터의 무료 계란과 김을 꼭 챙기세요."
       },
-      "mapUrl": "https://maps.google.com/?q=Dame+Na+Rinjin+Shinjuku"
+      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJkwclk6GNGGARPYNl-XWaoSo"
     },
     {
+      "place_id": "ChIJuVDLbf6pAWARxHpPNOQzXLY",
       "id": "nakamuraya",
       "name": "Nakamuraya Souhonten",
       "name_ja": "中村屋総本店",
@@ -151,14 +154,14 @@
         "zh": "新宿站附近",
         "ko": "신주쿠역 근처"
       },
-      "lat": 35.69,
-      "lng": 139.701,
-      "rating": 4.4,
-      "reviews": 1870,
+      "lat": 35.0163767,
+      "lng": 135.6803058,
+      "rating": 4.2,
+      "reviews": 794,
       "price_range": "¥1,000–1,600",
       "hours": {
-        "en": "11am–10pm daily",
-        "ja": "11:00〜22:00（毎日）"
+        "en": "Monday: 9:00 AM – 7:00 PM | Tuesday: 9:00 AM – 7:00 PM | Wednesday: Closed | Thursday: 9:00 AM – 7:00 PM | Friday: 9:00 AM – 7:00 PM | Saturday: 9:00 AM – 7:00 PM | Sunday: 9:00 AM – 7:00 PM",
+        "ja": "月曜日: 9時00分～19時00分 | 火曜日: 9時00分～19時00分 | 水曜日: 定休日 | 木曜日: 9時00分～19時00分 | 金曜日: 9時00分～19時00分 | 土曜日: 9時00分～19時00分 | 日曜日: 9時00分～19時00分"
       },
       "flavors": [
         "toripaitan",
@@ -203,9 +206,10 @@
         "zh": "新宿最好的鸡白汤之一，汤底丝滑雪白。腌制48小时的溏心蛋必点。",
         "ko": "신주쿠 최고의 닭백탕 라멘. 48시간 절인 반숙 계란을 꼭 추가하세요."
       },
-      "mapUrl": "https://maps.google.com/?q=Nakamuraya+Ramen+Shinjuku"
+      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJuVDLbf6pAWARxHpPNOQzXLY"
     },
     {
+      "place_id": "ChIJme6JmjeNGGARv9mQWBXmHys",
       "id": "junren",
       "name": "Junren",
       "name_ja": "純連",
@@ -216,14 +220,14 @@
         "zh": "新宿西口",
         "ko": "신주쿠 서쪽"
       },
-      "lat": 35.691,
-      "lng": 139.6995,
-      "rating": 4.4,
-      "reviews": 2100,
-      "price_range": "¥950–1,400",
+      "lat": 35.7128747,
+      "lng": 139.7004845,
+      "rating": 3.7,
+      "reviews": 758,
+      "price_range": "¥1,000〜¥2,000",
       "hours": {
-        "en": "11am–9pm (Mon–Sat)",
-        "ja": "11:00〜21:00（月〜土）"
+        "en": "Monday: 11:00 AM – 3:00 PM, 5:00 – 10:00 PM | Tuesday: 11:00 AM – 3:00 PM, 5:00 – 10:00 PM | Wednesday: 11:00 AM – 3:00 PM, 5:00 – 10:00 PM | Thursday: 11:00 AM – 3:00 PM, 5:00 – 10:00 PM | Friday: 11:00 AM – 3:00 PM, 5:00 – 10:00 PM | Saturday: 11:00 AM – 3:00 PM, 5:00 – 10:00 PM | Sunday: 11:00 AM – 3:00 PM, 5:00 – 10:00 PM",
+        "ja": "月曜日: 11時00分～15時00分, 17時00分～22時00分 | 火曜日: 11時00分～15時00分, 17時00分～22時00分 | 水曜日: 11時00分～15時00分, 17時00分～22時00分 | 木曜日: 11時00分～15時00分, 17時00分～22時00分 | 金曜日: 11時00分～15時00分, 17時00分～22時00分 | 土曜日: 11時00分～15時00分, 17時00分～22時00分 | 日曜日: 11時00分～15時00分, 17時00分～22時00分"
       },
       "flavors": [
         "miso"
@@ -267,9 +271,10 @@
         "zh": "来自北海道传奇店纯连的正宗札幌味噌。玉米黄油配料必点，浓郁暖心。",
         "ko": "홋카이도 전설의 순렌 정통 삿포로 미소. 옥수수와 버터 토핑은 필수입니다."
       },
-      "mapUrl": "https://maps.google.com/?q=Junren+Ramen+Shinjuku"
+      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJme6JmjeNGGARv9mQWBXmHys"
     },
     {
+      "place_id": "ChIJ__8PSIMpC18RwV3l2mTGVgE",
       "id": "sanpei",
       "name": "Aji no Sanpei",
       "name_ja": "味の三平",
@@ -280,14 +285,14 @@
         "zh": "新宿东口",
         "ko": "신주쿠 동쪽 출구"
       },
-      "lat": 35.693,
-      "lng": 139.702,
-      "rating": 4.3,
-      "reviews": 1560,
-      "price_range": "¥800–1,200",
+      "lat": 43.0588147,
+      "lng": 141.3536269,
+      "rating": 4.0,
+      "reviews": 1237,
+      "price_range": "¥1,000〜¥2,000",
       "hours": {
-        "en": "11:30am–9pm (closed Mon)",
-        "ja": "11:30〜21:00（月曜定休）"
+        "en": "Monday: Closed | Tuesday: 11:00 AM – 3:30 PM, 5:00 – 6:20 PM | Wednesday: 11:00 AM – 3:30 PM, 5:00 – 6:20 PM | Thursday: 11:00 AM – 3:30 PM, 5:00 – 6:20 PM | Friday: 11:00 AM – 3:30 PM, 5:00 – 6:20 PM | Saturday: 11:00 AM – 3:30 PM, 5:00 – 6:20 PM | Sunday: 11:00 AM – 3:30 PM, 5:00 – 6:20 PM",
+        "ja": "月曜日: 定休日 | 火曜日: 11時00分～15時30分, 17時00分～18時20分 | 水曜日: 11時00分～15時30分, 17時00分～18時20分 | 木曜日: 11時00分～15時30分, 17時00分～18時20分 | 金曜日: 11時00分～15時30分, 17時00分～18時20分 | 土曜日: 11時00分～15時30分, 17時00分～18時20分 | 日曜日: 11時00分～15時30分, 17時00分～18時20分"
       },
       "flavors": [
         "miso",
@@ -331,9 +336,10 @@
         "zh": "1954年开业的东京地标，东京味噌拉面的起源地。70年几乎未变的配方，历史的味道。",
         "ko": "1954년 개업한 도쿄 명물. 오리지널 미소를 주문해 70년의 역사를 맛보세요."
       },
-      "mapUrl": "https://maps.google.com/?q=Aji+no+Sanpei+Shinjuku"
+      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ__8PSIMpC18RwV3l2mTGVgE"
     },
     {
+      "place_id": "ChIJ8QwFX9qMGGARVm0p0caIeTk",
       "id": "ichiran",
       "name": "ICHIRAN Shinjuku",
       "name_ja": "一蘭 新宿店",
@@ -344,14 +350,14 @@
         "zh": "新宿",
         "ko": "신주쿠"
       },
-      "lat": 35.6906,
-      "lng": 139.7028,
+      "lat": 35.6905859,
+      "lng": 139.7028052,
       "rating": 4.3,
-      "reviews": 7561,
-      "price_range": "¥980–1,500",
+      "reviews": 7576,
+      "price_range": "¥1,000〜¥2,000",
       "hours": {
-        "en": "Open 24 hours",
-        "ja": "24時間営業"
+        "en": "Monday: Open 24 hours | Tuesday: Open 24 hours | Wednesday: Open 24 hours | Thursday: Open 24 hours | Friday: Open 24 hours | Saturday: Open 24 hours | Sunday: Open 24 hours",
+        "ja": "月曜日: 24 時間営業 | 火曜日: 24 時間営業 | 水曜日: 24 時間営業 | 木曜日: 24 時間営業 | 金曜日: 24 時間営業 | 土曜日: 24 時間営業 | 日曜日: 24 時間営業"
       },
       "flavors": [
         "tonkotsu"
@@ -395,9 +401,10 @@
         "zh": "标志性独立隔间体验。填写点餐单定制浓度、辣度、面条硬度。24小时营业。",
         "ko": "1인 부스 경험. 주문서로 농도·맵기·면 경도 커스텀 가능. 24시간 영업."
       },
-      "mapUrl": "https://maps.google.com/?q=Ichiran+Ramen+Shinjuku"
+      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ8QwFX9qMGGARVm0p0caIeTk"
     },
     {
+      "place_id": "ChIJZZ7ArdCMGGAR0qQjAdf99xw",
       "id": "ippudo",
       "name": "Ippudo Shinjuku",
       "name_ja": "一風堂 新宿店",
@@ -408,14 +415,14 @@
         "zh": "新宿",
         "ko": "신주쿠"
       },
-      "lat": 35.6915,
-      "lng": 139.7,
+      "lat": 35.6913654,
+      "lng": 139.7010796,
       "rating": 4.2,
-      "reviews": 3200,
-      "price_range": "¥990–1,600",
+      "reviews": 735,
+      "price_range": "¥1,000〜¥2,000",
       "hours": {
-        "en": "11am–11pm daily",
-        "ja": "11:00〜23:00（毎日）"
+        "en": "Monday: 11:00 AM – 10:00 PM | Tuesday: 11:00 AM – 10:00 PM | Wednesday: 11:00 AM – 10:00 PM | Thursday: 11:00 AM – 10:00 PM | Friday: 11:00 AM – 10:00 PM | Saturday: 11:00 AM – 10:00 PM | Sunday: 11:00 AM – 10:00 PM",
+        "ja": "月曜日: 11時00分～22時00分 | 火曜日: 11時00分～22時00分 | 水曜日: 11時00分～22時00分 | 木曜日: 11時00分～22時00分 | 金曜日: 11時00分～22時00分 | 土曜日: 11時00分～22時00分 | 日曜日: 11時00分～22時00分"
       },
       "flavors": [
         "tonkotsu"
@@ -459,9 +466,10 @@
         "zh": "世界著名博多豚骨，环境舒适。点白丸经典或赤丸加料。猪肉包子必点。",
         "ko": "세계적으로 유명한 하카타 돈코츠. 시로마루 또는 아카마루 선택. 히라타 번 필수."
       },
-      "mapUrl": "https://maps.google.com/?q=Ippudo+Shinjuku"
+      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJZZ7ArdCMGGAR0qQjAdf99xw"
     },
     {
+      "place_id": "ChIJ508frs-MGGARnIKrb_tkai0",
       "id": "fuunji",
       "name": "Fuunji",
       "name_ja": "風雲児",
@@ -472,14 +480,14 @@
         "zh": "新宿西口",
         "ko": "신주쿠 서쪽 출구"
       },
-      "lat": 35.6938,
-      "lng": 139.698,
-      "rating": 4.5,
-      "reviews": 5200,
-      "price_range": "¥950–1,400",
+      "lat": 35.6868343,
+      "lng": 139.6966393,
+      "rating": 4.3,
+      "reviews": 5494,
+      "price_range": "¥1,000〜¥2,000",
       "hours": {
-        "en": "11am–3pm, 5pm–9pm (closed Sun)",
-        "ja": "11:00〜15:00、17:00〜21:00（日曜定休）"
+        "en": "Monday: 11:00 AM – 3:00 PM, 5:00 – 9:00 PM | Tuesday: 11:00 AM – 3:00 PM, 5:00 – 9:00 PM | Wednesday: 11:00 AM – 3:00 PM, 5:00 – 9:00 PM | Thursday: 11:00 AM – 3:00 PM, 5:00 – 9:00 PM | Friday: 11:00 AM – 3:00 PM, 5:00 – 9:00 PM | Saturday: 11:00 AM – 3:00 PM, 5:00 – 9:00 PM | Sunday: 11:00 AM – 3:00 PM, 5:00 – 9:00 PM",
+        "ja": "月曜日: 11時00分～15時00分, 17時00分～21時00分 | 火曜日: 11時00分～15時00分, 17時00分～21時00分 | 水曜日: 11時00分～15時00分, 17時00分～21時00分 | 木曜日: 11時00分～15時00分, 17時00分～21時00分 | 金曜日: 11時00分～15時00分, 17時00分～21時00分 | 土曜日: 11時00分～15時00分, 17時00分～21時00分 | 日曜日: 11時00分～15時00分, 17時00分～21時00分"
       },
       "flavors": [
         "gyokai"
@@ -522,9 +530,10 @@
         "zh": "东京最著名的沾面之一，浓厚鱼介沾汁几乎是酱状。开门前30分钟到达。仅收现金。",
         "ko": "도쿄 최고의 츠케멘. 두꺼운 교카이 소스. 개점 30분 전 도착 권장. 현금만."
       },
-      "mapUrl": "https://maps.google.com/?q=Fuunji+Ramen+Shinjuku"
+      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ508frs-MGGARnIKrb_tkai0"
     },
     {
+      "place_id": "ChIJcyLiKtaMGGARGlb3Io-Rf3w",
       "id": "menya_musashi",
       "name": "Menya Musashi",
       "name_ja": "麺屋武蔵",
@@ -535,14 +544,14 @@
         "zh": "新宿西口",
         "ko": "신주쿠 서쪽"
       },
-      "lat": 35.692,
-      "lng": 139.6975,
-      "rating": 4.3,
-      "reviews": 4100,
-      "price_range": "¥950–1,500",
+      "lat": 35.6955679,
+      "lng": 139.6986477,
+      "rating": 4.1,
+      "reviews": 3697,
+      "price_range": "¥1,000〜¥2,000",
       "hours": {
-        "en": "11am–10pm daily",
-        "ja": "11:00〜22:00（毎日）"
+        "en": "Monday: 11:00 AM – 10:00 PM | Tuesday: 11:00 AM – 10:00 PM | Wednesday: 11:00 AM – 10:00 PM | Thursday: 11:00 AM – 10:00 PM | Friday: 11:00 AM – 10:00 PM | Saturday: 11:00 AM – 10:00 PM | Sunday: 11:00 AM – 10:00 PM",
+        "ja": "月曜日: 11時00分～22時00分 | 火曜日: 11時00分～22時00分 | 水曜日: 11時00分～22時00分 | 木曜日: 11時00分～22時00分 | 金曜日: 11時00分～22時00分 | 土曜日: 11時00分～22時00分 | 日曜日: 11時00分～22時00分"
       },
       "flavors": [
         "gyokai",
@@ -587,9 +596,10 @@
         "zh": "1996年开业的新宿传奇，海鲜与动物汤底完美融合。沾面和普通拉面都很出色。",
         "ko": "1996년 신주쿠 전설. 해산물과 동물 육수의 더블 수프. 츠케멘과 일반 둘 다 추천."
       },
-      "mapUrl": "https://maps.google.com/?q=Menya+Musashi+Shinjuku"
+      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJcyLiKtaMGGARGlb3Io-Rf3w"
     },
     {
+      "place_id": "ChIJjykJZCCLGGARMx5vYqRsWYI",
       "id": "kagari_s",
       "name": "Ginza Kagari Shinjuku",
       "name_ja": "銀座 篝 新宿店",
@@ -600,14 +610,14 @@
         "zh": "新宿",
         "ko": "신주쿠"
       },
-      "lat": 35.6918,
-      "lng": 139.7005,
-      "rating": 4.3,
-      "reviews": 2100,
-      "price_range": "¥1,200–2,000",
+      "lat": 35.6712019,
+      "lng": 139.7613315,
+      "rating": 4.2,
+      "reviews": 4392,
+      "price_range": "¥1,000〜¥2,000",
       "hours": {
-        "en": "11am–10pm",
-        "ja": "11:00〜22:00"
+        "en": "Monday: 11:00 AM – 10:00 PM | Tuesday: 11:00 AM – 10:00 PM | Wednesday: 11:00 AM – 10:00 PM | Thursday: 11:00 AM – 10:00 PM | Friday: 11:00 AM – 10:00 PM | Saturday: 11:00 AM – 9:30 PM | Sunday: 11:00 AM – 9:30 PM",
+        "ja": "月曜日: 11時00分～22時00分 | 火曜日: 11時00分～22時00分 | 水曜日: 11時00分～22時00分 | 木曜日: 11時00分～22時00分 | 金曜日: 11時00分～22時00分 | 土曜日: 11時00分～21時30分 | 日曜日: 11時00分～21時30分"
       },
       "flavors": [
         "toripaitan",
@@ -652,9 +662,10 @@
         "zh": "银座人气店的新宿分店。奶白鸡汤如浓汤般深邃。松露版值得一试。",
         "ko": "긴자 명물의 신주쿠점. 크리미한 닭 파이탄. 트러플 버전을 강력 추천합니다."
       },
-      "mapUrl": "https://maps.google.com/?q=Ginza+Kagari+Shinjuku"
+      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJjykJZCCLGGARMx5vYqRsWYI"
     },
     {
+      "place_id": "ChIJAxKeZNmMGGARQ4EOGHqSdIg",
       "id": "nagi",
       "name": "Ramen Nagi Golden Gai",
       "name_ja": "ラーメン凪 新宿ゴールデン街店",
@@ -665,14 +676,14 @@
         "zh": "黄金街，新宿",
         "ko": "골든 가이, 신주쿠"
       },
-      "lat": 35.6942,
-      "lng": 139.7012,
-      "rating": 4.4,
-      "reviews": 3900,
-      "price_range": "¥850–1,200",
+      "lat": 35.6937641,
+      "lng": 139.7045255,
+      "rating": 4.2,
+      "reviews": 5876,
+      "price_range": "¥1,000〜¥2,000",
       "hours": {
-        "en": "6pm–8am (night only!)",
-        "ja": "18:00〜翌8:00（夜のみ）"
+        "en": "Monday: Open 24 hours | Tuesday: Open 24 hours | Wednesday: Open 24 hours | Thursday: Open 24 hours | Friday: Open 24 hours | Saturday: Open 24 hours | Sunday: Open 24 hours",
+        "ja": "月曜日: 24 時間営業 | 火曜日: 24 時間営業 | 水曜日: 24 時間営業 | 木曜日: 24 時間営業 | 金曜日: 24 時間営業 | 土曜日: 24 時間営業 | 日曜日: 24 時間営業"
       },
       "flavors": [
         "shio",
@@ -717,9 +728,10 @@
         "zh": "藏在黄金街迷宫中，仅9个座位。沙丁鱼干盐味汤底独特浓郁，仅晚上6点后营业。",
         "ko": "골든가이 골목 안 9석 한정. 니보시 시오 라멘은 도쿄에서 유일무이. 저녁 6시 오픈."
       },
-      "mapUrl": "https://maps.google.com/?q=Ramen+Nagi+Golden+Gai+Shinjuku"
+      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJAxKeZNmMGGARQ4EOGHqSdIg"
     },
     {
+      "place_id": "ChIJ63wywVePGGAR4E_AFjwal6w",
       "id": "wagyu_halal",
       "name": "Wagyu Halal Ramen Kabuki",
       "name_ja": "和牛ハラールラーメン歌舞伎",
@@ -730,14 +742,14 @@
         "zh": "歌舞伎町，新宿",
         "ko": "가부키초, 신주쿠"
       },
-      "lat": 35.6985,
-      "lng": 139.702,
+      "lat": 35.6984692,
+      "lng": 139.7019783,
       "rating": 4.7,
-      "reviews": 665,
+      "reviews": 735,
       "price_range": "¥1,200–2,000",
       "hours": {
-        "en": "11am–1am daily",
-        "ja": "11:00〜翌1:00（毎日）"
+        "en": "Monday: 11:00 AM – 1:00 AM | Tuesday: 11:00 AM – 1:00 AM | Wednesday: 11:00 AM – 1:00 AM | Thursday: 11:00 AM – 1:00 AM | Friday: 11:00 AM – 1:00 AM | Saturday: 11:00 AM – 1:00 AM | Sunday: 11:00 AM – 1:00 AM",
+        "ja": "月曜日: 11時00分～1時00分 | 火曜日: 11時00分～1時00分 | 水曜日: 11時00分～1時00分 | 木曜日: 11時00分～1時00分 | 金曜日: 11時00分～1時00分 | 土曜日: 11時00分～1時00分 | 日曜日: 11時00分～1時00分"
       },
       "flavors": [
         "shoyu",
@@ -782,9 +794,10 @@
         "zh": "新宿最佳清真拉面之一。和牛在桌边喷枪炙烤，英文服务员，营业至凌晨1点。",
         "ko": "신주쿠 최고의 할랄 라멘. 와규를 테이블에서 토치로 구워줍니다. 새벽 1시까지 영업."
       },
-      "mapUrl": "https://maps.google.com/?q=Wagyu+Halal+Ramen+Shinjuku+Kabuki"
+      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ63wywVePGGAR4E_AFjwal6w"
     },
     {
+      "place_id": "ChIJAQCJl2iNGGARyWgo-ow332s",
       "id": "kikanbo",
       "name": "Kikanbo",
       "name_ja": "鬼金棒",
@@ -795,14 +808,14 @@
         "zh": "新宿",
         "ko": "신주쿠"
       },
-      "lat": 35.6921,
-      "lng": 139.7001,
-      "rating": 4.4,
-      "reviews": 3800,
-      "price_range": "¥950–1,400",
+      "lat": 35.7291253,
+      "lng": 139.7153081,
+      "rating": 4.1,
+      "reviews": 2425,
+      "price_range": "¥1,000〜¥2,000",
       "hours": {
-        "en": "11am–9pm daily",
-        "ja": "11:00〜21:00（毎日）"
+        "en": "Monday: 11:00 AM – 9:30 PM | Tuesday: 11:00 AM – 9:30 PM | Wednesday: 11:00 AM – 9:30 PM | Thursday: 11:00 AM – 9:30 PM | Friday: 11:00 AM – 9:30 PM | Saturday: 11:00 AM – 9:30 PM | Sunday: 11:00 AM – 9:30 PM",
+        "ja": "月曜日: 11時00分～21時30分 | 火曜日: 11時00分～21時30分 | 水曜日: 11時00分～21時30分 | 木曜日: 11時00分～21時30分 | 金曜日: 11時00分～21時30分 | 土曜日: 11時00分～21時30分 | 日曜日: 11時00分～21時30分"
       },
       "flavors": [
         "miso"
@@ -846,9 +859,10 @@
         "zh": "东京著名的辣麻拉面——辣与四川麻椒的独特融合。辣度从0到最高可选。",
         "ko": "도쿄의 유명한 '카라시비' 라멘 — 매운맛과 마비시키는 산초의 독특한 조합. 매운맛 선택 가능."
       },
-      "mapUrl": "https://maps.google.com/?q=Kikanbo+Ramen+Shinjuku"
+      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJAQCJl2iNGGARyWgo-ow332s"
     },
     {
+      "place_id": "ChIJL9MHQwxcGGARctbSzWCKzsk",
       "id": "yoshimuraya",
       "name": "Yoshimuraya",
       "name_ja": "吉村家",
@@ -859,14 +873,14 @@
         "zh": "新宿",
         "ko": "신주쿠"
       },
-      "lat": 35.6895,
-      "lng": 139.7018,
-      "rating": 4.2,
-      "reviews": 2900,
-      "price_range": "¥900–1,300",
+      "lat": 35.4630187,
+      "lng": 139.6150749,
+      "rating": 4.1,
+      "reviews": 7564,
+      "price_range": "¥1,000〜¥2,000",
       "hours": {
-        "en": "11am–11pm daily",
-        "ja": "11:00〜23:00（毎日）"
+        "en": "Monday: Closed | Tuesday: 11:00 AM – 8:00 PM | Wednesday: 11:00 AM – 8:00 PM | Thursday: 11:00 AM – 8:00 PM | Friday: 11:00 AM – 8:00 PM | Saturday: 11:00 AM – 8:00 PM | Sunday: 11:00 AM – 8:00 PM",
+        "ja": "月曜日: 定休日 | 火曜日: 11時00分～20時00分 | 水曜日: 11時00分～20時00分 | 木曜日: 11時00分～20時00分 | 金曜日: 11時00分～20時00分 | 土曜日: 11時00分～20時00分 | 日曜日: 11時00分～20時00分"
       },
       "flavors": [
         "tonkotsu",
@@ -911,9 +925,10 @@
         "zh": "新宿的经典横滨家系风格——浓厚的豚骨酱油，可自选面条硬度、汤底浓度和油量。",
         "ko": "신주쿠의 클래식 요코하마 이에케이 스타일. 면 경도·육수 농도·오일 양을 테이블에서 커스텀."
       },
-      "mapUrl": "https://maps.google.com/?q=Yoshimuraya+Ramen+Shinjuku"
+      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJL9MHQwxcGGARctbSzWCKzsk"
     },
     {
+      "place_id": "ChIJMTinHnuMGGAR7I2I9azgOhY",
       "id": "soranoiro",
       "name": "Soranoiro",
       "name_ja": "ソラノイロ",
@@ -924,14 +939,14 @@
         "zh": "新宿站",
         "ko": "신주쿠역"
       },
-      "lat": 35.6896,
-      "lng": 139.7004,
-      "rating": 4.3,
-      "reviews": 1800,
-      "price_range": "¥900–1,400",
+      "lat": 35.683065,
+      "lng": 139.7394613,
+      "rating": 4.1,
+      "reviews": 1163,
+      "price_range": "¥1,000〜¥2,000",
       "hours": {
-        "en": "11am–10pm daily",
-        "ja": "11:00〜22:00（毎日）"
+        "en": "Monday: 11:00 AM – 2:45 PM, 5:00 – 9:15 PM | Tuesday: 11:00 AM – 2:45 PM, 5:00 – 9:15 PM | Wednesday: 11:00 AM – 2:45 PM, 5:00 – 9:15 PM | Thursday: 11:00 AM – 2:45 PM, 5:00 – 9:15 PM | Friday: 11:00 AM – 2:45 PM, 5:00 – 9:15 PM | Saturday: Closed | Sunday: Closed",
+        "ja": "月曜日: 11時00分～14時45分, 17時00分～21時15分 | 火曜日: 11時00分～14時45分, 17時00分～21時15分 | 水曜日: 11時00分～14時45分, 17時00分～21時15分 | 木曜日: 11時00分～14時45分, 17時00分～21時15分 | 金曜日: 11時00分～14時45分, 17時00分～21時15分 | 土曜日: 定休日 | 日曜日: 定休日"
       },
       "flavors": [
         "shoyu",
@@ -976,9 +991,10 @@
         "zh": "东京最好的素食拉面之一，但荤食碗也同样出色。英文菜单，饮食限制友好。",
         "ko": "도쿄 최고의 비건 라멘. 육식 메뉴도 뛰어납니다. 영어 메뉴 있음."
       },
-      "mapUrl": "https://maps.google.com/?q=Soranoiro+Ramen+Shinjuku"
+      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJMTinHnuMGGAR7I2I9azgOhY"
     },
     {
+      "place_id": "ChIJTyhMA9gdGWARt838HqcAPI8",
       "id": "keisuke",
       "name": "Ramen Keisuke Tonkotsu King",
       "name_ja": "ラーメン慶州 豚骨王",
@@ -989,14 +1005,14 @@
         "zh": "新宿东口",
         "ko": "신주쿠 동쪽"
       },
-      "lat": 35.6928,
-      "lng": 139.7038,
-      "rating": 4.2,
-      "reviews": 2200,
+      "lat": 35.6577847,
+      "lng": 139.3411456,
+      "rating": 3.8,
+      "reviews": 94,
       "price_range": "¥850–1,200",
       "hours": {
-        "en": "11am–11pm daily",
-        "ja": "11:00〜23:00（毎日）"
+        "en": "Monday: 11:00 AM – 3:00 PM, 5:00 – 8:00 PM | Tuesday: 11:00 AM – 3:00 PM, 5:00 – 8:00 PM | Wednesday: Closed | Thursday: 11:00 AM – 3:00 PM, 5:00 – 8:00 PM | Friday: 11:00 AM – 3:00 PM, 5:00 – 8:00 PM | Saturday: 11:00 AM – 3:00 PM, 5:00 – 8:00 PM | Sunday: 11:00 AM – 3:00 PM, 5:00 – 8:00 PM",
+        "ja": "月曜日: 11時00分～15時00分, 17時00分～20時00分 | 火曜日: 11時00分～15時00分, 17時00分～20時00分 | 水曜日: 定休日 | 木曜日: 11時00分～15時00分, 17時00分～20時00分 | 金曜日: 11時00分～15時00分, 17時00分～20時00分 | 土曜日: 11時00分～15時00分, 17時00分～20時00分 | 日曜日: 11時00分～15時00分, 17時00分～20時00分"
       },
       "flavors": [
         "tonkotsu"
@@ -1040,9 +1056,10 @@
         "zh": "浓厚豚骨配无限量配料台，可免费添加芝麻、大蒜、腌姜、葱。性价比极高。",
         "ko": "진한 돈코츠에 무제한 토핑 바. 참깨·마늘·절인 생강·파 무료. 가성비 최고."
       },
-      "mapUrl": "https://maps.google.com/?q=Ramen+Keisuke+Shinjuku"
+      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJTyhMA9gdGWARt838HqcAPI8"
     },
     {
+      "place_id": "ChIJGeC-DFHzGGAR3hBKUUprFZA",
       "id": "mugi_to_olive",
       "name": "Mugi to Olive",
       "name_ja": "麦と橄欖",
@@ -1053,14 +1070,14 @@
         "zh": "新宿西口",
         "ko": "신주쿠 서쪽 출구"
       },
-      "lat": 35.6922,
-      "lng": 139.6988,
-      "rating": 4.5,
-      "reviews": 2700,
+      "lat": 35.6598209,
+      "lng": 139.6830176,
+      "rating": 4.2,
+      "reviews": 26,
       "price_range": "¥1,100–1,600",
       "hours": {
-        "en": "11am–3pm, 6pm–9pm (closed Wed)",
-        "ja": "11:00〜15:00、18:00〜21:00（水曜定休）"
+        "en": "Monday: Closed | Tuesday: Closed | Wednesday: 12:00 – 1:30 PM, 6:00 – 8:00 PM | Thursday: 12:00 – 1:30 PM, 6:00 – 8:00 PM | Friday: 12:00 – 1:30 PM, 6:00 – 8:00 PM | Saturday: 12:00 – 1:30 PM, 6:00 – 8:00 PM | Sunday: 12:00 – 1:30 PM, 6:00 – 8:00 PM",
+        "ja": "月曜日: 定休日 | 火曜日: 定休日 | 水曜日: 12時00分～13時30分, 18時00分～20時00分 | 木曜日: 12時00分～13時30分, 18時00分～20時00分 | 金曜日: 12時00分～13時30分, 18時00分～20時00分 | 土曜日: 12時00分～13時30分, 18時00分～20時00分 | 日曜日: 12時00分～13時30分, 18時00分～20時00分"
       },
       "flavors": [
         "shio",
@@ -1105,9 +1122,10 @@
         "zh": "米其林推荐，低调而出色。蛤蜊盐味汤底独特精致，新宿的隐藏宝石。",
         "ko": "미슐랭 추천, 조용하지만 탁월한. 조개 기반의 시오 육수는 도쿄에서 유일무이한 맛."
       },
-      "mapUrl": "https://maps.google.com/?q=Mugi+to+Olive+Shinjuku"
+      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJGeC-DFHzGGAR3hBKUUprFZA"
     },
     {
+      "place_id": "ChIJI3id-LqMGGAR-nC8B7VP5v4",
       "id": "noodle_stand_tokyo",
       "name": "Noodle Stand Tokyo",
       "name_ja": "ヌードルスタンド東京",
@@ -1118,11 +1136,11 @@
         "zh": "新宿",
         "ko": "신주쿠"
       },
-      "lat": 35.6935,
-      "lng": 139.7022,
-      "rating": 4.3,
-      "reviews": 1600,
-      "price_range": "¥750–1,100",
+      "lat": 35.6728036,
+      "lng": 139.7042754,
+      "rating": 4.2,
+      "reviews": 325,
+      "price_range": "¥1,000〜¥2,000",
       "hours": {
         "en": "11am–11pm daily",
         "ja": "11:00〜23:00（毎日）"
@@ -1170,9 +1188,10 @@
         "zh": "立食拉面风格——快速、随意、美味。适合想快速吃一碗好拉面的独行旅行者。",
         "ko": "스탠딩 바 스타일 라멘. 빠르고 캐주얼. 혼자 여행하는 분께 최적."
       },
-      "mapUrl": "https://maps.google.com/?q=Noodle+Stand+Tokyo+Shinjuku"
+      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJI3id-LqMGGAR-nC8B7VP5v4"
     },
     {
+      "place_id": "ChIJUeEGqnmLGGARBVyCtqZjegY",
       "id": "mensho_tokyo",
       "name": "Mensho Tokyo",
       "name_ja": "麺匠の心つくし",
@@ -1183,14 +1202,14 @@
         "zh": "新宿",
         "ko": "신주쿠"
       },
-      "lat": 35.6911,
-      "lng": 139.6998,
-      "rating": 4.4,
-      "reviews": 3100,
-      "price_range": "¥1,100–1,800",
+      "lat": 35.6953842,
+      "lng": 139.703149,
+      "rating": 4.0,
+      "reviews": 2562,
+      "price_range": "¥1,000〜¥2,000",
       "hours": {
-        "en": "11am–10pm daily",
-        "ja": "11:00〜22:00（毎日）"
+        "en": "Monday: 11:00 AM – 8:00 AM | Tuesday: 11:00 AM – 8:00 AM | Wednesday: 11:00 AM – 8:00 AM | Thursday: 11:00 AM – 8:00 AM | Friday: 11:00 AM – 8:00 AM | Saturday: 11:00 AM – 8:00 AM | Sunday: 11:00 AM – 11:00 PM",
+        "ja": "月曜日: 11時00分～8時00分 | 火曜日: 11時00分～8時00分 | 水曜日: 11時00分～8時00分 | 木曜日: 11時00分～8時00分 | 金曜日: 11時00分～8時00分 | 土曜日: 11時00分～8時00分 | 日曜日: 11時00分～23時00分"
       },
       "flavors": [
         "toripaitan",
@@ -1235,9 +1254,10 @@
         "zh": "获奖的创意拉面，菜单随季节变化。羊肉汤底是招牌——出乎意料的绝妙。",
         "ko": "수상 경력의 창의적 라멘. 계절마다 메뉴가 바뀝니다. 양고기 육수가 시그니처."
       },
-      "mapUrl": "https://maps.google.com/?q=Mensho+Tokyo+Shinjuku"
+      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJUeEGqnmLGGARBVyCtqZjegY"
     },
     {
+      "place_id": "ChIJVVVVVZiNGGAR_Dkw0TJHoN4",
       "id": "tsuta_s",
       "name": "Tsuta Shinjuku",
       "name_ja": "蔦 新宿店",
@@ -1248,14 +1268,14 @@
         "zh": "新宿",
         "ko": "신주쿠"
       },
-      "lat": 35.6925,
-      "lng": 139.7015,
-      "rating": 4.5,
-      "reviews": 4200,
-      "price_range": "¥1,500–2,200",
+      "lat": 35.6703963,
+      "lng": 139.6824758,
+      "rating": 4.2,
+      "reviews": 2442,
+      "price_range": "¥1,000〜¥2,000",
       "hours": {
-        "en": "11am–9pm daily",
-        "ja": "11:00〜21:00（毎日）"
+        "en": "Monday: 11:00 AM – 3:00 PM | Tuesday: Closed | Wednesday: 11:00 AM – 3:00 PM | Thursday: 11:00 AM – 3:00 PM | Friday: 11:00 AM – 3:00 PM | Saturday: 11:00 AM – 3:00 PM | Sunday: 11:00 AM – 3:00 PM",
+        "ja": "月曜日: 11時00分～15時00分 | 火曜日: 定休日 | 水曜日: 11時00分～15時00分 | 木曜日: 11時00分～15時00分 | 金曜日: 11時00分～15時00分 | 土曜日: 11時00分～15時00分 | 日曜日: 11時00分～15時00分"
       },
       "flavors": [
         "shoyu"
@@ -1299,9 +1319,10 @@
         "zh": "世界上第一家米其林星级拉面餐厅。松露酱油汤底精致芬芳，值得每一分钱。",
         "ko": "세계 최초 미슐랭 스타 라멘 레스토랑. 트러플 쇼유 육수는 정제되고 향기로운 일생일대의 경험."
       },
-      "mapUrl": "https://maps.google.com/?q=Tsuta+Ramen+Shinjuku"
+      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJVVVVVZiNGGAR_Dkw0TJHoN4"
     },
     {
+      "place_id": "ChIJ9wV7H8WMGGARbcofX8Zk5a0",
       "id": "gonokami",
       "name": "Gonokami Seisakusho",
       "name_ja": "つけ麺 五ノ神製作所",
@@ -1312,14 +1333,14 @@
         "zh": "新宿南口",
         "ko": "신주쿠 남쪽 출구"
       },
-      "lat": 0.0,
-      "lng": 0.0,
-      "rating": 0.0,
-      "reviews": 0,
-      "price_range": "¥1,000–1,500",
+      "lat": 35.687351,
+      "lng": 139.7038616,
+      "rating": 4.1,
+      "reviews": 3851,
+      "price_range": "¥1,000〜¥2,000",
       "hours": {
-        "en": "TBD",
-        "ja": "TBD"
+        "en": "Monday: 11:00 AM – 9:00 PM | Tuesday: 11:00 AM – 9:00 PM | Wednesday: 11:00 AM – 9:00 PM | Thursday: 11:00 AM – 9:00 PM | Friday: 11:00 AM – 9:00 PM | Saturday: 11:00 AM – 9:00 PM | Sunday: 11:00 AM – 9:00 PM",
+        "ja": "月曜日: 11時00分～21時00分 | 火曜日: 11時00分～21時00分 | 水曜日: 11時00分～21時00分 | 木曜日: 11時00分～21時00分 | 金曜日: 11時00分～21時00分 | 土曜日: 11時00分～21時00分 | 日曜日: 11時00分～21時00分"
       },
       "flavors": [
         "shrimp",
@@ -1364,9 +1385,10 @@
         "zh": "以浓厚虾味沾汁闻名的沾面店、适合想尝试经典拉面以外口味的旅客。",
         "ko": "진한 새우 츠케멘으로 유명한 곳. 클래식 라멘 외에 특별한 맛을 찾는 여행자에게 추천."
       },
-      "mapUrl": "https://maps.google.com/?q=つけ麺+五ノ神製作所+新宿"
+      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ9wV7H8WMGGARbcofX8Zk5a0"
     },
     {
+      "place_id": "ChIJXVRkjtqMGGAR_IYDENOJmJ0",
       "id": "kaijin",
       "name": "Menya Kaijin",
       "name_ja": "麺屋 海神",
@@ -1377,14 +1399,14 @@
         "zh": "新宿东口",
         "ko": "신주쿠 동쪽 출구"
       },
-      "lat": 0.0,
-      "lng": 0.0,
-      "rating": 0.0,
-      "reviews": 0,
-      "price_range": "¥900–1,400",
+      "lat": 35.6897433,
+      "lng": 139.7021957,
+      "rating": 4.1,
+      "reviews": 2708,
+      "price_range": "¥1,000〜¥2,000",
       "hours": {
-        "en": "TBD",
-        "ja": "TBD"
+        "en": "Monday: 11:00 AM – 3:00 PM, 4:30 – 10:00 PM | Tuesday: 11:00 AM – 3:00 PM, 4:30 – 10:00 PM | Wednesday: 11:00 AM – 3:00 PM, 4:30 – 10:00 PM | Thursday: 11:00 AM – 3:00 PM, 4:30 – 10:00 PM | Friday: 11:00 AM – 3:00 PM, 4:30 – 10:00 PM | Saturday: 11:00 AM – 10:00 PM | Sunday: 11:00 AM – 10:00 PM",
+        "ja": "月曜日: 11時00分～15時00分, 16時30分～22時00分 | 火曜日: 11時00分～15時00分, 16時30分～22時00分 | 水曜日: 11時00分～15時00分, 16時30分～22時00分 | 木曜日: 11時00分～15時00分, 16時30分～22時00分 | 金曜日: 11時00分～15時00分, 16時30分～22時00分 | 土曜日: 11時00分～22時00分 | 日曜日: 11時00分～22時00分"
       },
       "flavors": [
         "shio",
@@ -1429,9 +1451,10 @@
         "zh": "清爽但鲜味十足的鱼介盐味拉面、适合不想吃浓厚豚骨的人。",
         "ko": "맑고 가벼운 해산물 시오 라멘. 진한 돈코츠가 부담스러운 사람에게 좋음."
       },
-      "mapUrl": "https://maps.google.com/?q=麺屋+海神+新宿"
+      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJXVRkjtqMGGAR_IYDENOJmJ0"
     },
     {
+      "place_id": "ChIJAQDFhSmNGGARFjICR3zt2F4",
       "id": "menya_sho",
       "name": "Menya Sho",
       "name_ja": "麺屋 翔 本店",
@@ -1442,14 +1465,14 @@
         "zh": "新宿西口",
         "ko": "신주쿠 서쪽"
       },
-      "lat": 0.0,
-      "lng": 0.0,
-      "rating": 0.0,
-      "reviews": 0,
-      "price_range": "¥1,000–1,500",
+      "lat": 35.6965935,
+      "lng": 139.6966006,
+      "rating": 4.2,
+      "reviews": 2562,
+      "price_range": "¥1,000〜¥2,000",
       "hours": {
-        "en": "TBD",
-        "ja": "TBD"
+        "en": "Monday: 11:00 AM – 3:00 PM, 6:00 – 10:00 PM | Tuesday: 11:00 AM – 3:00 PM, 6:00 – 10:00 PM | Wednesday: 11:00 AM – 3:00 PM, 6:00 – 10:00 PM | Thursday: 11:00 AM – 3:00 PM, 6:00 – 10:00 PM | Friday: 11:00 AM – 3:00 PM, 6:00 – 10:00 PM | Saturday: 11:00 AM – 3:00 PM, 5:00 – 10:00 PM | Sunday: 11:00 AM – 3:00 PM, 5:00 – 9:00 PM",
+        "ja": "月曜日: 11時00分～15時00分, 18時00分～22時00分 | 火曜日: 11時00分～15時00分, 18時00分～22時00分 | 水曜日: 11時00分～15時00分, 18時00分～22時00分 | 木曜日: 11時00分～15時00分, 18時00分～22時00分 | 金曜日: 11時00分～15時00分, 18時00分～22時00分 | 土曜日: 11時00分～15時00分, 17時00分～22時00分 | 日曜日: 11時00分～15時00分, 17時00分～21時00分"
       },
       "flavors": [
         "shio",
@@ -1494,9 +1517,10 @@
         "zh": "以精致鸡汤盐味拉面闻名、适合想体验高级感东京拉面的旅客。",
         "ko": "세련된 닭 육수 시오 라멘으로 유명. 깔끔한 도쿄 라멘을 원하는 여행자에게 추천."
       },
-      "mapUrl": "https://maps.google.com/?q=麺屋+翔+本店+新宿"
+      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJAQDFhSmNGGARFjICR3zt2F4"
     },
     {
+      "place_id": "ChIJKY6lWNaMGGAR9htWYuqXko8",
       "id": "manrai",
       "name": "Ramen Manrai",
       "name_ja": "らぁめん 満来",
@@ -1507,14 +1531,14 @@
         "zh": "新宿西口",
         "ko": "신주쿠 서쪽"
       },
-      "lat": 0.0,
-      "lng": 0.0,
-      "rating": 0.0,
-      "reviews": 0,
-      "price_range": "¥1,000–2,000",
+      "lat": 35.6929709,
+      "lng": 139.697881,
+      "rating": 3.8,
+      "reviews": 3011,
+      "price_range": "¥2,000〜¥5,000",
       "hours": {
-        "en": "TBD",
-        "ja": "TBD"
+        "en": "Monday: 11:00 AM – 11:00 PM | Tuesday: 11:00 AM – 11:00 PM | Wednesday: 11:00 AM – 11:00 PM | Thursday: 11:00 AM – 11:00 PM | Friday: 11:00 AM – 11:00 PM | Saturday: 11:00 AM – 11:00 PM | Sunday: 11:00 AM – 11:00 PM",
+        "ja": "月曜日: 11時00分～23時00分 | 火曜日: 11時00分～23時00分 | 水曜日: 11時00分～23時00分 | 木曜日: 11時00分～23時00分 | 金曜日: 11時00分～23時00分 | 土曜日: 11時00分～23時00分 | 日曜日: 11時00分～23時00分"
       },
       "flavors": [
         "shoyu"
@@ -1558,9 +1582,10 @@
         "zh": "以大块叉烧和经典酱油拉面闻名的新宿老店、适合想吃传统风味的人。",
         "ko": "큰 차슈와 클래식 쇼유로 유명한 신주쿠 노포. 옛날 스타일 라멘을 원하는 사람에게 추천."
       },
-      "mapUrl": "https://maps.google.com/?q=らぁめん+満来+新宿"
+      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJKY6lWNaMGGAR9htWYuqXko8"
     },
     {
+      "place_id": "ChIJ__97-daMGGARAWYjwQZtOEg",
       "id": "horiuchi",
       "name": "Ramen Horiuchi",
       "name_ja": "らぁめん ほりうち 新宿本店",
@@ -1571,14 +1596,14 @@
         "zh": "新宿西口",
         "ko": "신주쿠 서쪽"
       },
-      "lat": 0.0,
-      "lng": 0.0,
-      "rating": 0.0,
-      "reviews": 0,
-      "price_range": "¥1,000–2,000",
+      "lat": 35.6929241,
+      "lng": 139.6983149,
+      "rating": 3.9,
+      "reviews": 1811,
+      "price_range": "¥1,000〜¥2,000",
       "hours": {
-        "en": "TBD",
-        "ja": "TBD"
+        "en": "Monday: 8:00 AM – 11:00 PM | Tuesday: 8:00 AM – 11:00 PM | Wednesday: 8:00 AM – 11:00 PM | Thursday: 8:00 AM – 11:00 PM | Friday: 8:00 AM – 11:00 PM | Saturday: 8:00 AM – 11:00 PM | Sunday: 10:00 AM – 11:00 PM",
+        "ja": "月曜日: 8時00分～23時00分 | 火曜日: 8時00分～23時00分 | 水曜日: 8時00分～23時00分 | 木曜日: 8時00分～23時00分 | 金曜日: 8時00分～23時00分 | 土曜日: 8時00分～23時00分 | 日曜日: 10時00分～23時00分"
       },
       "flavors": [
         "shoyu"
@@ -1622,9 +1647,10 @@
         "zh": "经典酱油拉面、分量充足、适合想吃饱并体验本地风味的人。",
         "ko": "푸짐한 클래식 쇼유 라멘. 든든한 로컬 식사를 원할 때 좋음."
       },
-      "mapUrl": "https://maps.google.com/?q=らぁめん+ほりうち+新宿本店"
+      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ__97-daMGGARAWYjwQZtOEg"
     },
     {
+      "place_id": "ChIJ5f7A0SmNGGARtLzoA9hzuYk",
       "id": "tatsunoya",
       "name": "Ramen Tatsunoya",
       "name_ja": "ラーメン 龍の家",
@@ -1635,14 +1661,14 @@
         "zh": "新宿西口",
         "ko": "신주쿠 서쪽"
       },
-      "lat": 0.0,
-      "lng": 0.0,
-      "rating": 0.0,
-      "reviews": 0,
-      "price_range": "¥900–1,400",
+      "lat": 35.6960593,
+      "lng": 139.6983577,
+      "rating": 4.4,
+      "reviews": 4189,
+      "price_range": "¥1,000〜¥2,000",
       "hours": {
-        "en": "TBD",
-        "ja": "TBD"
+        "en": "Monday: 11:00 AM – 10:00 PM | Tuesday: 11:00 AM – 10:00 PM | Wednesday: 11:00 AM – 10:00 PM | Thursday: 11:00 AM – 10:00 PM | Friday: 11:00 AM – 10:00 PM | Saturday: 11:00 AM – 10:00 PM | Sunday: 11:00 AM – 10:00 PM",
+        "ja": "月曜日: 11時00分～22時00分 | 火曜日: 11時00分～22時00分 | 水曜日: 11時00分～22時00分 | 木曜日: 11時00分～22時00分 | 金曜日: 11時00分～22時00分 | 土曜日: 11時00分～22時00分 | 日曜日: 11時00分～22時00分"
       },
       "flavors": [
         "tonkotsu"
@@ -1686,9 +1712,10 @@
         "zh": "浓厚但顺滑的久留米系豚骨、适合第一次尝试豚骨的旅客。",
         "ko": "진하지만 부드러운 구루메식 돈코츠. 첫 돈코츠 경험에 추천."
       },
-      "mapUrl": "https://maps.google.com/?q=ラーメン+龍の家+新宿"
+      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ5f7A0SmNGGARtLzoA9hzuYk"
     },
     {
+      "place_id": "ChIJdeRE2CmNGGARwTg2534WCIM",
       "id": "ichigen",
       "name": "Ebisoba Ichigen",
       "name_ja": "えびそば 一幻 新宿店",
@@ -1699,14 +1726,14 @@
         "zh": "新宿西口",
         "ko": "신주쿠 서쪽"
       },
-      "lat": 0.0,
-      "lng": 0.0,
-      "rating": 0.0,
-      "reviews": 0,
-      "price_range": "¥1,000–1,500",
+      "lat": 35.6955047,
+      "lng": 139.6980489,
+      "rating": 4.1,
+      "reviews": 2534,
+      "price_range": "¥1,000〜¥2,000",
       "hours": {
-        "en": "TBD",
-        "ja": "TBD"
+        "en": "Monday: 11:00 AM – 11:00 PM | Tuesday: 11:00 AM – 11:00 PM | Wednesday: 11:00 AM – 11:00 PM | Thursday: 11:00 AM – 11:00 PM | Friday: 11:00 AM – 11:00 PM | Saturday: 11:00 AM – 11:00 PM | Sunday: 11:00 AM – 11:00 PM",
+        "ja": "月曜日: 11時00分～23時00分 | 火曜日: 11時00分～23時00分 | 水曜日: 11時00分～23時00分 | 木曜日: 11時00分～23時00分 | 金曜日: 11時00分～23時00分 | 土曜日: 11時00分～23時00分 | 日曜日: 11時00分～23時00分"
       },
       "flavors": [
         "shrimp",
@@ -1752,9 +1779,10 @@
         "zh": "北海道出身的知名虾味拉面、汤底充满甜虾香气、非常有记忆点。",
         "ko": "홋카이도 출신 새우 라멘 명점. 달콤한 새우 향이 강해 기억에 남는 한 그릇."
       },
-      "mapUrl": "https://maps.google.com/?q=えびそば+一幻+新宿"
+      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJdeRE2CmNGGARwTg2534WCIM"
     },
     {
+      "place_id": "ChIJUwJMHtGMGGARm-cgz_hPgaA",
       "id": "tetsu_keio",
       "name": "Tsukemen TETSU Keio Mall",
       "name_ja": "つけめんTETSU 京王モール新宿店",
@@ -1765,14 +1793,14 @@
         "zh": "新宿站",
         "ko": "신주쿠역"
       },
-      "lat": 0.0,
-      "lng": 0.0,
-      "rating": 0.0,
-      "reviews": 0,
-      "price_range": "¥900–1,400",
+      "lat": 35.6897547,
+      "lng": 139.698663,
+      "rating": 3.6,
+      "reviews": 701,
+      "price_range": "¥1,000〜¥2,000",
       "hours": {
-        "en": "TBD",
-        "ja": "TBD"
+        "en": "Monday: 10:00 AM – 11:00 PM | Tuesday: 10:00 AM – 11:00 PM | Wednesday: 10:00 AM – 11:00 PM | Thursday: 10:00 AM – 11:00 PM | Friday: 10:00 AM – 11:00 PM | Saturday: 10:00 AM – 11:00 PM | Sunday: 10:00 AM – 11:00 PM",
+        "ja": "月曜日: 10時00分～23時00分 | 火曜日: 10時00分～23時00分 | 水曜日: 10時00分～23時00分 | 木曜日: 10時00分～23時00分 | 金曜日: 10時00分～23時00分 | 土曜日: 10時00分～23時00分 | 日曜日: 10時00分～23時00分"
       },
       "flavors": [
         "tsukemen",
@@ -1816,9 +1844,10 @@
         "zh": "车站附近方便的沾面选择、适合不想走太远的旅客。",
         "ko": "역 근처에서 편하게 먹기 좋은 츠케멘. 멀리 걷고 싶지 않을 때 좋음."
       },
-      "mapUrl": "https://maps.google.com/?q=つけめんTETSU+京王モール+新宿"
+      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJUwJMHtGMGGARm-cgz_hPgaA"
     },
     {
+      "place_id": "ChIJORVd6yTzGGARC3f_GryTNAU",
       "id": "hototogisu",
       "name": "Konjiki Hototogisu",
       "name_ja": "SOBA HOUSE 金色不如帰 新宿御苑本店",
@@ -1829,14 +1858,14 @@
         "zh": "新宿御苑",
         "ko": "신주쿠교엔"
       },
-      "lat": 0.0,
-      "lng": 0.0,
-      "rating": 0.0,
-      "reviews": 0,
-      "price_range": "¥1,200–2,000",
+      "lat": 35.6887843,
+      "lng": 139.7082917,
+      "rating": 4.1,
+      "reviews": 2592,
+      "price_range": "¥1,000〜¥2,000",
       "hours": {
-        "en": "TBD",
-        "ja": "TBD"
+        "en": "Monday: Closed | Tuesday: 11:00 AM – 3:00 PM, 6:30 – 9:00 PM | Wednesday: 11:00 AM – 3:00 PM, 6:30 – 9:00 PM | Thursday: 11:00 AM – 3:00 PM, 6:30 – 9:00 PM | Friday: 11:00 AM – 3:00 PM, 6:30 – 9:00 PM | Saturday: 11:00 AM – 3:00 PM, 6:30 – 9:00 PM | Sunday: Closed",
+        "ja": "月曜日: 定休日 | 火曜日: 11時00分～15時00分, 18時30分～21時00分 | 水曜日: 11時00分～15時00分, 18時30分～21時00分 | 木曜日: 11時00分～15時00分, 18時30分～21時00分 | 金曜日: 11時00分～15時00分, 18時30分～21時00分 | 土曜日: 11時00分～15時00分, 18時30分～21時00分 | 日曜日: 定休日"
       },
       "flavors": [
         "shoyu",
@@ -1881,9 +1910,10 @@
         "zh": "贝类鲜味层次丰富、适合想吃精致高级拉面的旅客。",
         "ko": "조개의 감칠맛이 겹겹이 느껴지는 세련된 라멘. 프리미엄 경험을 원하는 여행자에게 추천."
       },
-      "mapUrl": "https://maps.google.com/?q=金色不如帰+新宿御苑"
+      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJORVd6yTzGGARC3f_GryTNAU"
     },
     {
+      "place_id": "ChIJyYVZySmNGGAR664xQ9BZigg",
       "id": "hachiro",
       "name": "Misoya Hachiro Shoten",
       "name_ja": "味噌屋八郎商店 新宿店",
@@ -1894,14 +1924,14 @@
         "zh": "新宿西口",
         "ko": "신주쿠 서쪽"
       },
-      "lat": 0.0,
-      "lng": 0.0,
-      "rating": 0.0,
-      "reviews": 0,
-      "price_range": "¥900–1,400",
+      "lat": 35.696386,
+      "lng": 139.6983334,
+      "rating": 4.1,
+      "reviews": 1386,
+      "price_range": "¥1,000〜¥2,000",
       "hours": {
-        "en": "TBD",
-        "ja": "TBD"
+        "en": "Monday: 11:00 AM – 11:00 PM | Tuesday: 11:00 AM – 11:00 PM | Wednesday: 11:00 AM – 11:00 PM | Thursday: 11:00 AM – 11:00 PM | Friday: 11:00 AM – 11:00 PM | Saturday: 11:00 AM – 11:00 PM | Sunday: 11:00 AM – 11:00 PM",
+        "ja": "月曜日: 11時00分～23時00分 | 火曜日: 11時00分～23時00分 | 水曜日: 11時00分～23時00分 | 木曜日: 11時00分～23時00分 | 金曜日: 11時00分～23時00分 | 土曜日: 11時00分～23時00分 | 日曜日: 11時00分～23時00分"
       },
       "flavors": [
         "miso"
@@ -1945,9 +1975,10 @@
         "zh": "浓郁有冲击力的味噌拉面、适合冷天或想吃重口味的人。",
         "ko": "진하고 강한 미소 라멘. 추운 날이나 든든하게 먹고 싶을 때 추천."
       },
-      "mapUrl": "https://maps.google.com/?q=味噌屋八郎商店+新宿"
+      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJyYVZySmNGGAR664xQ9BZigg"
     },
     {
+      "place_id": "ChIJ10hCPtiMGGAR8baTjX2i3Dg",
       "id": "take_tora",
       "name": "Mensho Taketora",
       "name_ja": "麺匠 竹虎 本店",
@@ -1958,14 +1989,14 @@
         "zh": "歌舞伎町",
         "ko": "가부키초"
       },
-      "lat": 0.0,
-      "lng": 0.0,
-      "rating": 0.0,
-      "reviews": 0,
-      "price_range": "¥1,000–1,800",
+      "lat": 35.6958998,
+      "lng": 139.7023901,
+      "rating": 4.4,
+      "reviews": 2850,
+      "price_range": "¥1,000〜¥2,000",
       "hours": {
-        "en": "TBD",
-        "ja": "TBD"
+        "en": "Monday: 11:00 AM – 8:30 AM | Tuesday: 11:00 AM – 8:30 AM | Wednesday: 11:00 AM – 8:30 AM | Thursday: 11:00 AM – 8:30 AM | Friday: 11:00 AM – 8:30 AM | Saturday: 11:00 AM – 8:30 AM | Sunday: 11:00 AM – 5:00 AM",
+        "ja": "月曜日: 11時00分～8時30分 | 火曜日: 11時00分～8時30分 | 水曜日: 11時00分～8時30分 | 木曜日: 11時00分～8時30分 | 金曜日: 11時00分～8時30分 | 土曜日: 11時00分～8時30分 | 日曜日: 11時00分～5時00分"
       },
       "flavors": [
         "miso",
@@ -2011,9 +2042,10 @@
         "zh": "位于歌舞伎町、菜单丰富、适合夜晚和多人同行。",
         "ko": "가부키초 분위기의 다양한 메뉴. 관광이나 밤 일정 후 그룹에게 좋음."
       },
-      "mapUrl": "https://maps.google.com/?q=麺匠+竹虎+本店+新宿"
+      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ10hCPtiMGGAR8baTjX2i3Dg"
     },
     {
+      "place_id": "ChIJTR9ufteMGGAR56Uhwri3jvs",
       "id": "bankara",
       "name": "Bankara Shinjuku Kabukicho",
       "name_ja": "東京豚骨拉麺ばんから 新宿歌舞伎町店",
@@ -2024,14 +2056,14 @@
         "zh": "歌舞伎町",
         "ko": "가부키초"
       },
-      "lat": 0.0,
-      "lng": 0.0,
-      "rating": 0.0,
-      "reviews": 0,
-      "price_range": "¥900–1,500",
+      "lat": 35.6941535,
+      "lng": 139.7012787,
+      "rating": 3.6,
+      "reviews": 759,
+      "price_range": "¥1,000〜¥2,000",
       "hours": {
-        "en": "TBD",
-        "ja": "TBD"
+        "en": "Monday: 11:00 AM – 8:00 AM | Tuesday: 11:00 AM – 8:00 AM | Wednesday: 11:00 AM – 8:00 AM | Thursday: 11:00 AM – 8:00 AM | Friday: 11:00 AM – 8:00 AM | Saturday: 11:00 AM – 8:00 AM | Sunday: 11:00 AM – 8:00 AM",
+        "ja": "月曜日: 11時00分～8時00分 | 火曜日: 11時00分～8時00分 | 水曜日: 11時00分～8時00分 | 木曜日: 11時00分～8時00分 | 金曜日: 11時00分～8時00分 | 土曜日: 11時00分～8時00分 | 日曜日: 11時00分～8時00分"
       },
       "flavors": [
         "tonkotsu",
@@ -2076,9 +2108,10 @@
         "zh": "歌舞伎町方便的浓厚豚骨酱油拉面、适合晚上想吃重口味的旅客。",
         "ko": "가부키초에서 먹기 좋은 진한 돈코츠 쇼유. 밤에 든든하게 먹고 싶은 여행자에게 추천."
       },
-      "mapUrl": "https://maps.google.com/?q=ばんから+新宿+歌舞伎町"
+      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJTR9ufteMGGAR56Uhwri3jvs"
     },
     {
+      "place_id": "ChIJAQBkztmMGGARosn57sNUBfM",
       "id": "kamukura_shinjuku",
       "name": "Kamukura Shinjuku",
       "name_ja": "どうとんぼり神座 新宿店",
@@ -2089,14 +2122,14 @@
         "zh": "歌舞伎町",
         "ko": "가부키초"
       },
-      "lat": 0.0,
-      "lng": 0.0,
-      "rating": 0.0,
-      "reviews": 0,
-      "price_range": "¥900–1,400",
+      "lat": 35.6943956,
+      "lng": 139.70208,
+      "rating": 4.0,
+      "reviews": 2196,
+      "price_range": "¥1,000〜¥2,000",
       "hours": {
-        "en": "TBD",
-        "ja": "TBD"
+        "en": "Monday: 10:00 AM – 8:00 AM | Tuesday: 10:00 AM – 8:00 AM | Wednesday: 10:00 AM – 8:00 AM | Thursday: 10:00 AM – 8:00 AM | Friday: 10:00 AM – 8:00 AM | Saturday: 10:00 AM – 8:00 AM | Sunday: 10:00 AM – 8:00 AM",
+        "ja": "月曜日: 10時00分～8時00分 | 火曜日: 10時00分～8時00分 | 水曜日: 10時00分～8時00分 | 木曜日: 10時00分～8時00分 | 金曜日: 10時00分～8時00分 | 土曜日: 10時00分～8時00分 | 日曜日: 10時00分～8時00分"
       },
       "flavors": [
         "shoyu",
@@ -2140,9 +2173,10 @@
         "zh": "带有蔬菜甜味的温和酱油拉面、非常适合初次来日本的旅客。",
         "ko": "야채의 단맛이 느껴지는 부드러운 쇼유 라멘. 초보자에게 좋음."
       },
-      "mapUrl": "https://maps.google.com/?q=どうとんぼり神座+新宿店"
+      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJAQBkztmMGGARosn57sNUBfM"
     },
     {
+      "place_id": "ChIJR-dLB_PzGGARXjDGaUEH7vE",
       "id": "kamukura_keio",
       "name": "Kamukura Keio Mall",
       "name_ja": "どうとんぼり神座 京王モール店",
@@ -2153,14 +2187,14 @@
         "zh": "新宿站",
         "ko": "신주쿠역"
       },
-      "lat": 0.0,
-      "lng": 0.0,
-      "rating": 0.0,
-      "reviews": 0,
-      "price_range": "¥900–1,400",
+      "lat": 35.6898839,
+      "lng": 139.6986612,
+      "rating": 3.8,
+      "reviews": 723,
+      "price_range": "¥1,000〜¥2,000",
       "hours": {
-        "en": "TBD",
-        "ja": "TBD"
+        "en": "Monday: 7:00 AM – 11:30 PM | Tuesday: 7:00 AM – 11:30 PM | Wednesday: 7:00 AM – 11:30 PM | Thursday: 7:00 AM – 11:30 PM | Friday: 7:00 AM – 11:30 PM | Saturday: 7:00 AM – 11:30 PM | Sunday: 7:00 AM – 11:30 PM",
+        "ja": "月曜日: 7時00分～23時30分 | 火曜日: 7時00分～23時30分 | 水曜日: 7時00分～23時30分 | 木曜日: 7時00分～23時30分 | 金曜日: 7時00分～23時30分 | 土曜日: 7時00分～23時30分 | 日曜日: 7時00分～23時30分"
       },
       "flavors": [
         "shoyu",
@@ -2204,9 +2238,10 @@
         "zh": "车站附近方便的清淡蔬菜酱油拉面、适合不想吃太重的人。",
         "ko": "역 근처에서 편하게 먹는 부드러운 야채 쇼유 라멘. 무겁지 않은 한 끼에 좋음."
       },
-      "mapUrl": "https://maps.google.com/?q=どうとんぼり神座+京王モール+新宿"
+      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJR-dLB_PzGGARXjDGaUEH7vE"
     },
     {
+      "place_id": "ChIJyYVZySmNGGARQ8FSIjK-jCg",
       "id": "jiro_otakibashi",
       "name": "Ramen Jiro Otakibashi",
       "name_ja": "ラーメン二郎 新宿小滝橋通り店",
@@ -2217,14 +2252,14 @@
         "zh": "新宿西口",
         "ko": "신주쿠 서쪽"
       },
-      "lat": 0.0,
-      "lng": 0.0,
-      "rating": 0.0,
-      "reviews": 0,
-      "price_range": "¥800–1,200",
+      "lat": 35.6963527,
+      "lng": 139.6983158,
+      "rating": 3.7,
+      "reviews": 2070,
+      "price_range": "¥1,000〜¥2,000",
       "hours": {
-        "en": "TBD",
-        "ja": "TBD"
+        "en": "Monday: 11:00 AM – 10:30 PM | Tuesday: 11:00 AM – 10:30 PM | Wednesday: 11:00 AM – 10:30 PM | Thursday: 11:00 AM – 10:30 PM | Friday: 11:00 AM – 10:30 PM | Saturday: 11:00 AM – 10:30 PM | Sunday: 11:00 AM – 9:30 PM",
+        "ja": "月曜日: 11時00分～22時30分 | 火曜日: 11時00分～22時30分 | 水曜日: 11時00分～22時30分 | 木曜日: 11時00分～22時30分 | 金曜日: 11時00分～22時30分 | 土曜日: 11時00分～22時30分 | 日曜日: 11時00分～21時30分"
       },
       "flavors": [
         "tonkotsu",
@@ -2269,9 +2304,10 @@
         "zh": "分量巨大、味道浓厚的二郎系体验、不适合新手但很有冲击力。",
         "ko": "양이 많고 진한 지로계 라멘. 초보자보다는 도전적인 사람에게 추천."
       },
-      "mapUrl": "https://maps.google.com/?q=ラーメン二郎+新宿小滝橋通り店"
+      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJyYVZySmNGGARQ8FSIjK-jCg"
     },
     {
+      "place_id": "ChIJAQAcGtiMGGARvhTyXdknEJM",
       "id": "jiro_kabukicho",
       "name": "Ramen Jiro Kabukicho",
       "name_ja": "ラーメン二郎 新宿歌舞伎町店",
@@ -2282,14 +2318,14 @@
         "zh": "歌舞伎町",
         "ko": "가부키초"
       },
-      "lat": 0.0,
-      "lng": 0.0,
-      "rating": 0.0,
-      "reviews": 0,
-      "price_range": "¥800–1,200",
+      "lat": 35.6961205,
+      "lng": 139.7019533,
+      "rating": 3.6,
+      "reviews": 2752,
+      "price_range": "¥〜¥1,000",
       "hours": {
-        "en": "TBD",
-        "ja": "TBD"
+        "en": "Monday: 11:30 AM – 2:30 AM | Tuesday: 11:30 AM – 2:30 AM | Wednesday: Closed | Thursday: 11:30 AM – 2:30 AM | Friday: 11:30 AM – 2:30 AM | Saturday: 11:30 AM – 2:30 AM | Sunday: 11:30 AM – 2:30 AM",
+        "ja": "月曜日: 11時30分～2時30分 | 火曜日: 11時30分～2時30分 | 水曜日: 定休日 | 木曜日: 11時30分～2時30分 | 金曜日: 11時30分～2時30分 | 土曜日: 11時30分～2時30分 | 日曜日: 11時30分～2時30分"
       },
       "flavors": [
         "tonkotsu",
@@ -2334,9 +2370,10 @@
         "zh": "歌舞伎町的二郎系重口拉面、只推荐给想挑战本地极端体验的人。",
         "ko": "가부키초의 강한 지로계 라멘. 극단적인 로컬 경험을 원하는 사람에게만 추천."
       },
-      "mapUrl": "https://maps.google.com/?q=ラーメン二郎+新宿歌舞伎町店"
+      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJAQAcGtiMGGARvhTyXdknEJM"
     },
     {
+      "place_id": "ChIJhXPtBNOMGGARJs-RCxNEsGA",
       "id": "tomato_taiyo",
       "name": "Taiyo no Tomato Men",
       "name_ja": "太陽のトマト麺 新宿ワシントンホテル支店",
@@ -2347,14 +2384,14 @@
         "zh": "新宿西口",
         "ko": "신주쿠 서쪽"
       },
-      "lat": 0.0,
-      "lng": 0.0,
-      "rating": 0.0,
-      "reviews": 0,
-      "price_range": "¥900–1,400",
+      "lat": 35.6868056,
+      "lng": 139.6928787,
+      "rating": 3.0,
+      "reviews": 136,
+      "price_range": "¥〜¥1,000",
       "hours": {
-        "en": "TBD",
-        "ja": "TBD"
+        "en": "Monday: 7:00 AM – 10:00 PM | Tuesday: 7:00 AM – 10:00 PM | Wednesday: 7:00 AM – 10:00 PM | Thursday: 7:00 AM – 10:00 PM | Friday: 7:00 AM – 10:00 PM | Saturday: 7:00 AM – 10:00 PM | Sunday: 7:00 AM – 10:00 PM",
+        "ja": "月曜日: 7時00分～22時00分 | 火曜日: 7時00分～22時00分 | 水曜日: 7時00分～22時00分 | 木曜日: 7時00分～22時00分 | 金曜日: 7時00分～22時00分 | 土曜日: 7時00分～22時00分 | 日曜日: 7時00分～22時00分"
       },
       "flavors": [
         "tomato"
@@ -2398,9 +2435,10 @@
         "zh": "意式番茄拉面、适合想吃清爽又特别口味的人。",
         "ko": "이탈리안 느낌의 토마토 라멘. 가볍고 특별한 맛을 원하는 사람에게 좋음."
       },
-      "mapUrl": "https://maps.google.com/?q=太陽のトマト麺+新宿ワシントンホテル"
+      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJhXPtBNOMGGARJs-RCxNEsGA"
     },
     {
+      "place_id": "ChIJhYO1-YaNGGARWnn_6peQEL8",
       "id": "abura_soba_souhonten",
       "name": "Abura Soba Sohonten",
       "name_ja": "油そば総本店 新宿東口アルタ裏店",
@@ -2411,14 +2449,14 @@
         "zh": "新宿东口",
         "ko": "신주쿠 동쪽 출구"
       },
-      "lat": 0.0,
-      "lng": 0.0,
-      "rating": 0.0,
-      "reviews": 0,
+      "lat": 35.6928996,
+      "lng": 139.7020344,
+      "rating": 2.6,
+      "reviews": 164,
       "price_range": "¥800–1,200",
       "hours": {
-        "en": "TBD",
-        "ja": "TBD"
+        "en": "Monday: Open 24 hours | Tuesday: Open 24 hours | Wednesday: Open 24 hours | Thursday: Open 24 hours | Friday: Open 24 hours | Saturday: Open 24 hours | Sunday: Open 24 hours",
+        "ja": "月曜日: 24 時間営業 | 火曜日: 24 時間営業 | 水曜日: 24 時間営業 | 木曜日: 24 時間営業 | 金曜日: 24 時間営業 | 土曜日: 24 時間営業 | 日曜日: 24 時間営業"
       },
       "flavors": [
         "aburasoba"
@@ -2461,9 +2499,10 @@
         "zh": "无汤拌面、酱汁浓郁、适合想快速尝试不同风味的人。",
         "ko": "국물 없이 소스에 비벼 먹는 아부라소바. 빠르고 색다른 한 끼에 좋음."
       },
-      "mapUrl": "https://maps.google.com/?q=油そば総本店+新宿東口アルタ裏"
+      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJhYO1-YaNGGARWnn_6peQEL8"
     },
     {
+      "place_id": "ChIJSRtsNtaMGGARFLEm74YhZsQ",
       "id": "kasugatei",
       "name": "Kasugatei Nishi Shinjuku",
       "name_ja": "油そば専門店 春日亭 西新宿店",
@@ -2474,14 +2513,14 @@
         "zh": "新宿西口",
         "ko": "신주쿠 서쪽"
       },
-      "lat": 0.0,
-      "lng": 0.0,
-      "rating": 0.0,
-      "reviews": 0,
-      "price_range": "¥800–1,200",
+      "lat": 35.6945281,
+      "lng": 139.6984197,
+      "rating": 3.9,
+      "reviews": 347,
+      "price_range": "¥1,000〜¥2,000",
       "hours": {
-        "en": "TBD",
-        "ja": "TBD"
+        "en": "Monday: 11:00 AM – 11:00 PM | Tuesday: 11:00 AM – 11:00 PM | Wednesday: 11:00 AM – 11:00 PM | Thursday: 11:00 AM – 11:00 PM | Friday: 11:00 AM – 11:00 PM | Saturday: 11:00 AM – 11:00 PM | Sunday: 11:00 AM – 11:00 PM",
+        "ja": "月曜日: 11時00分～23時00分 | 火曜日: 11時00分～23時00分 | 水曜日: 11時00分～23時00分 | 木曜日: 11時00分～23時00分 | 金曜日: 11時00分～23時00分 | 土曜日: 11時00分～23時00分 | 日曜日: 11時00分～23時00分"
       },
       "flavors": [
         "aburasoba"
@@ -2525,9 +2564,10 @@
         "zh": "浓厚油拌面专门店、适合想吃饱但不想喝汤的人。",
         "ko": "진한 아부라소바 전문점. 국물 없이 든든한 면을 원할 때 좋음."
       },
-      "mapUrl": "https://maps.google.com/?q=春日亭+西新宿店"
+      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJSRtsNtaMGGARFLEm74YhZsQ"
     },
     {
+      "place_id": "ChIJw_Dk2SmNGGARIt45HeJo8KI",
       "id": "nakamoto_shinjuku",
       "name": "Moko Tanmen Nakamoto",
       "name_ja": "蒙古タンメン中本 新宿店",
@@ -2538,14 +2578,14 @@
         "zh": "新宿西口",
         "ko": "신주쿠 서쪽"
       },
-      "lat": 0.0,
-      "lng": 0.0,
-      "rating": 0.0,
-      "reviews": 0,
-      "price_range": "¥900–1,300",
+      "lat": 35.695727,
+      "lng": 139.698164,
+      "rating": 4.0,
+      "reviews": 2732,
+      "price_range": "¥1,000〜¥2,000",
       "hours": {
-        "en": "TBD",
-        "ja": "TBD"
+        "en": "Monday: 10:00 AM – 11:00 PM | Tuesday: 10:00 AM – 11:00 PM | Wednesday: 10:00 AM – 11:00 PM | Thursday: 10:00 AM – 11:00 PM | Friday: 10:00 AM – 11:00 PM | Saturday: 10:00 AM – 11:00 PM | Sunday: 10:00 AM – 11:00 PM",
+        "ja": "月曜日: 10時00分～23時00分 | 火曜日: 10時00分～23時00分 | 水曜日: 10時00分～23時00分 | 木曜日: 10時00分～23時00分 | 金曜日: 10時00分～23時00分 | 土曜日: 10時00分～23時00分 | 日曜日: 10時00分～23時00分"
       },
       "flavors": [
         "miso",
@@ -2590,9 +2630,10 @@
         "zh": "东京代表性的辣味噌拉面、只推荐给主动想吃辣的人。",
         "ko": "도쿄 대표 매운 미소 라멘. 매운맛을 원하는 사람에게만 추천."
       },
-      "mapUrl": "https://maps.google.com/?q=蒙古タンメン中本+新宿店"
+      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJw_Dk2SmNGGARIt45HeJo8KI"
     },
     {
+      "place_id": "ChIJ8cluRtGMGGARDNylLHscYpA",
       "id": "hiroshi_ba",
       "name": "Guangzhou Market West",
       "name_ja": "広州市場 西新宿店",
@@ -2603,14 +2644,14 @@
         "zh": "新宿西口",
         "ko": "신주쿠 서쪽"
       },
-      "lat": 0.0,
-      "lng": 0.0,
-      "rating": 0.0,
-      "reviews": 0,
-      "price_range": "¥900–1,400",
+      "lat": 35.6895271,
+      "lng": 139.6971039,
+      "rating": 4.0,
+      "reviews": 1842,
+      "price_range": "¥1,000〜¥2,000",
       "hours": {
-        "en": "TBD",
-        "ja": "TBD"
+        "en": "Monday: 10:50 AM – 11:00 PM | Tuesday: 10:50 AM – 11:00 PM | Wednesday: 10:50 AM – 11:00 PM | Thursday: 10:50 AM – 11:00 PM | Friday: 10:50 AM – 11:00 PM | Saturday: 10:50 AM – 11:00 PM | Sunday: 10:50 AM – 11:00 PM",
+        "ja": "月曜日: 10時50分～23時00分 | 火曜日: 10時50分～23時00分 | 水曜日: 10時50分～23時00分 | 木曜日: 10時50分～23時00分 | 金曜日: 10時50分～23時00分 | 土曜日: 10時50分～23時00分 | 日曜日: 10時50分～23時00分"
       },
       "flavors": [
         "shio",
@@ -2655,9 +2696,10 @@
         "zh": "温和清淡的云吞面、适合想吃简单舒服一餐的人。",
         "ko": "부드럽고 가벼운 완탕면. 편안한 한 끼를 원하는 사람에게 추천."
       },
-      "mapUrl": "https://maps.google.com/?q=広州市場+西新宿店"
+      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ8cluRtGMGGARDNylLHscYpA"
     },
     {
+      "place_id": "ChIJ0QUDYgCNGGARqDCTvELcrec",
       "id": "hiroshi_east",
       "name": "Guangzhou Market East",
       "name_ja": "広州市場 新宿東口店",
@@ -2668,8 +2710,8 @@
         "zh": "新宿东口",
         "ko": "신주쿠 동쪽 출구"
       },
-      "lat": 0.0,
-      "lng": 0.0,
+      "lat": 35.692537,
+      "lng": 139.7030539,
       "rating": 0.0,
       "reviews": 0,
       "price_range": "¥900–1,400",
@@ -2720,9 +2762,10 @@
         "zh": "新宿东侧容易进入的云吞面店",
         "ko": "신주쿠 동쪽에서 편하게 먹는 완탕면. 관광 중 가볍게 먹기 좋음."
       },
-      "mapUrl": "https://maps.google.com/?q=広州市場+新宿東口店"
+      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ0QUDYgCNGGARqDCTvELcrec"
     },
     {
+      "place_id": "ChIJNZkZ79mMGGARP8zWdV8CiuI",
       "id": "hakata_tenjin",
       "name": "Hakata Tenjin Shinjuku East",
       "name_ja": "博多天神 新宿東口駅前店",
@@ -2733,14 +2776,14 @@
         "zh": "新宿东口",
         "ko": "신주쿠 동쪽 출구"
       },
-      "lat": 0.0,
-      "lng": 0.0,
-      "rating": 0.0,
-      "reviews": 0,
-      "price_range": "¥700–1,000",
+      "lat": 35.6932083,
+      "lng": 139.702102,
+      "rating": 3.9,
+      "reviews": 1720,
+      "price_range": "¥〜¥1,000",
       "hours": {
-        "en": "TBD",
-        "ja": "TBD"
+        "en": "Monday: 10:00 AM – 4:00 AM | Tuesday: 10:00 AM – 4:00 AM | Wednesday: 10:00 AM – 4:00 AM | Thursday: 10:00 AM – 4:00 AM | Friday: 10:00 AM – 4:00 AM | Saturday: 10:00 AM – 4:00 AM | Sunday: 10:00 AM – 4:00 AM",
+        "ja": "月曜日: 10時00分～4時00分 | 火曜日: 10時00分～4時00分 | 水曜日: 10時00分～4時00分 | 木曜日: 10時00分～4時00分 | 金曜日: 10時00分～4時00分 | 土曜日: 10時00分～4時00分 | 日曜日: 10時00分～4時00分"
       },
       "flavors": [
         "tonkotsu"
@@ -2783,9 +2826,10 @@
         "zh": "便宜快速的博多豚骨、适合观光途中轻松用餐。适合想轻松体验加面文化的旅客。",
         "ko": "싸고 빠른 하카타 돈코츠. 면 추가 문화를 가볍게 경험하기 좋음."
       },
-      "mapUrl": "https://maps.google.com/?q=博多天神+新宿東口駅前店"
+      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJNZkZ79mMGGARP8zWdV8CiuI"
     },
     {
+      "place_id": "ChIJ6yZU8NmMGGARtdh4oRDkJhI",
       "id": "hakata_furyu",
       "name": "Hakata Furyu Shinjuku East",
       "name_ja": "博多風龍 新宿東口店",
@@ -2796,14 +2840,14 @@
         "zh": "新宿东口",
         "ko": "신주쿠 동쪽 출구"
       },
-      "lat": 0.0,
-      "lng": 0.0,
-      "rating": 0.0,
-      "reviews": 0,
-      "price_range": "¥700–1,000",
+      "lat": 35.6928911,
+      "lng": 139.702117,
+      "rating": 4.1,
+      "reviews": 1192,
+      "price_range": "¥〜¥1,000",
       "hours": {
-        "en": "TBD",
-        "ja": "TBD"
+        "en": "Monday: 11:00 AM – 2:00 AM | Tuesday: 11:00 AM – 2:00 AM | Wednesday: 11:00 AM – 2:00 AM | Thursday: 11:00 AM – 2:00 AM | Friday: 11:00 AM – 2:00 AM | Saturday: 11:00 AM – 2:00 AM | Sunday: 11:00 AM – 8:00 PM",
+        "ja": "月曜日: 11時00分～2時00分 | 火曜日: 11時00分～2時00分 | 水曜日: 11時00分～2時00分 | 木曜日: 11時00分～2時00分 | 金曜日: 11時00分～2時00分 | 土曜日: 11時00分～2時00分 | 日曜日: 11時00分～20時00分"
       },
       "flavors": [
         "tonkotsu"
@@ -2846,9 +2890,10 @@
         "zh": "性价比高的博多豚骨、可加面、适合快速便宜用餐。",
         "ko": "면 추가로 가성비 좋은 하카타 돈코츠. 빠르고 저렴한 한 끼에 좋음."
       },
-      "mapUrl": "https://maps.google.com/?q=博多風龍+新宿東口店"
+      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ6yZU8NmMGGARtdh4oRDkJhI"
     },
     {
+      "place_id": "ChIJH-Z1ktaMGGARGQYNHRCtfFk",
       "id": "naokyu",
       "name": "Naokyu Shinjuku West",
       "name_ja": "らーめん直久 新宿西口店",
@@ -2859,14 +2904,14 @@
         "zh": "新宿西口",
         "ko": "신주쿠 서쪽"
       },
-      "lat": 0.0,
-      "lng": 0.0,
-      "rating": 0.0,
-      "reviews": 0,
-      "price_range": "¥800–1,200",
+      "lat": 35.6924231,
+      "lng": 139.6969156,
+      "rating": 3.4,
+      "reviews": 429,
+      "price_range": "¥1,000〜¥2,000",
       "hours": {
-        "en": "TBD",
-        "ja": "TBD"
+        "en": "Monday: 11:00 AM – 10:00 PM | Tuesday: 11:00 AM – 10:00 PM | Wednesday: 11:00 AM – 10:00 PM | Thursday: 11:00 AM – 10:00 PM | Friday: 11:00 AM – 10:00 PM | Saturday: 11:00 AM – 9:30 PM | Sunday: 11:00 AM – 9:00 PM",
+        "ja": "月曜日: 11時00分～22時00分 | 火曜日: 11時00分～22時00分 | 水曜日: 11時00分～22時00分 | 木曜日: 11時00分～22時00分 | 金曜日: 11時00分～22時00分 | 土曜日: 11時00分～21時30分 | 日曜日: 11時00分～21時00分"
       },
       "flavors": [
         "shoyu"
@@ -2909,9 +2954,10 @@
         "zh": "车站附近的经典酱油拉面、适合想吃安全熟悉口味的人。",
         "ko": "역 근처의 심플한 쇼유 라멘. 무난한 한 그릇을 원할 때 좋음."
       },
-      "mapUrl": "https://maps.google.com/?q=らーめん直久+新宿西口店"
+      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJH-Z1ktaMGGARGQYNHRCtfFk"
     },
     {
+      "place_id": "ChIJabxY2ymNGGARqMvGb64011o",
       "id": "hanabiya",
       "name": "Hanabiya",
       "name_ja": "らーめん はな火屋",
@@ -2922,14 +2968,14 @@
         "zh": "新宿西口",
         "ko": "신주쿠 서쪽"
       },
-      "lat": 0.0,
-      "lng": 0.0,
-      "rating": 0.0,
-      "reviews": 0,
-      "price_range": "¥800–1,200",
+      "lat": 35.6952498,
+      "lng": 139.6980707,
+      "rating": 4.2,
+      "reviews": 580,
+      "price_range": "¥〜¥1,000",
       "hours": {
-        "en": "TBD",
-        "ja": "TBD"
+        "en": "Monday: 11:00 AM – 3:00 PM, 5:00 – 11:00 PM | Tuesday: 11:00 AM – 3:00 PM, 5:00 – 11:00 PM | Wednesday: 11:00 AM – 3:00 PM, 5:00 – 11:00 PM | Thursday: 11:00 AM – 3:00 PM, 5:00 – 11:00 PM | Friday: 11:00 AM – 3:00 PM, 5:00 – 11:00 PM | Saturday: 11:00 AM – 3:00 PM, 5:00 – 9:00 PM | Sunday: Closed",
+        "ja": "月曜日: 11時00分～15時00分, 17時00分～23時00分 | 火曜日: 11時00分～15時00分, 17時00分～23時00分 | 水曜日: 11時00分～15時00分, 17時00分～23時00分 | 木曜日: 11時00分～15時00分, 17時00分～23時00分 | 金曜日: 11時00分～15時00分, 17時00分～23時00分 | 土曜日: 11時00分～15時00分, 17時00分～21時00分 | 日曜日: 定休日"
       },
       "flavors": [
         "shoyu",
@@ -2974,9 +3020,10 @@
         "zh": "可轻松吃到酱油和味噌拉面的本地店、适合想避开游客感的人。",
         "ko": "쇼유와 미소를 편하게 먹는 로컬 가게. 관광지 느낌이 덜한 일상 라멘을 원할 때 좋음."
       },
-      "mapUrl": "https://maps.google.com/?q=らーめん+はな火屋+新宿"
+      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJabxY2ymNGGARqMvGb64011o"
     },
     {
+      "place_id": "ChIJJ9GFnXKNGGARjCigWboT91Y",
       "id": "gachi",
       "name": "Menya Gachi",
       "name_ja": "麺屋 我論",
@@ -2987,14 +3034,14 @@
         "zh": "新宿西口",
         "ko": "신주쿠 서쪽"
       },
-      "lat": 0.0,
-      "lng": 0.0,
-      "rating": 0.0,
-      "reviews": 0,
-      "price_range": "¥900–1,400",
+      "lat": 35.6943361,
+      "lng": 139.7046121,
+      "rating": 4.2,
+      "reviews": 417,
+      "price_range": "¥1,000〜¥2,000",
       "hours": {
-        "en": "TBD",
-        "ja": "TBD"
+        "en": "Monday: 11:30 AM – 3:00 PM, 6:00 – 10:30 PM | Tuesday: 11:30 AM – 3:00 PM, 6:00 – 10:30 PM | Wednesday: 11:30 AM – 3:00 PM, 6:00 – 10:30 PM | Thursday: 11:30 AM – 3:00 PM, 6:00 – 10:30 PM | Friday: 11:30 AM – 3:00 PM, 6:00 – 10:30 PM | Saturday: 11:30 AM – 3:00 PM, 6:00 – 10:30 PM | Sunday: Closed",
+        "ja": "月曜日: 11時30分～15時00分, 18時00分～22時30分 | 火曜日: 11時30分～15時00分, 18時00分～22時30分 | 水曜日: 11時30分～15時00分, 18時00分～22時30分 | 木曜日: 11時30分～15時00分, 18時00分～22時30分 | 金曜日: 11時30分～15時00分, 18時00分～22時30分 | 土曜日: 11時30分～15時00分, 18時00分～22時30分 | 日曜日: 定休日"
       },
       "flavors": [
         "shoyu",
@@ -3038,9 +3085,10 @@
         "zh": "适合想探索知名店以外选择的旅客、西新宿较安静的推荐。",
         "ko": "유명점 외의 로컬 라멘을 원할 때 좋음. 니시신주쿠에서 조용히 먹기 좋음."
       },
-      "mapUrl": "https://maps.google.com/?q=麺屋+我論+新宿"
+      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJJ9GFnXKNGGARjCigWboT91Y"
     },
     {
+      "place_id": "ChIJebOUXlGNGGARKrLL7wFbqBw",
       "id": "kouryu",
       "name": "Kouryu Shinjuku",
       "name_ja": "光麺 新宿南口店",
@@ -3051,14 +3099,14 @@
         "zh": "新宿南口",
         "ko": "신주쿠 남쪽 출구"
       },
-      "lat": 0.0,
-      "lng": 0.0,
-      "rating": 0.0,
-      "reviews": 0,
-      "price_range": "¥900–1,400",
+      "lat": 35.6903332,
+      "lng": 139.702673,
+      "rating": 4.0,
+      "reviews": 714,
+      "price_range": "¥1,000〜¥2,000",
       "hours": {
-        "en": "TBD",
-        "ja": "TBD"
+        "en": "Monday: 11:00 AM – 11:00 PM | Tuesday: 11:00 AM – 11:00 PM | Wednesday: 11:00 AM – 11:00 PM | Thursday: 11:00 AM – 11:00 PM | Friday: 11:00 AM – 11:00 PM | Saturday: 11:00 AM – 11:00 PM | Sunday: 11:00 AM – 11:00 PM",
+        "ja": "月曜日: 11時00分～23時00分 | 火曜日: 11時00分～23時00分 | 水曜日: 11時00分～23時00分 | 木曜日: 11時00分～23時00分 | 金曜日: 11時00分～23時00分 | 土曜日: 11時00分～23時00分 | 日曜日: 11時00分～23時00分"
       },
       "flavors": [
         "tonkotsu",
@@ -3102,9 +3150,10 @@
         "zh": "南口附近方便的浓厚豚骨酱油、适合轻松吃一顿重口味。",
         "ko": "남쪽 출구 근처의 편한 돈코츠 쇼유. 가볍게 진한 맛을 먹고 싶을 때 좋음."
       },
-      "mapUrl": "https://maps.google.com/?q=光麺+新宿南口店"
+      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJebOUXlGNGGARKrLL7wFbqBw"
     },
     {
+      "place_id": "ChIJ2RtxxhTnAGARcTMVRNNGZag",
       "id": "hanamaruken",
       "name": "Hanamaruken Shinjuku",
       "name_ja": "花丸軒 新宿店",
@@ -3115,14 +3164,14 @@
         "zh": "新宿",
         "ko": "신주쿠"
       },
-      "lat": 0.0,
-      "lng": 0.0,
-      "rating": 0.0,
-      "reviews": 0,
-      "price_range": "¥900–1,400",
+      "lat": 34.6679045,
+      "lng": 135.5030584,
+      "rating": 4.3,
+      "reviews": 4338,
+      "price_range": "¥1,000〜¥2,000",
       "hours": {
-        "en": "TBD",
-        "ja": "TBD"
+        "en": "Monday: Open 24 hours | Tuesday: Open 24 hours | Wednesday: Open 24 hours | Thursday: Open 24 hours | Friday: Open 24 hours | Saturday: Open 24 hours | Sunday: Open 24 hours",
+        "ja": "月曜日: 24 時間営業 | 火曜日: 24 時間営業 | 水曜日: 24 時間営業 | 木曜日: 24 時間営業 | 金曜日: 24 時間営業 | 土曜日: 24 時間営業 | 日曜日: 24 時間営業"
       },
       "flavors": [
         "tonkotsu",
@@ -3166,9 +3215,10 @@
         "zh": "简单又饱腹的浓厚拉面、适合作为灵活备选推荐。",
         "ko": "심플하고 든든한 진한 라멘. 유연한 백업 추천으로 좋음."
       },
-      "mapUrl": "https://maps.google.com/?q=花丸軒+新宿+ラーメン"
+      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ2RtxxhTnAGARcTMVRNNGZag"
     },
     {
+      "place_id": "ChIJhXPtBNOMGGARJs-RCxNEsGA",
       "id": "taiyo_tomato_washington",
       "name": "Taiyo no Tomato Men Washington",
       "name_ja": "太陽のトマト麺 新宿ワシントンホテル支店",
@@ -3179,14 +3229,14 @@
         "zh": "新宿西口",
         "ko": "신주쿠 서쪽"
       },
-      "lat": 0.0,
-      "lng": 0.0,
-      "rating": 0.0,
-      "reviews": 0,
-      "price_range": "¥900–1,400",
+      "lat": 35.6868056,
+      "lng": 139.6928787,
+      "rating": 3.0,
+      "reviews": 136,
+      "price_range": "¥〜¥1,000",
       "hours": {
-        "en": "TBD",
-        "ja": "TBD"
+        "en": "Monday: 7:00 AM – 10:00 PM | Tuesday: 7:00 AM – 10:00 PM | Wednesday: 7:00 AM – 10:00 PM | Thursday: 7:00 AM – 10:00 PM | Friday: 7:00 AM – 10:00 PM | Saturday: 7:00 AM – 10:00 PM | Sunday: 7:00 AM – 10:00 PM",
+        "ja": "月曜日: 7時00分～22時00分 | 火曜日: 7時00分～22時00分 | 水曜日: 7時00分～22時00分 | 木曜日: 7時00分～22時00分 | 金曜日: 7時00分～22時00分 | 土曜日: 7時00分～22時00分 | 日曜日: 7時00分～22時00分"
       },
       "flavors": [
         "tomato"
@@ -3230,9 +3280,10 @@
         "zh": "清爽明亮的番茄拉面、适合想尝试非传统但容易入口的人。",
         "ko": "밝고 가벼운 토마토 라멘. 전통 라멘 외의 쉬운 선택지를 원할 때 좋음."
       },
-      "mapUrl": "https://maps.google.com/?q=太陽のトマト麺+新宿ワシントンホテル"
+      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJhXPtBNOMGGARJs-RCxNEsGA"
     },
     {
+      "place_id": "ChIJx2T1wq6NGGARHK-7QBtC4v8",
       "id": "oudouya",
       "name": "Oudouya Shinjuku",
       "name_ja": "横浜家系ラーメン 壱角家 新宿店",
@@ -3243,11 +3294,11 @@
         "zh": "新宿",
         "ko": "신주쿠"
       },
-      "lat": 0.0,
-      "lng": 0.0,
-      "rating": 0.0,
-      "reviews": 0,
-      "price_range": "¥800–1,200",
+      "lat": 35.6932439,
+      "lng": 139.6993411,
+      "rating": 3.6,
+      "reviews": 162,
+      "price_range": "¥1,000〜¥2,000",
       "hours": {
         "en": "TBD",
         "ja": "TBD"
@@ -3295,9 +3346,10 @@
         "zh": "可自选面硬度、油量和汤浓度的家系拉面、适合喜欢浓厚口味的人。",
         "ko": "면 경도·기름·맛 농도를 고르는 이에케이 라멘. 진한 맛을 좋아하는 사람에게 추천."
       },
-      "mapUrl": "https://maps.google.com/?q=壱角家+新宿+ラーメン"
+      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJx2T1wq6NGGARHK-7QBtC4v8"
     },
     {
+      "place_id": "ChIJCzQdsdyMGGAR9tjogWM52Fw",
       "id": "gyoza_ohsho_shinjuku",
       "name": "Gyoza no Ohsho Shinjuku West",
       "name_ja": "餃子の王将 新宿西口店",
@@ -3308,14 +3360,14 @@
         "zh": "新宿西口",
         "ko": "신주쿠 서쪽"
       },
-      "lat": 0.0,
-      "lng": 0.0,
-      "rating": 0.0,
-      "reviews": 0,
-      "price_range": "¥700–1,200",
+      "lat": 35.6903944,
+      "lng": 139.7071776,
+      "rating": 3.4,
+      "reviews": 785,
+      "price_range": "¥〜¥1,000",
       "hours": {
-        "en": "TBD",
-        "ja": "TBD"
+        "en": "Monday: 11:00 AM – 11:00 PM | Tuesday: 11:00 AM – 11:00 PM | Wednesday: 11:00 AM – 11:00 PM | Thursday: 11:00 AM – 11:00 PM | Friday: 11:00 AM – 3:00 AM | Saturday: 11:00 AM – 3:00 AM | Sunday: 11:00 AM – 11:00 PM",
+        "ja": "月曜日: 11時00分～23時00分 | 火曜日: 11時00分～23時00分 | 水曜日: 11時00分～23時00分 | 木曜日: 11時00分～23時00分 | 金曜日: 11時00分～3時00分 | 土曜日: 11時00分～3時00分 | 日曜日: 11時00分～23時00分"
       },
       "flavors": [
         "shoyu",
@@ -3359,9 +3411,10 @@
         "zh": "想同时吃拉面、饺子或炒饭时很实用、不是拉面专门但对旅客很方便。",
         "ko": "라멘과 교자·볶음밥을 함께 먹기 좋은 실용적 선택. 여행자에게 편함."
       },
-      "mapUrl": "https://maps.google.com/?q=餃子の王将+新宿西口店"
+      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJCzQdsdyMGGAR9tjogWM52Fw"
     },
     {
+      "place_id": "ChIJ_6q3WgCNGGARsmTS3XS-5SY",
       "id": "rairaiken",
       "name": "Rairaiken Shinjuku",
       "name_ja": "来々軒 新宿店",
@@ -3372,14 +3425,14 @@
         "zh": "新宿",
         "ko": "신주쿠"
       },
-      "lat": 0.0,
-      "lng": 0.0,
-      "rating": 0.0,
-      "reviews": 0,
+      "lat": 35.6712638,
+      "lng": 139.7080255,
+      "rating": 4.3,
+      "reviews": 108,
       "price_range": "¥800–1,200",
       "hours": {
-        "en": "TBD",
-        "ja": "TBD"
+        "en": "Monday: 11:00 AM – 4:00 PM | Tuesday: Closed | Wednesday: 11:00 AM – 4:00 PM | Thursday: 11:00 AM – 4:00 PM | Friday: 11:00 AM – 4:00 PM | Saturday: 11:00 AM – 4:00 PM | Sunday: 11:00 AM – 4:00 PM",
+        "ja": "月曜日: 11時00分～16時00分 | 火曜日: 定休日 | 水曜日: 11時00分～16時00分 | 木曜日: 11時00分～16時00分 | 金曜日: 11時00分～16時00分 | 土曜日: 11時00分～16時00分 | 日曜日: 11時00分～16時00分"
       },
       "flavors": [
         "shoyu"
@@ -3423,7 +3476,7 @@
         "zh": "简单经典酱油拉面, 适合作为安全备选推荐。",
         "ko": "복잡하지 않은 클래식 쇼유 라멘. 안전한 백업 추천으로 좋음."
       },
-      "mapUrl": "https://maps.google.com/?q=来々軒+新宿+ラーメン"
+      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ_6q3WgCNGGARsmTS3XS-5SY"
     }
   ]
 }
