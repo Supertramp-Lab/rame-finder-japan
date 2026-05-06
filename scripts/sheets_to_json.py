@@ -1,6 +1,18 @@
 """
 Google Sheets → data/*.json 変換スクリプト
 GitHub Actions から自動実行される
+
+【列構成】
+A: place_id, B: id, C: name, D: name_ja, E: type
+F: area_label_en, G: area_label_ja, H: area_label_zh, I: area_label_ko
+J: lat, K: lng, L: rating, M: reviews, N: price_range
+O: hours_en, P: hours_ja
+Q: flavors, R: vibes
+S〜AG: タグ（tag1〜tag3）
+AH〜AK: コメント（comment_en〜comment_ko）
+AL: mapUrl
+
+※ ヘッダー名で読み込むので列番号は関係なし
 """
 
 import os
@@ -66,6 +78,8 @@ def build_shop(r):
         return [v.strip() for v in val.split(",") if v.strip()]
 
     shop = {
+        # place_idも含めて保存（将来の活用のため）
+        "place_id": r.get("place_id", "").strip(),
         "id":       r.get("id", "").strip(),
         "name":     r.get("name", "").strip(),
         "name_ja":  r.get("name_ja", "").strip(),
@@ -136,12 +150,11 @@ def main():
             convert_tab(tab_name, output_path)
             success += 1
         except requests.HTTPError as e:
-            # ★修正: 400・403・404 すべてシート未存在としてスキップ
             if e.response.status_code in (400, 403, 404):
                 print(f"  ℹ️  '{tab_name}' シートが見つかりません（スキップ）")
                 skipped += 1
             else:
-                print(f"  ❌ '{tab_name}' 予期しないHTTPエラー: {e}")
+                print(f"  ❌ '{tab_name}' HTTPエラー: {e}")
                 raise
         except ValueError as e:
             print(f"  ℹ️  '{tab_name}' データなし（スキップ）: {e}")
