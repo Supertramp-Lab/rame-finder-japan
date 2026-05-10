@@ -75,7 +75,7 @@
         "zh": "米其林推荐，只专注于一碗完美的拉面。开门前到达，每日限量很快售罄。",
         "ko": "미슐랭 추천. 하루 한정 그릇이 빠르게 소진됩니다. 개점 전에 도착하세요."
       },
-      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ-ThV_9qMGGARj_VBy37Ywa0"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=らーめん林田&query_place_id=ChIJ-ThV_9qMGGARj_VBy37Ywa0"
     },
     {
       "place_id": "ChIJkwclk6GNGGARPYNl-XWaoSo",
@@ -140,7 +140,7 @@
         "zh": "嘻哈风格内饰，英文点餐机。柜台有免费海苔和溏心蛋，两样都要拿。",
         "ko": "힙합 인테리어에 영어 키오스크. 카운터의 무료 계란과 김을 꼭 챙기세요."
       },
-      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJkwclk6GNGGARPYNl-XWaoSo"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=ダメな隣人&query_place_id=ChIJkwclk6GNGGARPYNl-XWaoSo"
     },
     {
       "place_id": "ChIJuVDLbf6pAWARxHpPNOQzXLY",
@@ -206,7 +206,7 @@
         "zh": "新宿最好的鸡白汤之一，汤底丝滑雪白。腌制48小时的溏心蛋必点。",
         "ko": "신주쿠 최고의 닭백탕 라멘. 48시간 절인 반숙 계란을 꼭 추가하세요."
       },
-      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJuVDLbf6pAWARxHpPNOQzXLY"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=中村屋総本店&query_place_id=ChIJuVDLbf6pAWARxHpPNOQzXLY"
     },
     {
       "place_id": "ChIJme6JmjeNGGARv9mQWBXmHys",
@@ -271,7 +271,7 @@
         "zh": "来自北海道传奇店纯连的正宗札幌味噌。玉米黄油配料必点，浓郁暖心。",
         "ko": "홋카이도 전설의 순렌 정통 삿포로 미소. 옥수수와 버터 토핑은 필수입니다."
       },
-      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJme6JmjeNGGARv9mQWBXmHys"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=純連&query_place_id=ChIJme6JmjeNGGARv9mQWBXmHys"
     },
     {
       "place_id": "ChIJ__8PSIMpC18RwV3l2mTGVgE",
@@ -336,7 +336,7 @@
         "zh": "1954年开业的东京地标，东京味噌拉面的起源地。70年几乎未变的配方，历史的味道。",
         "ko": "1954년 개업한 도쿄 명물. 오리지널 미소를 주문해 70년의 역사를 맛보세요."
       },
-      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ__8PSIMpC18RwV3l2mTGVgE"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=味の三平&query_place_id=ChIJ__8PSIMpC18RwV3l2mTGVgE"
     },
     {
       "place_id": "ChIJ8QwFX9qMGGARVm0p0caIeTk",
@@ -401,7 +401,7 @@
         "zh": "标志性独立隔间体验。填写点餐单定制浓度、辣度、面条硬度。24小时营业。",
         "ko": "1인 부스 경험. 주문서로 농도·맵기·면 경도 커스텀 가능. 24시간 영업."
       },
-      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ8QwFX9qMGGARVm0p0caIeTk"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=一蘭 新宿店&query_place_id=ChIJ8QwFX9qMGGARVm0p0caIeTk"
     },
     {
       "place_id": "ChIJZZ7ArdCMGGAR0qQjAdf99xw",
@@ -466,7 +466,7 @@
         "zh": "世界著名博多豚骨，环境舒适。点白丸经典或赤丸加料。猪肉包子必点。",
         "ko": "세계적으로 유명한 하카타 돈코츠. 시로마루 또는 아카마루 선택. 히라타 번 필수."
       },
-      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJZZ7ArdCMGGAR0qQjAdf99xw"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=一風堂 新宿店&query_place_id=ChIJZZ7ArdCMGGAR0qQjAdf99xw"
     },
     {
       "place_id": "ChIJ508frs-MGGARnIKrb_tkai0",
@@ -530,7 +530,7 @@
         "zh": "东京最著名的沾面之一，浓厚鱼介沾汁几乎是酱状。开门前30分钟到达。仅收现金。",
         "ko": "도쿄 최고의 츠케멘. 두꺼운 교카이 소스. 개점 30분 전 도착 권장. 현금만."
       },
-      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ508frs-MGGARnIKrb_tkai0"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=風雲児&query_place_id=ChIJ508frs-MGGARnIKrb_tkai0"
     },
     {
       "place_id": "ChIJcyLiKtaMGGARGlb3Io-Rf3w",
@@ -596,7 +596,7 @@
         "zh": "1996年开业的新宿传奇，海鲜与动物汤底完美融合。沾面和普通拉面都很出色。",
         "ko": "1996년 신주쿠 전설. 해산물과 동물 육수의 더블 수프. 츠케멘과 일반 둘 다 추천."
       },
-      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJcyLiKtaMGGARGlb3Io-Rf3w"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=麺屋武蔵&query_place_id=ChIJcyLiKtaMGGARGlb3Io-Rf3w"
     },
     {
       "place_id": "ChIJjykJZCCLGGARMx5vYqRsWYI",
@@ -662,7 +662,7 @@
         "zh": "银座人气店的新宿分店。奶白鸡汤如浓汤般深邃。松露版值得一试。",
         "ko": "긴자 명물의 신주쿠점. 크리미한 닭 파이탄. 트러플 버전을 강력 추천합니다."
       },
-      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJjykJZCCLGGARMx5vYqRsWYI"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=銀座 篝 新宿店&query_place_id=ChIJjykJZCCLGGARMx5vYqRsWYI"
     },
     {
       "place_id": "ChIJAxKeZNmMGGARQ4EOGHqSdIg",
@@ -728,7 +728,7 @@
         "zh": "藏在黄金街迷宫中，仅9个座位。沙丁鱼干盐味汤底独特浓郁，仅晚上6点后营业。",
         "ko": "골든가이 골목 안 9석 한정. 니보시 시오 라멘은 도쿄에서 유일무이. 저녁 6시 오픈."
       },
-      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJAxKeZNmMGGARQ4EOGHqSdIg"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=ラーメン凪 新宿ゴールデン街店&query_place_id=ChIJAxKeZNmMGGARQ4EOGHqSdIg"
     },
     {
       "place_id": "ChIJ63wywVePGGAR4E_AFjwal6w",
@@ -794,7 +794,7 @@
         "zh": "新宿最佳清真拉面之一。和牛在桌边喷枪炙烤，英文服务员，营业至凌晨1点。",
         "ko": "신주쿠 최고의 할랄 라멘. 와규를 테이블에서 토치로 구워줍니다. 새벽 1시까지 영업."
       },
-      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ63wywVePGGAR4E_AFjwal6w"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=和牛ハラールラーメン歌舞伎&query_place_id=ChIJ63wywVePGGAR4E_AFjwal6w"
     },
     {
       "place_id": "ChIJAQCJl2iNGGARyWgo-ow332s",
@@ -859,7 +859,7 @@
         "zh": "东京著名的辣麻拉面——辣与四川麻椒的独特融合。辣度从0到最高可选。",
         "ko": "도쿄의 유명한 '카라시비' 라멘 — 매운맛과 마비시키는 산초의 독특한 조합. 매운맛 선택 가능."
       },
-      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJAQCJl2iNGGARyWgo-ow332s"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=鬼金棒&query_place_id=ChIJAQCJl2iNGGARyWgo-ow332s"
     },
     {
       "place_id": "ChIJL9MHQwxcGGARctbSzWCKzsk",
@@ -925,7 +925,7 @@
         "zh": "新宿的经典横滨家系风格——浓厚的豚骨酱油，可自选面条硬度、汤底浓度和油量。",
         "ko": "신주쿠의 클래식 요코하마 이에케이 스타일. 면 경도·육수 농도·오일 양을 테이블에서 커스텀."
       },
-      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJL9MHQwxcGGARctbSzWCKzsk"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=吉村家&query_place_id=ChIJL9MHQwxcGGARctbSzWCKzsk"
     },
     {
       "place_id": "ChIJMTinHnuMGGAR7I2I9azgOhY",
@@ -991,7 +991,7 @@
         "zh": "东京最好的素食拉面之一，但荤食碗也同样出色。英文菜单，饮食限制友好。",
         "ko": "도쿄 최고의 비건 라멘. 육식 메뉴도 뛰어납니다. 영어 메뉴 있음."
       },
-      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJMTinHnuMGGAR7I2I9azgOhY"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=ソラノイロ&query_place_id=ChIJMTinHnuMGGAR7I2I9azgOhY"
     },
     {
       "place_id": "ChIJTyhMA9gdGWARt838HqcAPI8",
@@ -1056,7 +1056,7 @@
         "zh": "浓厚豚骨配无限量配料台，可免费添加芝麻、大蒜、腌姜、葱。性价比极高。",
         "ko": "진한 돈코츠에 무제한 토핑 바. 참깨·마늘·절인 생강·파 무료. 가성비 최고."
       },
-      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJTyhMA9gdGWARt838HqcAPI8"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=ラーメン慶州 豚骨王&query_place_id=ChIJTyhMA9gdGWARt838HqcAPI8"
     },
     {
       "place_id": "ChIJGeC-DFHzGGAR3hBKUUprFZA",
@@ -1122,7 +1122,7 @@
         "zh": "米其林推荐，低调而出色。蛤蜊盐味汤底独特精致，新宿的隐藏宝石。",
         "ko": "미슐랭 추천, 조용하지만 탁월한. 조개 기반의 시오 육수는 도쿄에서 유일무이한 맛."
       },
-      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJGeC-DFHzGGAR3hBKUUprFZA"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=麦と橄欖&query_place_id=ChIJGeC-DFHzGGAR3hBKUUprFZA"
     },
     {
       "place_id": "ChIJI3id-LqMGGAR-nC8B7VP5v4",
@@ -1188,7 +1188,7 @@
         "zh": "立食拉面风格——快速、随意、美味。适合想快速吃一碗好拉面的独行旅行者。",
         "ko": "스탠딩 바 스타일 라멘. 빠르고 캐주얼. 혼자 여행하는 분께 최적."
       },
-      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJI3id-LqMGGAR-nC8B7VP5v4"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=ヌードルスタンド東京&query_place_id=ChIJI3id-LqMGGAR-nC8B7VP5v4"
     },
     {
       "place_id": "ChIJUeEGqnmLGGARBVyCtqZjegY",
@@ -1254,7 +1254,7 @@
         "zh": "获奖的创意拉面，菜单随季节变化。羊肉汤底是招牌——出乎意料的绝妙。",
         "ko": "수상 경력의 창의적 라멘. 계절마다 메뉴가 바뀝니다. 양고기 육수가 시그니처."
       },
-      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJUeEGqnmLGGARBVyCtqZjegY"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=麺匠の心つくし&query_place_id=ChIJUeEGqnmLGGARBVyCtqZjegY"
     },
     {
       "place_id": "ChIJVVVVVZiNGGAR_Dkw0TJHoN4",
@@ -1319,7 +1319,7 @@
         "zh": "世界上第一家米其林星级拉面餐厅。松露酱油汤底精致芬芳，值得每一分钱。",
         "ko": "세계 최초 미슐랭 스타 라멘 레스토랑. 트러플 쇼유 육수는 정제되고 향기로운 일생일대의 경험."
       },
-      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJVVVVVZiNGGAR_Dkw0TJHoN4"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=蔦 新宿店&query_place_id=ChIJVVVVVZiNGGAR_Dkw0TJHoN4"
     },
     {
       "place_id": "ChIJ9wV7H8WMGGARbcofX8Zk5a0",
@@ -1385,7 +1385,7 @@
         "zh": "以浓厚虾味沾汁闻名的沾面店、适合想尝试经典拉面以外口味的旅客。",
         "ko": "진한 새우 츠케멘으로 유명한 곳. 클래식 라멘 외에 특별한 맛을 찾는 여행자에게 추천."
       },
-      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ9wV7H8WMGGARbcofX8Zk5a0"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=つけ麺 五ノ神製作所&query_place_id=ChIJ9wV7H8WMGGARbcofX8Zk5a0"
     },
     {
       "place_id": "ChIJXVRkjtqMGGAR_IYDENOJmJ0",
@@ -1451,7 +1451,7 @@
         "zh": "清爽但鲜味十足的鱼介盐味拉面、适合不想吃浓厚豚骨的人。",
         "ko": "맑고 가벼운 해산물 시오 라멘. 진한 돈코츠가 부담스러운 사람에게 좋음."
       },
-      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJXVRkjtqMGGAR_IYDENOJmJ0"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=麺屋 海神&query_place_id=ChIJXVRkjtqMGGAR_IYDENOJmJ0"
     },
     {
       "place_id": "ChIJAQDFhSmNGGARFjICR3zt2F4",
@@ -1517,7 +1517,7 @@
         "zh": "以精致鸡汤盐味拉面闻名、适合想体验高级感东京拉面的旅客。",
         "ko": "세련된 닭 육수 시오 라멘으로 유명. 깔끔한 도쿄 라멘을 원하는 여행자에게 추천."
       },
-      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJAQDFhSmNGGARFjICR3zt2F4"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=麺屋 翔 本店&query_place_id=ChIJAQDFhSmNGGARFjICR3zt2F4"
     },
     {
       "place_id": "ChIJKY6lWNaMGGAR9htWYuqXko8",
@@ -1582,7 +1582,7 @@
         "zh": "以大块叉烧和经典酱油拉面闻名的新宿老店、适合想吃传统风味的人。",
         "ko": "큰 차슈와 클래식 쇼유로 유명한 신주쿠 노포. 옛날 스타일 라멘을 원하는 사람에게 추천."
       },
-      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJKY6lWNaMGGAR9htWYuqXko8"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=らぁめん 満来&query_place_id=ChIJKY6lWNaMGGAR9htWYuqXko8"
     },
     {
       "place_id": "ChIJ__97-daMGGARAWYjwQZtOEg",
@@ -1647,7 +1647,7 @@
         "zh": "经典酱油拉面、分量充足、适合想吃饱并体验本地风味的人。",
         "ko": "푸짐한 클래식 쇼유 라멘. 든든한 로컬 식사를 원할 때 좋음."
       },
-      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ__97-daMGGARAWYjwQZtOEg"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=らぁめん ほりうち 新宿本店&query_place_id=ChIJ__97-daMGGARAWYjwQZtOEg"
     },
     {
       "place_id": "ChIJ5f7A0SmNGGARtLzoA9hzuYk",
@@ -1712,7 +1712,7 @@
         "zh": "浓厚但顺滑的久留米系豚骨、适合第一次尝试豚骨的旅客。",
         "ko": "진하지만 부드러운 구루메식 돈코츠. 첫 돈코츠 경험에 추천."
       },
-      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ5f7A0SmNGGARtLzoA9hzuYk"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=ラーメン 龍の家&query_place_id=ChIJ5f7A0SmNGGARtLzoA9hzuYk"
     },
     {
       "place_id": "ChIJdeRE2CmNGGARwTg2534WCIM",
@@ -1779,7 +1779,7 @@
         "zh": "北海道出身的知名虾味拉面、汤底充满甜虾香气、非常有记忆点。",
         "ko": "홋카이도 출신 새우 라멘 명점. 달콤한 새우 향이 강해 기억에 남는 한 그릇."
       },
-      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJdeRE2CmNGGARwTg2534WCIM"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=えびそば 一幻 新宿店&query_place_id=ChIJdeRE2CmNGGARwTg2534WCIM"
     },
     {
       "place_id": "ChIJUwJMHtGMGGARm-cgz_hPgaA",
@@ -1844,7 +1844,7 @@
         "zh": "车站附近方便的沾面选择、适合不想走太远的旅客。",
         "ko": "역 근처에서 편하게 먹기 좋은 츠케멘. 멀리 걷고 싶지 않을 때 좋음."
       },
-      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJUwJMHtGMGGARm-cgz_hPgaA"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=つけめんTETSU 京王モール新宿店&query_place_id=ChIJUwJMHtGMGGARm-cgz_hPgaA"
     },
     {
       "place_id": "ChIJORVd6yTzGGARC3f_GryTNAU",
@@ -1910,7 +1910,7 @@
         "zh": "贝类鲜味层次丰富、适合想吃精致高级拉面的旅客。",
         "ko": "조개의 감칠맛이 겹겹이 느껴지는 세련된 라멘. 프리미엄 경험을 원하는 여행자에게 추천."
       },
-      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJORVd6yTzGGARC3f_GryTNAU"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=SOBA HOUSE 金色不如帰 新宿御苑本店&query_place_id=ChIJORVd6yTzGGARC3f_GryTNAU"
     },
     {
       "place_id": "ChIJyYVZySmNGGAR664xQ9BZigg",
@@ -1975,7 +1975,7 @@
         "zh": "浓郁有冲击力的味噌拉面、适合冷天或想吃重口味的人。",
         "ko": "진하고 강한 미소 라멘. 추운 날이나 든든하게 먹고 싶을 때 추천."
       },
-      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJyYVZySmNGGAR664xQ9BZigg"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=味噌屋八郎商店 新宿店&query_place_id=ChIJyYVZySmNGGAR664xQ9BZigg"
     },
     {
       "place_id": "ChIJ10hCPtiMGGAR8baTjX2i3Dg",
@@ -2042,7 +2042,7 @@
         "zh": "位于歌舞伎町、菜单丰富、适合夜晚和多人同行。",
         "ko": "가부키초 분위기의 다양한 메뉴. 관광이나 밤 일정 후 그룹에게 좋음."
       },
-      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ10hCPtiMGGAR8baTjX2i3Dg"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=麺匠 竹虎 本店&query_place_id=ChIJ10hCPtiMGGAR8baTjX2i3Dg"
     },
     {
       "place_id": "ChIJTR9ufteMGGAR56Uhwri3jvs",
@@ -2108,7 +2108,7 @@
         "zh": "歌舞伎町方便的浓厚豚骨酱油拉面、适合晚上想吃重口味的旅客。",
         "ko": "가부키초에서 먹기 좋은 진한 돈코츠 쇼유. 밤에 든든하게 먹고 싶은 여행자에게 추천."
       },
-      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJTR9ufteMGGAR56Uhwri3jvs"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=東京豚骨拉麺ばんから 新宿歌舞伎町店&query_place_id=ChIJTR9ufteMGGAR56Uhwri3jvs"
     },
     {
       "place_id": "ChIJAQBkztmMGGARosn57sNUBfM",
@@ -2173,7 +2173,7 @@
         "zh": "带有蔬菜甜味的温和酱油拉面、非常适合初次来日本的旅客。",
         "ko": "야채의 단맛이 느껴지는 부드러운 쇼유 라멘. 초보자에게 좋음."
       },
-      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJAQBkztmMGGARosn57sNUBfM"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=どうとんぼり神座 新宿店&query_place_id=ChIJAQBkztmMGGARosn57sNUBfM"
     },
     {
       "place_id": "ChIJR-dLB_PzGGARXjDGaUEH7vE",
@@ -2238,7 +2238,7 @@
         "zh": "车站附近方便的清淡蔬菜酱油拉面、适合不想吃太重的人。",
         "ko": "역 근처에서 편하게 먹는 부드러운 야채 쇼유 라멘. 무겁지 않은 한 끼에 좋음."
       },
-      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJR-dLB_PzGGARXjDGaUEH7vE"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=どうとんぼり神座 京王モール店&query_place_id=ChIJR-dLB_PzGGARXjDGaUEH7vE"
     },
     {
       "place_id": "ChIJyYVZySmNGGARQ8FSIjK-jCg",
@@ -2304,7 +2304,7 @@
         "zh": "分量巨大、味道浓厚的二郎系体验、不适合新手但很有冲击力。",
         "ko": "양이 많고 진한 지로계 라멘. 초보자보다는 도전적인 사람에게 추천."
       },
-      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJyYVZySmNGGARQ8FSIjK-jCg"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=ラーメン二郎 新宿小滝橋通り店&query_place_id=ChIJyYVZySmNGGARQ8FSIjK-jCg"
     },
     {
       "place_id": "ChIJAQAcGtiMGGARvhTyXdknEJM",
@@ -2370,7 +2370,7 @@
         "zh": "歌舞伎町的二郎系重口拉面、只推荐给想挑战本地极端体验的人。",
         "ko": "가부키초의 강한 지로계 라멘. 극단적인 로컬 경험을 원하는 사람에게만 추천."
       },
-      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJAQAcGtiMGGARvhTyXdknEJM"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=ラーメン二郎 新宿歌舞伎町店&query_place_id=ChIJAQAcGtiMGGARvhTyXdknEJM"
     },
     {
       "place_id": "ChIJhXPtBNOMGGARJs-RCxNEsGA",
@@ -2435,7 +2435,7 @@
         "zh": "意式番茄拉面、适合想吃清爽又特别口味的人。",
         "ko": "이탈리안 느낌의 토마토 라멘. 가볍고 특별한 맛을 원하는 사람에게 좋음."
       },
-      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJhXPtBNOMGGARJs-RCxNEsGA"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=太陽のトマト麺 新宿ワシントンホテル支店&query_place_id=ChIJhXPtBNOMGGARJs-RCxNEsGA"
     },
     {
       "place_id": "ChIJhYO1-YaNGGARWnn_6peQEL8",
@@ -2499,7 +2499,7 @@
         "zh": "无汤拌面、酱汁浓郁、适合想快速尝试不同风味的人。",
         "ko": "국물 없이 소스에 비벼 먹는 아부라소바. 빠르고 색다른 한 끼에 좋음."
       },
-      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJhYO1-YaNGGARWnn_6peQEL8"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=油そば総本店 新宿東口アルタ裏店&query_place_id=ChIJhYO1-YaNGGARWnn_6peQEL8"
     },
     {
       "place_id": "ChIJSRtsNtaMGGARFLEm74YhZsQ",
@@ -2564,7 +2564,7 @@
         "zh": "浓厚油拌面专门店、适合想吃饱但不想喝汤的人。",
         "ko": "진한 아부라소바 전문점. 국물 없이 든든한 면을 원할 때 좋음."
       },
-      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJSRtsNtaMGGARFLEm74YhZsQ"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=油そば専門店 春日亭 西新宿店&query_place_id=ChIJSRtsNtaMGGARFLEm74YhZsQ"
     },
     {
       "place_id": "ChIJw_Dk2SmNGGARIt45HeJo8KI",
@@ -2630,7 +2630,7 @@
         "zh": "东京代表性的辣味噌拉面、只推荐给主动想吃辣的人。",
         "ko": "도쿄 대표 매운 미소 라멘. 매운맛을 원하는 사람에게만 추천."
       },
-      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJw_Dk2SmNGGARIt45HeJo8KI"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=蒙古タンメン中本 新宿店&query_place_id=ChIJw_Dk2SmNGGARIt45HeJo8KI"
     },
     {
       "place_id": "ChIJ8cluRtGMGGARDNylLHscYpA",
@@ -2696,7 +2696,7 @@
         "zh": "温和清淡的云吞面、适合想吃简单舒服一餐的人。",
         "ko": "부드럽고 가벼운 완탕면. 편안한 한 끼를 원하는 사람에게 추천."
       },
-      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ8cluRtGMGGARDNylLHscYpA"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=広州市場 西新宿店&query_place_id=ChIJ8cluRtGMGGARDNylLHscYpA"
     },
     {
       "place_id": "ChIJ0QUDYgCNGGARqDCTvELcrec",
@@ -2762,7 +2762,7 @@
         "zh": "新宿东侧容易进入的云吞面店",
         "ko": "신주쿠 동쪽에서 편하게 먹는 완탕면. 관광 중 가볍게 먹기 좋음."
       },
-      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ0QUDYgCNGGARqDCTvELcrec"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=広州市場 新宿東口店&query_place_id=ChIJ0QUDYgCNGGARqDCTvELcrec"
     },
     {
       "place_id": "ChIJNZkZ79mMGGARP8zWdV8CiuI",
@@ -2826,7 +2826,7 @@
         "zh": "便宜快速的博多豚骨、适合观光途中轻松用餐。适合想轻松体验加面文化的旅客。",
         "ko": "싸고 빠른 하카타 돈코츠. 면 추가 문화를 가볍게 경험하기 좋음."
       },
-      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJNZkZ79mMGGARP8zWdV8CiuI"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=博多天神 新宿東口駅前店&query_place_id=ChIJNZkZ79mMGGARP8zWdV8CiuI"
     },
     {
       "place_id": "ChIJ6yZU8NmMGGARtdh4oRDkJhI",
@@ -2890,7 +2890,7 @@
         "zh": "性价比高的博多豚骨、可加面、适合快速便宜用餐。",
         "ko": "면 추가로 가성비 좋은 하카타 돈코츠. 빠르고 저렴한 한 끼에 좋음."
       },
-      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ6yZU8NmMGGARtdh4oRDkJhI"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=博多風龍 新宿東口店&query_place_id=ChIJ6yZU8NmMGGARtdh4oRDkJhI"
     },
     {
       "place_id": "ChIJH-Z1ktaMGGARGQYNHRCtfFk",
@@ -2954,7 +2954,7 @@
         "zh": "车站附近的经典酱油拉面、适合想吃安全熟悉口味的人。",
         "ko": "역 근처의 심플한 쇼유 라멘. 무난한 한 그릇을 원할 때 좋음."
       },
-      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJH-Z1ktaMGGARGQYNHRCtfFk"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=らーめん直久 新宿西口店&query_place_id=ChIJH-Z1ktaMGGARGQYNHRCtfFk"
     },
     {
       "place_id": "ChIJabxY2ymNGGARqMvGb64011o",
@@ -3020,7 +3020,7 @@
         "zh": "可轻松吃到酱油和味噌拉面的本地店、适合想避开游客感的人。",
         "ko": "쇼유와 미소를 편하게 먹는 로컬 가게. 관광지 느낌이 덜한 일상 라멘을 원할 때 좋음."
       },
-      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJabxY2ymNGGARqMvGb64011o"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=らーめん はな火屋&query_place_id=ChIJabxY2ymNGGARqMvGb64011o"
     },
     {
       "place_id": "ChIJJ9GFnXKNGGARjCigWboT91Y",
@@ -3085,7 +3085,7 @@
         "zh": "适合想探索知名店以外选择的旅客、西新宿较安静的推荐。",
         "ko": "유명점 외의 로컬 라멘을 원할 때 좋음. 니시신주쿠에서 조용히 먹기 좋음."
       },
-      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJJ9GFnXKNGGARjCigWboT91Y"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=麺屋 我論&query_place_id=ChIJJ9GFnXKNGGARjCigWboT91Y"
     },
     {
       "place_id": "ChIJebOUXlGNGGARKrLL7wFbqBw",
@@ -3150,7 +3150,7 @@
         "zh": "南口附近方便的浓厚豚骨酱油、适合轻松吃一顿重口味。",
         "ko": "남쪽 출구 근처의 편한 돈코츠 쇼유. 가볍게 진한 맛을 먹고 싶을 때 좋음."
       },
-      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJebOUXlGNGGARKrLL7wFbqBw"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=光麺 新宿南口店&query_place_id=ChIJebOUXlGNGGARKrLL7wFbqBw"
     },
     {
       "place_id": "ChIJ2RtxxhTnAGARcTMVRNNGZag",
@@ -3215,7 +3215,7 @@
         "zh": "简单又饱腹的浓厚拉面、适合作为灵活备选推荐。",
         "ko": "심플하고 든든한 진한 라멘. 유연한 백업 추천으로 좋음."
       },
-      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ2RtxxhTnAGARcTMVRNNGZag"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=花丸軒 新宿店&query_place_id=ChIJ2RtxxhTnAGARcTMVRNNGZag"
     },
     {
       "place_id": "ChIJhXPtBNOMGGARJs-RCxNEsGA",
@@ -3280,7 +3280,7 @@
         "zh": "清爽明亮的番茄拉面、适合想尝试非传统但容易入口的人。",
         "ko": "밝고 가벼운 토마토 라멘. 전통 라멘 외의 쉬운 선택지를 원할 때 좋음."
       },
-      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJhXPtBNOMGGARJs-RCxNEsGA"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=太陽のトマト麺 新宿ワシントンホテル支店&query_place_id=ChIJhXPtBNOMGGARJs-RCxNEsGA"
     },
     {
       "place_id": "ChIJx2T1wq6NGGARHK-7QBtC4v8",
@@ -3346,7 +3346,7 @@
         "zh": "可自选面硬度、油量和汤浓度的家系拉面、适合喜欢浓厚口味的人。",
         "ko": "면 경도·기름·맛 농도를 고르는 이에케이 라멘. 진한 맛을 좋아하는 사람에게 추천."
       },
-      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJx2T1wq6NGGARHK-7QBtC4v8"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=横浜家系ラーメン 壱角家 新宿店&query_place_id=ChIJx2T1wq6NGGARHK-7QBtC4v8"
     },
     {
       "place_id": "ChIJCzQdsdyMGGAR9tjogWM52Fw",
@@ -3411,7 +3411,7 @@
         "zh": "想同时吃拉面、饺子或炒饭时很实用、不是拉面专门但对旅客很方便。",
         "ko": "라멘과 교자·볶음밥을 함께 먹기 좋은 실용적 선택. 여행자에게 편함."
       },
-      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJCzQdsdyMGGAR9tjogWM52Fw"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=餃子の王将 新宿西口店&query_place_id=ChIJCzQdsdyMGGAR9tjogWM52Fw"
     },
     {
       "place_id": "ChIJ_6q3WgCNGGARsmTS3XS-5SY",
@@ -3476,7 +3476,7 @@
         "zh": "简单经典酱油拉面, 适合作为安全备选推荐。",
         "ko": "복잡하지 않은 클래식 쇼유 라멘. 안전한 백업 추천으로 좋음."
       },
-      "mapUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ_6q3WgCNGGARsmTS3XS-5SY"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=来々軒 新宿店&query_place_id=ChIJ_6q3WgCNGGARsmTS3XS-5SY"
     }
   ]
 }
