@@ -1,12 +1,24 @@
 {
-  "redirects": [
-    { "source": "/", "destination": "/en/", "permanent": false }
-  ],
-  "rewrites": [
-    { "source": "/en/:path*", "destination": "/index.html" },
-    { "source": "/ja/:path*", "destination": "/index.html" },
-    { "source": "/zh-TW/:path*", "destination": "/index.html" },
-    { "source": "/zh-CN/:path*", "destination": "/index.html" },
-    { "source": "/ko/:path*", "destination": "/index.html" }
-  ]
+    "cleanUrls": false,
+      "redirects": [
+          { "source": "/", "destination": "/en/", "permanent": false }
+            ],
+              "rewrites": [
+                  { "source": "/en", "destination": "/index.html" },
+                      { "source": "/en/", "destination": "/index.html" },
+                          { "source": "/en/:path*", "destination": "/index.html" },
+                              { "source": "/ja", "destination": "/index.html" },
+                                  { "source": "/ja/", "destination": "/index.html" },
+                                      { "source": "/ja/:path*", "destination": "/index.html" },
+                                          { "source": "/zh-TW", "destination": "/index.html" },
+                                              { "source": "/zh-TW/", "destination": "/index.html" },
+                                                  { "source": "/zh-TW/:path*", "destination": "/index.html" },
+                                                      { "source": "/zh-CN", "destination": "/index.html" },
+                                                          { "source": "/zh-CN/", "destination": "/index.html" },
+                                                              { "source": "/zh-CN/:path*", "destination": "/index.html" },
+                                                                  { "source": "/ko", "destination": "/index.html" },
+                                                                      { "source": "/ko/", "destination": "/index.html" },
+                                                                          { "source": "/ko/:path*", "destination": "/index.html" }
+                                                                            ]
+                                                                            }
 }
