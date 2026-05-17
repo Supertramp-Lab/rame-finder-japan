@@ -1,0 +1,9 @@
+{
+      "redirects": [
+          { "source": "/", "destination": "/en/" }
+            ],
+              "rewrites": [
+                  { "source": "/(en|ja|zh-TW|zh-CN|ko)(.*)", "destination": "/index.html" }
+                    ]
+                    }
+}
