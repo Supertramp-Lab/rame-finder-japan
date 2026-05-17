@@ -1,9 +1,12 @@
 {
-      "redirects": [
-          { "source": "/", "destination": "/en/" }
-            ],
-              "rewrites": [
-                  { "source": "/(en|ja|zh-TW|zh-CN|ko)(.*)", "destination": "/index.html" }
-                    ]
-                    }
+  "redirects": [
+    { "source": "/", "destination": "/en/", "permanent": false }
+  ],
+  "rewrites": [
+    { "source": "/en/:path*", "destination": "/index.html" },
+    { "source": "/ja/:path*", "destination": "/index.html" },
+    { "source": "/zh-TW/:path*", "destination": "/index.html" },
+    { "source": "/zh-CN/:path*", "destination": "/index.html" },
+    { "source": "/ko/:path*", "destination": "/index.html" }
+  ]
 }
